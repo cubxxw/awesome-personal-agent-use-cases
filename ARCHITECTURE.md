@@ -1,51 +1,40 @@
-# How this library is designed / 架构与收录思路
+# Design / 设计
+
+[English index](README.md) · [中文目录](README.zh-CN.md) · [案例来源与筛选](zh-CN/EVIDENCE.md)
 
 ## English
 
-The homepage has two levels. Choose a kind of help, then open one self-contained workflow. Each page shows a sample result and gives you fictional input to try before connecting an account.
+The index has two levels: a domain someone already recognizes, then a concrete situation. The scenario page shows the result, a fictional first run, the connected setup, and how to verify it. Scheduling, stored records and reusable instructions are available from the builder guide and from the relevant scenes.
 
-Use a schedule for a recurring delivery, a saved record for something that must stay current, and a reusable instruction for work you hand off repeatedly. Combine them when useful. A renewal ledger holds confirmed dates. A scheduled task reads those dates and tells you what needs a decision.
+Give each source a stable ID. Combine cases when the reader needs roughly the same input, result and decision. Keep a separate scene when a different result or decision changes what the reader needs to check. The evidence index distinguishes author accounts, published outputs, instructions and collection summaries.
 
-Muse Space is one way to build the long-lived dashboard. The same review steps and fields can live in a sheet or local files. Keep setup notes and actual run evidence on the corresponding use-case page.
+The first-run ranking adds up three editorial judgments. Reuse and first run each take one or two points. Source strength gets two points when at least one author account or published result was inspected, and one when the support is a recipe or collection summary. Treat the score as an ordering aid.
 
-## 玩法是一个人愿意反复交给 Agent 的事
+## 人先找到自己的事
 
-最小的一页要能回答两件事。读者能不能拿自己的材料换掉示例？跑完一遍后，能不能检查 Agent 交出了什么？把 Reddit 日报换成每周账单摘要，还是可以让定时任务读一份材料，把简短的结果交给自己。这个共性才值得占一个目录位置。
+读者先选熟悉的领域，再认出正在碰到的事。比如「下次扣款前叫我」。每个场景先给一份具体结果，再给一段能直接试的材料。需要长期运行时，再决定何时触发、把记录放哪。权限随动作单独核对。
 
-## 从 OpenClaw 用例库学到的
+OpenClaw 用例库的单页结构好用。读者能直接发一条链接，也能在同一页看依赖和用法。这里保留它的阅读路径，再把同一个需求下的不同平台与来源放到一起。 [Awesome OpenClaw Use Cases](https://github.com/hesamsheikh/awesome-openclaw-usecases)
 
-[Awesome OpenClaw Use Cases](https://github.com/hesamsheikh/awesome-openclaw-usecases) 在首页用一句话介绍每个用例，独立页面再放依赖、提示词和配置。[Reddit 日报](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/daily-reddit-digest.md) 和 [晨间简报](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/custom-morning-brief.md) 给了不同结果，背后都需要约定什么时候从哪里读、把结果交到哪里。[贡献规则](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/CONTRIBUTING.md) 也要求把用例写到别人能复现，并要求提交者验证实际流程。
+## 怎么聚在一起
 
-这里沿用「短目录 → 单页玩法」。同一套流程的好例子收在一页。每页先展示结果和自带材料的一次试跑，再说明选什么产品、要哪些权限，以及怎么确认第二次还能工作。
-
-## 首页只走两层
-
-| 读者想交给 Agent 的事 | 进哪一页 |
+| 读到的案例 | 聚合后的判断 |
 | --- | --- |
-| 主动跟进。我希望到点看到结果，或者有事变化再打扰我。 | 定时任务、变化监控 |
-| 长期维护。我希望一处记录能随着新信息继续更新。 | 个人 CRM、到期台账 |
-| 按需交办。我希望一丢材料就知道它去哪，或把熟悉的活交给它跑。 | 统一收件箱、复用流程 |
+| Muse 合集第 17 和 213 条都讲同一次收据审计 | 依作者、事件和原帖去重。再用跨渠道扣费与取消确认案例检查台账该留哪些字段。 [账单与订阅](zh-CN/scenes/renewal-ledger.md) |
+| Reddit、YouTube、多来源技术简报 | 保留来源范围、窗口、去重和投递，合成一份专题更新。读不到来源时，在输出里说明。 [资讯与阅读](zh-CN/scenes/reading-digest.md) |
+| 票价和直飞提醒 | 共用监控规则。对齐完整价格和条件，有命中就报告。库存与付款由另外一步核对。 [购物与比价](zh-CN/scenes/price-watch.md) |
+| 联系人卡、会前准备、会后跟进 | 联系人卡留长期事实。会前卡问这次要决定什么。会后清单保留已经确认的分工与期限。三个结果各有验收点。 [联系人](zh-CN/scenes/personal-crm.md) · [会前](zh-CN/scenes/meeting-prep.md) · [会后](zh-CN/scenes/meeting-followups.md) |
 
-同一条消息可以先进入收件箱，经确认写入联系人卡，会前再由定时任务读这张卡。三个环节都能单独试。到期台账也一样，日期存在台账里，定时任务只在需要的时候读出来。
+每条来源只存一次，可以支撑多页。依帖子、作者或同一份产物判断是否重复。给原帖添加摘要或重发时，视为同一条材料。单一账号、行业或地区才成立的条件，放到相关场景的搭法里。
 
-## 通用玩法与具体产品
+## 首页排序
 
-| 需要的能力 | 先跑哪一步 | 可查的产品入口 |
-| --- | --- | --- |
-| 定时交付 | 用同样的材料手动跑一次，确认结果有用。 | [OpenClaw Cron](https://docs.openclaw.ai/automation/cron-jobs)、[ChatGPT 定时任务](https://help.openai.com/en/articles/10291617-scheduled-tasks-in-chatgpt) |
-| 长期记录 | 选一张你能核对、修改和备份的表。 | [Muse Space](https://apps.apple.com/us/app/muse-from-meta/id6760173601)、[ChatGPT Space](https://help.openai.com/en/articles/20001549-getting-started-with-space-in-chatgpt)、本地表格 |
-| 重复流程 | 先把输入、交付格式和确认条件写成一段能复用的说明。 | 普通对话、[Agent Skills 规范](https://agentskills.io/specification) |
+同一组场景按三项相加排序，各最多两分。并列沿用编辑顺序。首屏单独用账单做一个可试的起点。
 
-Muse 适合用来展示长期面板怎么长出来。目录用通用的玩法名，可以把同一套字段和确认规则用于表格、文件或其他 Agent。产品文档说明的是能力入口。能不能读取你那份材料、写回哪张表或定时送达，要在具体账号和版本上确认。
+- **复用**。同一输入和交付结构能换到两种具体材料或用途，记 2。已有一个明确用途，记 1。
+- **上手**。用几条现成材料就能直接核对一次输出，记 2。真实反馈还要多一步，比如等新的报价、验证原文章节或检查目的地，记 1。
+- **来源**。有看过的作者自述或公开产物，记 2。依据是搭建说明或合集摘要，记 1。分数用于目录编排，证据类型仍显示在案例页上。
 
-## Files
+## 维护
 
-```text
-README.md                 English index
-README.zh-CN.md           中文索引
-usecases/                 One page per workflow
-zh-CN/usecases/           中文玩法页，与英文同名
-CONTRIBUTING.md           Submission and evidence rules
-```
-
-Keep one page per reusable workflow. Add a different product or source to the same page when the reader still gets the same result. A product route can document requirements and link to official help, while an end-to-end reproduction needs a run and a visible result.
+在 `data/catalog.json` 里维护场景、来源与聚合判断。用 `python3 scripts/catalog.py` 更新双语目录、场景页和来源索引。`python3 scripts/catalog.py --check` 检查生成结果和仓库里的页面链接。搭建步骤在 [Builder](zh-CN/BUILDER.md) 和 `usecases/` 中维护。

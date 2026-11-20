@@ -1,0 +1,1682 @@
+{
+  "groups": [
+    {
+      "id": "life",
+      "en": "Life",
+      "zh": "生活"
+    },
+    {
+      "id": "work",
+      "en": "Work",
+      "zh": "工作"
+    },
+    {
+      "id": "learning",
+      "en": "Learning",
+      "zh": "学习"
+    },
+    {
+      "id": "making",
+      "en": "Create and build",
+      "zh": "创作与开发"
+    }
+  ],
+  "patterns": [
+    {
+      "id": "scheduled-task",
+      "en": "Scheduled delivery",
+      "zh": "定时任务"
+    },
+    {
+      "id": "change-watch",
+      "en": "Change watch",
+      "zh": "变化监控"
+    },
+    {
+      "id": "personal-crm",
+      "en": "Durable contact record",
+      "zh": "联系人卡"
+    },
+    {
+      "id": "renewal-ledger",
+      "en": "Date ledger",
+      "zh": "日期台账"
+    },
+    {
+      "id": "capture-inbox",
+      "en": "Capture inbox",
+      "zh": "统一收件箱"
+    },
+    {
+      "id": "repeatable-workflow",
+      "en": "Repeatable workflow",
+      "zh": "复用流程"
+    }
+  ],
+  "featured": {
+    "id": "renewal-ledger",
+    "en": {
+      "label": "What will I pay for next?",
+      "description": "Try making a renewal list from sample receipts and notices."
+    },
+    "zh": {
+      "label": "下次扣款前叫我",
+      "description": "拿一组收据和通知做一份续费清单，日期查不到的留待确认。"
+    }
+  },
+  "upstreams": [
+    {
+      "id": "muse",
+      "title": "Muse Use Cases",
+      "scope": {
+        "en": "Scanned the titles of 451 numbered entries and read the selected summaries. Several original posts need sign-in.",
+        "zh": "扫描 451 条编号案例的标题，阅读选中案例的摘要。部分原帖需要登录。"
+      },
+      "url": "https://github.com/jaxxchen003/muse-use-cases/blob/7390b4db83fa2687aa8cefb9ec1420ca9a65eb4a/README.md"
+    },
+    {
+      "id": "openclaw",
+      "title": "Awesome OpenClaw Use Cases",
+      "scope": {
+        "en": "Compared the index of 42 workflow pages and read the selected recipes.",
+        "zh": "对照 42 页工作流目录，阅读入选做法的正文。"
+      },
+      "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/README.md"
+    },
+    {
+      "id": "archive",
+      "title": "Awesome Personal Agent Practices",
+      "scope": {
+        "en": "Reviewed the 27 use-case records in a resource catalog of 228 entries and revisited the selected sources.",
+        "zh": "从 228 条资源中核对 27 条用例记录，回读入选材料。"
+      },
+      "url": "https://github.com/cubxxw/awesome-personal-agent-practices/blob/73078555324d9417093c3304ec73c1dd97504d9d/data/catalog.json"
+    },
+    {
+      "id": "references",
+      "title": "Universal Feeds run",
+      "scope": {
+        "en": "Added the published digest, the public invoice report, and a prior repair lead.",
+        "zh": "补充公开简报产物、发票归档作者贴和一条既有维修线索。"
+      },
+      "url": "https://github.com/ripplek/universal-feeds#see-it-in-action"
+    }
+  ],
+  "sources": {
+    "muse-charge": {
+      "upstream": "muse",
+      "kind": "index",
+      "url": "https://github.com/jaxxchen003/muse-use-cases/blob/7390b4db83fa2687aa8cefb9ec1420ca9a65eb4a/README.md#L386-L391",
+      "title": {
+        "en": "Muse #213 - Find a recurring charge in the receipts",
+        "zh": "Muse 213 - 从历史收据找仍在扣的订阅"
+      },
+      "note": {
+        "en": "The collection attributes one forgotten renewal to a six-month receipt review. Entries 17 and 213 describe the same account.",
+        "zh": "同一作者翻半年收据找出遗忘订阅。第 17 和 213 条指向同一经历，编为一条。"
+      },
+      "original": "https://x.com/idobn/status/2097570513107272175"
+    },
+    "muse-finch": {
+      "upstream": "muse",
+      "kind": "index",
+      "url": "https://github.com/jaxxchen003/muse-use-cases/blob/7390b4db83fa2687aa8cefb9ec1420ca9a65eb4a/README.md#L505-L510",
+      "title": {
+        "en": "Muse #317 - Subscription list followed by cancellation review",
+        "zh": "Muse 317 - 先列订阅，再确认取消"
+      },
+      "note": {
+        "en": "The collection describes a read-only audit followed by selected cancellations and a dashboard update. It leaves the refund outcome open.",
+        "zh": "摘要区分了只读盘点、勾选取消和面板更新，退款到账仍待证。"
+      },
+      "original": "https://www.facebook.com/reel/1471540751575508/"
+    },
+    "muse-double": {
+      "upstream": "muse",
+      "kind": "index",
+      "url": "https://github.com/jaxxchen003/muse-use-cases/blob/7390b4db83fa2687aa8cefb9ec1420ca9a65eb4a/README.md#L519-L524",
+      "title": {
+        "en": "Muse #334 - One service paid through two channels",
+        "zh": "Muse 334 - 同一个服务从两个渠道扣费"
+      },
+      "note": {
+        "en": "The reported duplicate used two billing channels. The account and billing channel belong in the ledger even when the service name matches.",
+        "zh": "作者分享同一服务走两个扣款渠道。台账要保留实际收费渠道和付费账户。"
+      },
+      "original": "https://www.threads.com/@jamiancpolk/post/Dfk4Qj0kQht"
+    },
+    "muse-tickets": {
+      "upstream": "muse",
+      "kind": "index",
+      "url": "https://github.com/jaxxchen003/muse-use-cases/blob/7390b4db83fa2687aa8cefb9ec1420ca9a65eb4a/README.md#L1057-L1062",
+      "title": {
+        "en": "Muse #162 - Watch four seats within a budget",
+        "zh": "Muse 162 - 盯同区四张球票的价格"
+      },
+      "note": {
+        "en": "The watch combined a seat count, section and budget. A match and a completed purchase are separate steps.",
+        "zh": "盯价条件同时涉及张数、区域和总价。找到票源和成交各有自己的回执。"
+      },
+      "original": "https://x.com/BradyHannaKC/status/2112961536168005898"
+    },
+    "muse-fare": {
+      "upstream": "muse",
+      "kind": "index",
+      "url": "https://github.com/jaxxchen003/muse-use-cases/blob/7390b4db83fa2687aa8cefb9ec1420ca9a65eb4a/README.md#L896-L901",
+      "title": {
+        "en": "Muse #377 - A direct flight alert that did not secure a seat",
+        "zh": "Muse 377 - 收到直飞提醒，候补没抢上"
+      },
+      "note": {
+        "en": "The collection describes an alert and an unsuccessful standby attempt. A hit can be useful without securing inventory.",
+        "zh": "摘要记录了提醒、去柜台排候补和没有拿到座位的过程。"
+      },
+      "original": "https://www.facebook.com/yourbossbaesteph/posts/pfbid037xRCh2jX5qXJjYEJ6Y3kGBYhqemmHzoUSWpozcxxGxSLotH8F1j84htxwkCkrYWRl"
+    },
+    "muse-repair-quotes": {
+      "upstream": "muse",
+      "kind": "index",
+      "url": "https://github.com/jaxxchen003/muse-use-cases/blob/7390b4db83fa2687aa8cefb9ec1420ca9a65eb4a/README.md#L1535-L1540",
+      "title": {
+        "en": "Muse #196 - Ask for comparable local repair quotes",
+        "zh": "Muse 196 - 给齐规格和照片后询价"
+      },
+      "note": {
+        "en": "The buyer supplied dimensions and photos and received offers. The collection records quotations rather than a selected contractor.",
+        "zh": "先补规格和照片再询价。摘要记录的是收到候选报价，尚未选供应商。"
+      },
+      "original": "https://x.com/derekreyn22/status/2116579704110985606"
+    },
+    "muse-trip": {
+      "upstream": "muse",
+      "kind": "index",
+      "url": "https://github.com/jaxxchen003/muse-use-cases/blob/7390b4db83fa2687aa8cefb9ec1420ca9a65eb4a/README.md#L718-L723",
+      "title": {
+        "en": "Muse #153 - Gather confirmations into one itinerary",
+        "zh": "Muse 153 - 把预订邮件拼成一份行程"
+      },
+      "note": {
+        "en": "The itinerary brought confirmation numbers and the source messages together.",
+        "zh": "用预订号和原邮件把住宿、航班接成一份行程。"
+      },
+      "original": "https://x.com/matthew_verni/status/2112120235016716442"
+    },
+    "muse-trip-share": {
+      "upstream": "muse",
+      "kind": "index",
+      "url": "https://github.com/jaxxchen003/muse-use-cases/blob/7390b4db83fa2687aa8cefb9ec1420ca9a65eb4a/README.md#L775-L780",
+      "title": {
+        "en": "Muse #245 - A version of the itinerary for the host",
+        "zh": "Muse 245 - 给接待家庭一版精简行程"
+      },
+      "note": {
+        "en": "The same travel information was reduced to dates, cities and lodging for the recipient.",
+        "zh": "同一份行程按接收方重排，只保留对方用到的信息。"
+      },
+      "original": "https://www.facebook.com/groups/1412054144392596/permalink/1448423130755697/"
+    },
+    "muse-family-digest": {
+      "upstream": "muse",
+      "kind": "index",
+      "url": "https://github.com/jaxxchen003/muse-use-cases/blob/7390b4db83fa2687aa8cefb9ec1420ca9a65eb4a/README.md#L1379-L1384",
+      "title": {
+        "en": "Muse #133 - Turn school messages into a digest",
+        "zh": "Muse 133 - 把学校群消息变成摘要"
+      },
+      "note": {
+        "en": "The report bundles school messages and email for the family to review.",
+        "zh": "将家长群和学校邮件中的日常更新合在一个家庭摘要里。"
+      },
+      "original": "https://x.com/fnthawar/status/2101684383396589932"
+    },
+    "muse-school-dates": {
+      "upstream": "muse",
+      "kind": "index",
+      "url": "https://github.com/jaxxchen003/muse-use-cases/blob/7390b4db83fa2687aa8cefb9ec1420ca9a65eb4a/README.md#L1809-L1814",
+      "title": {
+        "en": "Muse #290 - Put school dates on a calendar",
+        "zh": "Muse 290 - 学校通知提取成日历日期"
+      },
+      "note": {
+        "en": "The account combines school date extraction with approval before sending a reply.",
+        "zh": "案例把学校活动提成日期，需要对外发信时另外确认。"
+      },
+      "original": "https://www.facebook.com/kdgunn/posts/pfbid02Vn3FpWEDASZZGzbpuBuKoG9zHCe4p6tBwTih44YPmaSMk7Gr5oJMDuHUztnvQxNEl"
+    },
+    "muse-birthday": {
+      "upstream": "muse",
+      "kind": "index",
+      "url": "https://github.com/jaxxchen003/muse-use-cases/blob/7390b4db83fa2687aa8cefb9ec1420ca9a65eb4a/README.md#L1606-L1611",
+      "title": {
+        "en": "Muse #261 - Use confirmed birthdays to surface reminders",
+        "zh": "Muse 261 - 用生日记录安排提醒"
+      },
+      "note": {
+        "en": "This assistant role included birthday and gift reminders as part of a deliberately narrow brief.",
+        "zh": "作者给 Muse 划定个人秘书的范围，其中包括生日和礼物提醒。"
+      },
+      "original": "https://www.instagram.com/reel/DfFqwbsA9kx/"
+    },
+    "muse-email-drafts": {
+      "upstream": "muse",
+      "kind": "index",
+      "url": "https://github.com/jaxxchen003/muse-use-cases/blob/7390b4db83fa2687aa8cefb9ec1420ca9a65eb4a/README.md#L1935-L1940",
+      "title": {
+        "en": "Muse #355 - Morning briefing and reply drafts",
+        "zh": "Muse 355 - 晨报和待批复的邮件草稿"
+      },
+      "note": {
+        "en": "The collection describes a routine with morning priorities and email drafts that still require review.",
+        "zh": "摘要描述了一份晨间行动清单和多次查收件箱后留下的待批复草稿。"
+      },
+      "original": "https://www.reddit.com/r/MetaAI/comments/1xryn81/ive_been_using_muse_as_a_personal_assistant_for_a/"
+    },
+    "muse-urgent-mail": {
+      "upstream": "muse",
+      "kind": "index",
+      "url": "https://github.com/jaxxchen003/muse-use-cases/blob/7390b4db83fa2687aa8cefb9ec1420ca9a65eb4a/README.md#L1634-L1639",
+      "title": {
+        "en": "Muse #265 - Only interrupt for urgent email",
+        "zh": "Muse 265 - 紧急邮件才打扰我"
+      },
+      "note": {
+        "en": "The assistant screened multiple inboxes and used a separate interruption channel for urgent items.",
+        "zh": "案例给普通邮件和紧急提醒设了不同出口。"
+      },
+      "original": "https://www.instagram.com/reel/DfSKoatiebb/"
+    },
+    "muse-meeting": {
+      "upstream": "muse",
+      "kind": "index",
+      "url": "https://github.com/jaxxchen003/muse-use-cases/blob/7390b4db83fa2687aa8cefb9ec1420ca9a65eb4a/README.md#L1823-L1828",
+      "title": {
+        "en": "Muse #313 - Prepare a project meeting from calendar and email",
+        "zh": "Muse 313 - 从日历和邮件提会前三节材料"
+      },
+      "note": {
+        "en": "A project-test demonstration framed the brief around completed work, decisions and responsibilities. A mail draft was held for review.",
+        "zh": "演示里先翻出已完成的工作，再列待决定的事和分工。邮件留给作者审核。"
+      },
+      "original": "https://www.instagram.com/reel/DfbnVYAzxfd/"
+    },
+    "muse-receipts": {
+      "upstream": "muse",
+      "kind": "index",
+      "url": "https://github.com/jaxxchen003/muse-use-cases/blob/7390b4db83fa2687aa8cefb9ec1420ca9a65eb4a/README.md#L1942-L1946",
+      "title": {
+        "en": "Muse #356 - File receipts for a small stall",
+        "zh": "Muse 356 - 把小生意邮件收据收进文件夹"
+      },
+      "note": {
+        "en": "The collection describes email search and filing for one business context. It does not supply the actual folder or files.",
+        "zh": "摘要提到从邮件限定一项小生意、提取收据并归档。底层文件未公开。"
+      }
+    },
+    "muse-spaces": {
+      "upstream": "muse",
+      "kind": "index",
+      "url": "https://github.com/jaxxchen003/muse-use-cases/blob/7390b4db83fa2687aa8cefb9ec1420ca9a65eb4a/README.md#L1872-L1877",
+      "title": {
+        "en": "Muse #329 - Build small recurring-use Spaces",
+        "zh": "Muse 329 - 用 Spaces 做长期可回看的小面板"
+      },
+      "note": {
+        "en": "The collection describes separate spaces for daily learning, planning and meals. The learning topics varied by depth.",
+        "zh": "合集记录学习、计划和菜单面板的演示。学习这一例按三个深度提供主题。"
+      },
+      "original": "https://www.threads.com/@muse/post/DfkXlR9Gt7e"
+    },
+    "muse-morning": {
+      "upstream": "muse",
+      "kind": "index",
+      "url": "https://github.com/jaxxchen003/muse-use-cases/blob/7390b4db83fa2687aa8cefb9ec1420ca9a65eb4a/README.md#L1886-L1891",
+      "title": {
+        "en": "Muse #331 - A one-page morning action list",
+        "zh": "Muse 331 - 先看一页晨间行动单"
+      },
+      "note": {
+        "en": "The reported brief prioritizes deadlines, people awaiting replies and one focus for the day.",
+        "zh": "晨报从日历、近期截止和待回复中挑出今日重点。"
+      },
+      "original": "https://www.facebook.com/groups/1707928907613821/permalink/1708459510894094/"
+    },
+    "muse-handoff": {
+      "upstream": "muse",
+      "kind": "index",
+      "url": "https://github.com/jaxxchen003/muse-use-cases/blob/7390b4db83fa2687aa8cefb9ec1420ca9a65eb4a/README.md#L2023-L2028",
+      "title": {
+        "en": "Muse #386 - Send a report to another agent for archiving",
+        "zh": "Muse 386 - 一个 Agent 产出，另一个归档"
+      },
+      "note": {
+        "en": "The summary identifies a concrete handoff: a scheduled report sent by email and then placed in a dashboard.",
+        "zh": "同一份简报经邮件交给另一个 Agent，后者负责落盘到仪表盘。"
+      },
+      "original": "https://www.threads.com/@sonia.elyss/post/DfvpdVUFOSv"
+    },
+    "muse-video": {
+      "upstream": "muse",
+      "kind": "index",
+      "url": "https://github.com/jaxxchen003/muse-use-cases/blob/7390b4db83fa2687aa8cefb9ec1420ca9a65eb4a/README.md#L2336-L2341",
+      "title": {
+        "en": "Muse #324 - Break a video idea into a production package",
+        "zh": "Muse 324 - 把视频创意整理成分镜任务单"
+      },
+      "note": {
+        "en": "The example produces scene plans, prompts and voice assets. The final video generation is a separate step.",
+        "zh": "记录的交付是分镜、提示词和配音材料。最后成片有独立入口。"
+      },
+      "original": "https://x.com/wlzh/status/2120027833762537491"
+    },
+    "muse-workflow-port": {
+      "upstream": "muse",
+      "kind": "index",
+      "url": "https://github.com/jaxxchen003/muse-use-cases/blob/7390b4db83fa2687aa8cefb9ec1420ca9a65eb4a/README.md#L2515-L2520",
+      "title": {
+        "en": "Muse #225 - Move an existing workflow between agents",
+        "zh": "Muse 225 - 把现有工作流改到另一个 Agent 跑"
+      },
+      "note": {
+        "en": "The collection reports moving an existing Claude prompt into Muse and scheduling the resulting routine. It does not publish operation receipts.",
+        "zh": "作者分享把已有 Claude 工作流迁到 Muse 再定时跑，摘要没有运行回执。"
+      },
+      "original": "https://x.com/NewtonJonesIV/status/2098022398721143207"
+    },
+    "oc-crm": {
+      "upstream": "openclaw",
+      "kind": "recipe",
+      "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/personal-crm.md",
+      "title": {
+        "en": "OpenClaw Personal CRM",
+        "zh": "OpenClaw 联系人库"
+      },
+      "note": {
+        "en": "The recipe combines contacts, interaction history and meeting preparation.",
+        "zh": "社区做法把人物、互动记录和会前查询放在同一份长期联系人库。"
+      }
+    },
+    "oc-family": {
+      "upstream": "openclaw",
+      "kind": "recipe",
+      "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/family-calendar-household-assistant.md",
+      "title": {
+        "en": "Family calendar aggregation",
+        "zh": "家庭日历汇总"
+      },
+      "note": {
+        "en": "The recipe brings calendar events and actionable household messages into one view.",
+        "zh": "做法汇总多日历，从家庭消息中提取要处理的事项。"
+      }
+    },
+    "oc-inbox": {
+      "upstream": "openclaw",
+      "kind": "recipe",
+      "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/inbox-declutter.md",
+      "title": {
+        "en": "Inbox de-clutter",
+        "zh": "把新闻邮件单独汇总"
+      },
+      "note": {
+        "en": "The setup gives newsletters a separate digest and recommends a scoped inbox.",
+        "zh": "邮件归集按新闻信这个用途单独汇总，建议限定访问的收件箱。"
+      }
+    },
+    "oc-brief": {
+      "upstream": "openclaw",
+      "kind": "recipe",
+      "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/custom-morning-brief.md",
+      "title": {
+        "en": "Custom morning brief",
+        "zh": "自定义晨间简报"
+      },
+      "note": {
+        "en": "The recipe combines scheduled delivery and inputs such as tasks and calendar context.",
+        "zh": "把需要关注的任务等材料编成定时简报。"
+      }
+    },
+    "oc-dashboard": {
+      "upstream": "openclaw",
+      "kind": "recipe",
+      "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/dynamic-dashboard.md",
+      "title": {
+        "en": "Dynamic dashboard",
+        "zh": "多来源看板"
+      },
+      "note": {
+        "en": "The recipe refreshes several sources into one dashboard and attaches a separate alert condition.",
+        "zh": "把多个来源刷新到一处，并给阈值变化留单独的提醒条件。"
+      }
+    },
+    "oc-meeting-notes": {
+      "upstream": "openclaw",
+      "kind": "recipe",
+      "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/meeting-notes-action-items.md",
+      "title": {
+        "en": "Meeting notes and action items",
+        "zh": "从纪要提取行动项"
+      },
+      "note": {
+        "en": "The recipe uses a transcript to identify decisions, owners and dates before handing work into a tracker.",
+        "zh": "把会议逐字稿提成决定、负责人和截止日，再交给任务系统。"
+      }
+    },
+    "oc-reddit": {
+      "upstream": "openclaw",
+      "kind": "recipe",
+      "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/daily-reddit-digest.md",
+      "title": {
+        "en": "Daily Reddit digest",
+        "zh": "Reddit 日报"
+      },
+      "note": {
+        "en": "The recipe takes selected communities and returns a read-only shortlist.",
+        "zh": "按指定社区与主题给候选链接，阅读和发帖是两回事。"
+      }
+    },
+    "oc-youtube": {
+      "upstream": "openclaw",
+      "kind": "recipe",
+      "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/daily-youtube-digest.md",
+      "title": {
+        "en": "Daily YouTube digest",
+        "zh": "YouTube 日报"
+      },
+      "note": {
+        "en": "The recipe starts with selected channels and summarizes newly posted videos.",
+        "zh": "把候选来源换成选定频道，由新视频生成简报。"
+      }
+    },
+    "oc-tech": {
+      "upstream": "openclaw",
+      "kind": "recipe",
+      "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/multi-source-tech-news-digest.md",
+      "title": {
+        "en": "Multi-source tech updates",
+        "zh": "多源技术简报"
+      },
+      "note": {
+        "en": "The recipe combines feeds and releases with deduplication and ranking.",
+        "zh": "把不同来源的更新去重，再按相关性等标准选入简报。"
+      }
+    },
+    "oc-arxiv": {
+      "upstream": "openclaw",
+      "kind": "recipe",
+      "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/arxiv-paper-reader.md",
+      "title": {
+        "en": "Read paper sections",
+        "zh": "读取论文指定章节"
+      },
+      "note": {
+        "en": "The reader can inspect sections and compare selected passages across papers.",
+        "zh": "先找章节，再看具体材料，可以对多篇论文做段落对照。"
+      }
+    },
+    "oc-hf": {
+      "upstream": "openclaw",
+      "kind": "recipe",
+      "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/hf-papers-research-discovery.md",
+      "title": {
+        "en": "Discover and deep-read papers",
+        "zh": "找线索再读论文正文"
+      },
+      "note": {
+        "en": "The setup separates paper discovery and metadata from reading the full source.",
+        "zh": "把找论文、看元数据和读全文拆成不同步骤。"
+      }
+    },
+    "oc-kb": {
+      "upstream": "openclaw",
+      "kind": "recipe",
+      "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/knowledge-base-rag.md",
+      "title": {
+        "en": "Search your saved sources",
+        "zh": "在自己收藏里找出处"
+      },
+      "note": {
+        "en": "The recipe collects links and searches across saved material with references.",
+        "zh": "把链接汇入自己的资料，再按问题检索并返回出处。"
+      }
+    },
+    "oc-second": {
+      "upstream": "openclaw",
+      "kind": "recipe",
+      "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/second-brain.md",
+      "title": {
+        "en": "Capture to retrieve later",
+        "zh": "随手收下，之后翻得出来"
+      },
+      "note": {
+        "en": "The system trades upfront organization for fast capture and later search.",
+        "zh": "用聊天做低门槛收集，让后续检索接手。"
+      }
+    },
+    "oc-content": {
+      "upstream": "openclaw",
+      "kind": "recipe",
+      "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/content-factory.md",
+      "title": {
+        "en": "Separate research, drafts and visuals",
+        "zh": "分开准备研究、稿件和视觉材料"
+      },
+      "note": {
+        "en": "The workflow produces drafts and media in reviewable stages.",
+        "zh": "安排不同步骤产出研究、稿件和封面，能逐样检查。"
+      }
+    },
+    "oc-podcast": {
+      "upstream": "openclaw",
+      "kind": "recipe",
+      "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/podcast-production-pipeline.md",
+      "title": {
+        "en": "Podcast script and supporting materials",
+        "zh": "播客大纲、口播和发布材料"
+      },
+      "note": {
+        "en": "The workflow distinguishes an episode outline from show notes and promotional material.",
+        "zh": "同一主题先出大纲和口播，再为发布另准备节目笔记和推广材料。"
+      }
+    },
+    "oc-youtube-flow": {
+      "upstream": "openclaw",
+      "kind": "recipe",
+      "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/youtube-content-pipeline.md",
+      "title": {
+        "en": "Track topics from idea to draft",
+        "zh": "视频选题从候选变成稿件大纲"
+      },
+      "note": {
+        "en": "The recipe keeps an existing topic catalog and uses it when preparing new outlines.",
+        "zh": "先看已有选题，再为新素材建含大纲的工作项，减少主题重复。"
+      }
+    },
+    "oc-project-state": {
+      "upstream": "openclaw",
+      "kind": "recipe",
+      "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/project-state-management.md",
+      "title": {
+        "en": "Event-driven project state",
+        "zh": "按事件更新项目状态"
+      },
+      "note": {
+        "en": "The recipe records the state, reasoning, blockers and next actions with history.",
+        "zh": "项目状态随带出处的事件变化，可追到为什么卡住、接下来做什么。"
+      }
+    },
+    "oc-team": {
+      "upstream": "openclaw",
+      "kind": "recipe",
+      "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/multi-agent-team.md",
+      "title": {
+        "en": "Shared context for a specialized agent team",
+        "zh": "用共享上下文让不同 Agent 接手"
+      },
+      "note": {
+        "en": "The recipe describes role separation and shared memory as the interface between roles.",
+        "zh": "按角色分工，借共享上下文传递能交接的信息。"
+      }
+    },
+    "atlas-invoices": {
+      "upstream": "references",
+      "kind": "report",
+      "url": "https://www.reddit.com/r/openclaw/comments/1s5z1xp/i_gave_my_mac_mini_a_brain_a_security_system_and/",
+      "title": {
+        "en": "An author reports filing PDF invoices",
+        "zh": "作者报告归档 PDF 发票"
+      },
+      "note": {
+        "en": "The author reports reading invoices from multiple mailboxes and classifying PDFs into a local filing scheme.",
+        "zh": "作者自述从几个邮箱提取 PDF，并按自己的分类归档。"
+      }
+    },
+    "universal-feeds": {
+      "upstream": "references",
+      "kind": "output",
+      "url": "https://github.com/ripplek/universal-feeds#see-it-in-action",
+      "title": {
+        "en": "A published digest with source health",
+        "zh": "带来源状态的公开简报样本"
+      },
+      "note": {
+        "en": "The project includes an output from an actual run, with the empty source visible and old links deduplicated by its design.",
+        "zh": "项目公开一次输出。来源无内容仍显示在简报顶部，读者能核对哪些材料进来了。"
+      }
+    },
+    "sajal-study": {
+      "upstream": "archive",
+      "kind": "report",
+      "url": "https://sajalsharma.com/posts/openclaw-experiments/#studying",
+      "title": {
+        "en": "Sajal Sharma's study routine",
+        "zh": "Sajal Sharma 的学习复习流程"
+      },
+      "note": {
+        "en": "The author logs reading and courses in Obsidian and describes twice-weekly questions based on those logs.",
+        "zh": "作者把读过的文章和课程记进 Obsidian，让 Agent 每周按材料提两次问题。"
+      }
+    },
+    "sebastian": {
+      "upstream": "archive",
+      "kind": "report",
+      "url": "https://ataary.com/meet-sebastian-how-i-built-a-self-learning-ai-assistant-on-openclaw/",
+      "title": {
+        "en": "The Sebastian family assistant",
+        "zh": "家庭助理 Sebastian 的记录"
+      },
+      "note": {
+        "en": "The author describes using a shared chat setup for household routines and a digest with source checks.",
+        "zh": "作者记录了家庭共用对话、日常用途和需要回查来源的新闻摘要。"
+      }
+    },
+    "hermes-inbox": {
+      "upstream": "archive",
+      "kind": "report",
+      "url": "https://www.reddit.com/r/hermesagent/comments/1w7dtpp/what_i_learned_after_running_hermes_as_my/",
+      "title": {
+        "en": "Several months triaging email with Hermes",
+        "zh": "Hermes 用户的多邮箱分拣记录"
+      },
+      "note": {
+        "en": "The writer describes using Hermes across several inboxes and retaining the decision to send.",
+        "zh": "作者介绍了多个收件箱的分拣方式，并保留发送的决定权。"
+      }
+    },
+    "moontower-search": {
+      "upstream": "archive",
+      "kind": "report",
+      "url": "https://moontowermeta.com/unlocking-my-email-with-ai/amp/",
+      "title": {
+        "en": "Retrieving email candidates before classification",
+        "zh": "先在邮箱找候选，再判断是不是所需材料"
+      },
+      "note": {
+        "en": "The author retrieved candidates by query and classified the message bodies separately.",
+        "zh": "作者先按关键词取候选邮件，再读正文做语义分类。"
+      }
+    },
+    "town-routines": {
+      "upstream": "archive",
+      "kind": "guide",
+      "url": "https://www.town.com/docs/features/routines",
+      "title": {
+        "en": "Town's meeting prep and routines",
+        "zh": "Town 的会前准备和例行任务"
+      },
+      "note": {
+        "en": "Town's guide describes time-and-context-based preparation. The guide documents a setup path.",
+        "zh": "官方例程说明通过时间和上下文准备会前材料，属于搭建路线。"
+      }
+    },
+    "drsnow-repair": {
+      "upstream": "references",
+      "kind": "index",
+      "url": "https://x.com/drsnow/status/2103462003025084763",
+      "title": {
+        "en": "Look up the last repair provider",
+        "zh": "从旧邮件找上次的维修方"
+      },
+      "note": {
+        "en": "The author describes searching Gmail for a previously used contractor. This edition could not reopen the post directly.",
+        "zh": "之前核到的作者分享描述了从 Gmail 找上次的维修方。本轮直链受限，作为补充线索。"
+      }
+    }
+  },
+  "scenes": [
+    {
+      "id": "renewal-ledger",
+      "group": "life",
+      "reuse": 2,
+      "first_run": 2,
+      "patterns": [
+        "renewal-ledger",
+        "scheduled-task",
+        "capture-inbox"
+      ],
+      "sources": [
+        "muse-charge",
+        "muse-double",
+        "muse-finch"
+      ],
+      "en": {
+        "title": "Bills and subscriptions · Tell me before I’m charged again",
+        "outcome": "A renewal shortlist with the next date, billing channel and notice for each decision.",
+        "result": [
+          "**24 November · Paper Cloud · CNY 48**. Decide whether to renew. A two-day lead time puts the reminder on 22 November [A2].",
+          "**Video Pass · check for overlap.** Two channels appear in B1 and B2. Confirm the accounts.",
+          "**Studio trial · date unknown.** Ask for the next charge date. Evidence T1."
+        ],
+        "trial": "Use these notices to build a subscription ledger as of 2026-11-20.\nShow the confirmed charges due by 2026-11-27 and preview reminders two days ahead. Put missing dates and possible overlaps in a review section. Record the actual billing channel and cite an input ID for every row. Keep evidence of past charges separate from future dates. Propose next steps here only.\nA1 | Paper Cloud | website | charge on 2026-10-24 | CNY 48\nA2 | Paper Cloud | website | next renewal 2026-11-24 | CNY 48\nB1 | Video Pass | app store | active | next charge 2026-12-02\nB2 | Video Pass | video bundle | active | next charge 2026-12-09\nT1 | Studio trial | welcome message | charge date unknown",
+        "connected": "Search one approved mailbox for receipts and renewal notices in an agreed date range. Save the service, account, billing channel, currency, next date and source in a table you control. Send one test reminder for a confirmed date before enabling a recurring check.",
+        "verify": "A2 alone goes in the coming week, with a reminder preview for 22 November. B1 and B2 are two records with a possible overlap. T1 has no invented date. Import A2 twice and check that the same notice is recorded once.",
+        "boundary": "You decide what to keep or cancel. Record a cancellation only after the billing provider confirms it. Record a refund after the payment record shows it.",
+        "analysis": "The receipt search, duplicate-charge report and cancellation flow all need the same subscription record. They describe different states of that record. A receipt proves a past charge. A renewal notice supports a future date. A cancellation confirmation can change the status.",
+        "variants": [
+          "Use two past receipts to find a possible recurring charge. Follow up for the actual renewal date.",
+          "Use the same table for membership expiry or a return deadline. Swap the decision and keep the date and its source."
+        ]
+      },
+      "zh": {
+        "title": "账单与订阅 · 下次扣款前叫我",
+        "outcome": "一张带扣款日期、收费渠道和来源的续费清单。",
+        "result": [
+          "**11 月 24 日 · 纸鹤云盘 · 48 元**。要不要续费，依据是 A2。提前两天提醒的话，是 11 月 22 日。",
+          "**影视通行证 · 查是否重复付费**。B1 和 B2 走两个收费渠道，先核对账号。",
+          "**工作室试用 · 日期待查**。T1 没写哪天扣款。"
+        ],
+        "trial": "今天是 2026-11-20。用下面几条通知做订阅台账。\n把截至 11 月 27 日的已确认扣款列到近期清单，给一份提前两天的提醒预览。日期不明和疑似重复的单列。每项留下实际收费渠道和来源编号，过去已经扣的钱和未来的扣款日分开记。只在对话里给建议。\nA1 | 纸鹤云盘 | 官网 | 2026-10-24 已扣 | CNY 48\nA2 | 纸鹤云盘 | 官网 | 2026-11-24 续费 | CNY 48\nB1 | 影视通行证 | 应用商店 | 有效 | 2026-12-02 再扣\nB2 | 影视通行证 | 视频套餐 | 有效 | 2026-12-09 再扣\nT1 | 工作室试用 | 欢迎邮件 | 扣款日未知",
+        "connected": "只读你选定的收据邮箱和日期范围。把服务、付费账户、实际收费渠道、币种、下次日期和原通知放到一张你能核对的表里。选一个确认过的日期，先核对一条提醒能否送到，再设成例行检查。",
+        "verify": "本周只有 A2，提醒预览是 11 月 22 日。B1、B2 是两条记录，标为疑似重复。T1 的日期留空。把 A2 再贴一遍，台账里仍只有一条这份通知。",
+        "boundary": "你决定留谁、停谁。服务方确认以后才记为已退订。退款到账以付款记录为准。",
+        "analysis": "翻收据和查重复扣费，可以一起做进订阅台账。退订也记在这里。收据支持过去已扣，续费通知支持下一次日期，退订回执才改变状态。",
+        "variants": [
+          "先从过去两期收据找可能在续的服务。用原通知再确认什么时候续。",
+          "会员快到期、东西需要退货，也能用同一张表。换成对应的决定，保留日期和出处。"
+        ]
+      }
+    },
+    {
+      "id": "personal-crm",
+      "group": "life",
+      "reuse": 2,
+      "first_run": 2,
+      "patterns": [
+        "personal-crm",
+        "capture-inbox",
+        "scheduled-task"
+      ],
+      "sources": [
+        "oc-crm",
+        "muse-birthday"
+      ],
+      "en": {
+        "title": "Friends and contacts · Remember where we left off",
+        "outcome": "One contact card with the latest confirmed details, last conversation and open follow-ups.",
+        "result": [
+          "**P01 · Lin Lan**. Review the city change from Nanjing to Suzhou [M02].",
+          "**Leave M03 unlinked.** The sender with the same name has not been identified."
+        ],
+        "trial": "Suggest contact-card updates from the material below. Show the person ID, old and new values, and source. Leave the card unchanged pending approval. Remember only confirmed details and commitments. If the sender is not identified, keep the note in review.\nP01 | Lin Lan | current city Nanjing | last conversation April\nP02 | Lin Lan | colleague from another project\nM02 | confirmed sender P01 | I moved to Suzhou this week.\nM03 | sender shown as Lin Lan, identity unclear | Let's catch up sometime.",
+        "connected": "Start with a sheet or a contact Space you review yourself. Keep an ID for the contact, a source for each fact, and a queue for unclear changes. After reviewing a saved update, open the card in a new conversation and ask for a one-line pre-meeting brief.",
+        "verify": "Only P01’s city is proposed for change. M03 stays unlinked. Submit M02 again after confirming it and check the existing card instead of creating a second contact.",
+        "boundary": "You confirm identity and any outbound message. Keep a suggestion to meet separate from an agreed date. Store details only as needed for the relationship.",
+        "analysis": "The CRM recipe makes the person and interaction record durable. The birthday example shows a way to use a confirmed date from that record. The same contact can feed a meeting brief later.",
+        "variants": [
+          "Build a contact and review panel in Muse Space or a sheet. Start with the same two fictional messages.",
+          "Use the card for a birthday reminder or to remember an open promise before meeting someone."
+        ]
+      },
+      "zh": {
+        "title": "朋友与联系人 · 见面前想起上次聊过什么",
+        "outcome": "一张保留出处、能在下次见面前重新打开的联系人卡。",
+        "result": [
+          "**P01 · 林岚**。现居地从南京改为苏州，等你确认 [M02]。",
+          "**M03 留在待核对**。有同名联系人，没确认是谁。"
+        ],
+        "trial": "对照下面的材料，给出人物编号、建议修改的字段、旧值、新值和来源。在我确认前保留原卡。只记录确有依据的事实和约定，发件人不明的先留待核对。\nP01 | 林岚 | 现居地南京 | 上次聊天在 4 月\nP02 | 林岚 | 另一个项目的同事\nM02 | 已确认来自 P01 | 我这周搬到苏州了。\nM03 | 显示林岚，身份未确认 | 有机会聚聚。",
+        "connected": "先用一张表或一个自己能核查的联系人 Space。人物有固定编号，字段留出处，不确定的变动排到待确认。确认一条更新后，换一个对话，让 Agent 从同一张卡写一句会前提示。",
+        "verify": "只提议改 P01 的城市，M03 没有归人。确认后重贴一次 M02，查看原卡，别出现第二个联系人。",
+        "boundary": "身份和对外发信由你确认。「有机会聚聚」暂时只是一句话。联系人卡只保留用得上的信息。",
+        "analysis": "联系人库示范了怎么长期记人和互动。生日提醒展示了记录中一个确认过的日期怎么用。下次见面前也可以从同一张卡提取必要信息。",
+        "variants": [
+          "把联系人卡和待确认两栏放进 Muse Space 或表格。先用同一组虚构消息试。",
+          "给确认过的生日设提醒，或在见面前翻一下上次没办完的事。"
+        ]
+      }
+    },
+    {
+      "id": "price-watch",
+      "group": "life",
+      "reuse": 2,
+      "first_run": 1,
+      "patterns": [
+        "change-watch",
+        "scheduled-task"
+      ],
+      "sources": [
+        "muse-tickets",
+        "muse-fare"
+      ],
+      "en": {
+        "title": "Shopping and tickets · Tell me when it fits my budget",
+        "outcome": "A timestamped alert for a comparable offer, with the full price and a link to inspect.",
+        "result": [
+          "**Q2 matches.** Four seats together in section L, CNY 480 including fees.",
+          "**Q3 needs a check.** The seller shows a base price but no total fee."
+        ],
+        "trial": "Check one batch of offers. I need four adjacent seats in section L, at no more than CNY 500 including all fees. Keep the offer ID and latest observed time. Return a match only when the criteria are visible. Put incomplete offers separately. Do not reserve or buy.\nQ1 | 10:00 | 3 adjacent section L | CNY 420 incl. fees\nQ2 | 10:05 | 4 adjacent section L | 4 x CNY 110 + CNY 40 total fees\nQ3 | 10:06 | 4 adjacent section L | CNY 440 before fees | fees unknown",
+        "connected": "Pick a source that exposes all comparison fields and an end date for the watch. Try one read. Recheck a matching offer on its own page before acting. If you schedule checks, notify once per materially changed match.",
+        "verify": "Q2 is the only hit. Q1 is the wrong quantity, and Q3 remains incomplete. An inaccessible listing should be visible as a failed check.",
+        "boundary": "An alert is a lead. Check inventory and terms yourself before paying.",
+        "analysis": "Tickets and flights can share one watch rule once comparable terms are defined. One air-travel example also records a hit that never secured a seat, so the card needs a separate purchase state.",
+        "variants": [
+          "For flights, include route, stops, traveler count and required baggage in the comparable price.",
+          "For a saved product, match the exact model before looking at shipping and price."
+        ]
+      },
+      "zh": {
+        "title": "购物与比价 · 降到预算再叫我",
+        "outcome": "收到一条带价格、检查时间和出处的提醒，方便打开原页面核对。",
+        "result": [
+          "**Q2 命中**。L 区同排连座 4 张，含费 480 元。",
+          "**Q3 待查**。看到标价，没看到手续费。"
+        ],
+        "trial": "先查这一批报价。我找 L 区 4 张连座，含全部费用不超过 500 元。每个结果带报价编号和最近检查时间。条件齐全才标命中，缺字段的列到待核对。先给清单，不预订、不下单。\nQ1 | 10:00 | L 区 3 张连座 | 含费 CNY 420\nQ2 | 10:05 | L 区 4 张连座 | 每张 CNY 110，全部费用另计 CNY 40\nQ3 | 10:06 | L 区 4 张连座 | 标价 CNY 440，费用未知",
+        "connected": "先确认票源能读到全部比价字段，约定最晚盯到哪天。有命中时打开票源复查。定时检查时，只为新的有效变化发一次提醒。",
+        "verify": "只有 Q2 达标。Q1 张数不合，Q3 留待查。访问失败时也要在结果里看得出来。",
+        "boundary": "提醒给你的是线索。付款前你需要看页面上的实际库存、价格和条款。",
+        "analysis": "球票和航班共用一个盯价规则，先约定什么才算同条件。直飞案例里，通知到了却没排到座位，所以提醒和成交要分别记。",
+        "variants": [
+          "换成机票时先对航线和停靠条件，再按实际乘客数和行李算总价。",
+          "改成普通商品时，先匹配型号，再把运费一起算进预算。"
+        ]
+      }
+    },
+    {
+      "id": "home-repair",
+      "group": "life",
+      "reuse": 2,
+      "first_run": 2,
+      "patterns": [
+        "capture-inbox",
+        "repeatable-workflow"
+      ],
+      "sources": [
+        "drsnow-repair",
+        "muse-repair-quotes"
+      ],
+      "en": {
+        "title": "Home and repairs · Find who fixed it last time",
+        "outcome": "The right work order, a contact lead to verify and any missing details for a new quote.",
+        "result": [
+          "**Living room unit M8 · F1.** That work order identifies Pine Service.",
+          "**Check first.** The phone number is from the old record. Verify it before sharing your address."
+        ],
+        "trial": "Identify who previously repaired living room unit M8. Give the match, service date, source, and the detail I need to verify. Keep other equipment separate. If no record matches, list the model, specification and photos needed for a quote request.\nF1 | living room AC M8 | 2026-04-05 | Pine Service | work order and contact on file\nF2 | hall AC N4 | 2026-06-16 | River Service | service receipt\nF3 | living room AC | 2026-11-18 | owner note | new fault, appointment not made",
+        "connected": "Search one mailbox or folder you choose for the model number, work orders and invoices. When no exact match exists, return a shortlist or collect details for a comparable quotation.",
+        "verify": "F1 is the only exact match. F2 stays out. Show F3 as a new issue and avoid treating the old contact as a confirmed new booking.",
+        "boundary": "Get confirmation before sending a message, sharing a photo or booking work. Keep a quote and an agreed visit in separate fields.",
+        "analysis": "The repair lead begins with a past work order. The door-quote example begins with a spec sheet and photos. Both help a person contact the right provider, with different evidence at the start.",
+        "variants": [
+          "Store the last contact and invoice beside the appliance model. A later lookup should return both.",
+          "With no usable record, collect comparable specs and ask for quote drafts before contacting anyone."
+        ]
+      },
+      "zh": {
+        "title": "家庭与维修 · 坏了先找上次修过的人",
+        "outcome": "找回对应设备的旧工单、服务商和需要重新核对的信息。",
+        "result": [
+          "**客厅空调 M8 · 见 F1**。上次工单上的服务商是松木维修。",
+          "**下一步**。工单上的电话是当时的，先核对再给对方地址。"
+        ],
+        "trial": "帮我找以前修客厅空调 M8 的人。给我匹配到的设备、维修日期、服务商、来源编号以及这次还要核对什么。其他设备的记录分开列。没有匹配时，列出询价需要的型号、规格和照片。\nF1 | 客厅空调 M8 | 2026-04-05 | 松木维修 | 有工单及电话\nF2 | 走廊空调 N4 | 2026-06-16 | 河岸维修 | 有收据\nF3 | 客厅空调 | 2026-11-18 | 本人笔记 | 新故障，未预约",
+        "connected": "只在选定的邮箱或工单文件夹里找型号、维修记录和收据。查不到确切对应的记录，就列候选，或收齐给同规格报价所需的材料。",
+        "verify": "F1 是唯一精确匹配。F2 对应另一台。F3 是这次的新问题；旧工单不能证明这次已预约。",
+        "boundary": "发送消息、给对方照片或预约之前由你确认。把收到的报价和约好的上门时间分开记。",
+        "analysis": "找旧维修方从过去的工单开始。换门询价案例从规格和照片开始。两种做法都在帮你找到合适的服务方，各自能用的凭据不同。",
+        "variants": [
+          "设备型号旁留上一次工单和联系信息，以后查同一台时一起找回。",
+          "没有旧记录时，收齐统一规格，先看询价草稿再决定联系谁。"
+        ]
+      }
+    },
+    {
+      "id": "trip-brief",
+      "group": "life",
+      "reuse": 2,
+      "first_run": 2,
+      "patterns": [
+        "capture-inbox",
+        "repeatable-workflow"
+      ],
+      "sources": [
+        "muse-trip",
+        "muse-trip-share"
+      ],
+      "en": {
+        "title": "Travel · Put all the bookings on one page",
+        "outcome": "A trip sheet with local times, confirmation sources and the gaps to check before leaving.",
+        "result": [
+          "**11 December, 06:20 JST · Arrival** [F1].",
+          "**Hotel date to check.** Booking H1 begins on 10 December, before local arrival.",
+          "**Transfer pending.** T1 gives a pickup day and no confirmed time."
+        ],
+        "trial": "Make a trip sheet from these confirmations. Sort by local date and time, preserve time zones and source IDs, and flag any dates that might conflict. Add a guest-facing version with dates and places only. Do not modify a booking.\nF1 | depart 2026-12-10 22:40 SGT | arrive 2026-12-11 06:20 JST | flight confirmed\nH1 | check-in 2026-12-10 15:00 JST | Central Hotel | confirmed\nT1 | 2026-12-11 JST | station pickup | time pending",
+        "connected": "Read the trip’s confirmation emails or files and link only the entries that belong to that trip. Make the personal trip sheet first. Review a shorter copy separately when sharing it.",
+        "verify": "The flight arrives on 11 December at destination time. The hotel date is a check, not an invented booking change. T1 stays pending.",
+        "boundary": "You approve any itinerary change or sharing. Keep booking numbers, costs and details about other travelers out of the guest-facing copy unless needed.",
+        "analysis": "A master itinerary preserves every booking reference. A host-facing copy selectively uses that same itinerary. Keeping one primary sheet allows a change to flow into both views.",
+        "variants": [
+          "With only confirmations, assemble the itinerary in chat and verify each link before traveling.",
+          "If a host needs to know when you arrive, derive a small copy from the same confirmed records."
+        ]
+      },
+      "zh": {
+        "title": "旅行与出行 · 把预订拼到一张行程单",
+        "outcome": "一张列清当地时间、预订出处和待确认事项的行程单。",
+        "result": [
+          "**12 月 11 日 06:20 日本时间抵达** [F1]。",
+          "**住宿日期待查**。H1 从 12 月 10 日起订，早于抵达日期。",
+          "**接车时间未确认**。T1 只有日期。"
+        ],
+        "trial": "把这些确认信息做成一张行程单。按每段当地日期时间排序，保留时区和来源编号，标出可能有冲突的日期。再给一版只含日期和地点的对外副本。先不要改任何预订。\nF1 | 2026-12-10 22:40 新加坡出发 | 2026-12-11 06:20 日本抵达 | 航班已确认\nH1 | 2026-12-10 15:00 日本时间可入住 | 中央酒店 | 已确认\nT1 | 2026-12-11 日本 | 车站接车 | 时间待定",
+        "connected": "在你指定的行程邮件或文件夹中找确认信息，只引用属于本次旅行的记录。先保存自己的完整行程，再单独检查要发给别人的那版。",
+        "verify": "F1 是当地 12 月 11 日到。H1 的日期需要核对，原预订仍然有效。T1 保留待确认。",
+        "boundary": "改订单和发给谁看都由你确认。对方用不上预订号、价格或同行人的资料时，就只给日期和地点。",
+        "analysis": "完整行程把预订号和确认邮件放在一起。给接待人的版本则从同一份行程摘取必要信息。两版共用一套确认记录，改期后便于重出。",
+        "variants": [
+          "有几封预订信就能先拼一版，出门前逐条打开原件核对。",
+          "只给接待人看抵达日期和地点时，从已确认的行程生成一份简短副本。"
+        ]
+      }
+    },
+    {
+      "id": "household-calendar",
+      "group": "life",
+      "reuse": 2,
+      "first_run": 2,
+      "patterns": [
+        "scheduled-task",
+        "capture-inbox"
+      ],
+      "sources": [
+        "oc-family",
+        "muse-family-digest",
+        "muse-school-dates",
+        "sebastian"
+      ],
+      "en": {
+        "title": "Family and routines · Who needs to be where this week?",
+        "outcome": "A shared week view with confirmed events, clashes and pickups still to arrange.",
+        "result": [
+          "**24 November at 15:00 · Music practice** [S2, replacing S1].",
+          "**Pick-up needs a decision.** The only assigned adult is already booked [C1]."
+        ],
+        "trial": "Make a household list for the week of 23 November. Show the latest confirmed schedule, conflicts, and unassigned pickups. Keep a source ID on each item. If an organizer explicitly changes a date, mark the old entry superseded. Produce a preview only.\nS1 | music practice | 2026-11-23 15:00 | original notice\nS2 | music practice moved to 2026-11-24 15:00 | confirmed by organizer\nC1 | 2026-11-24 14:30-16:00 | assigned adult has a call\nC2 | music practice | pick-up needed | no alternate owner",
+        "connected": "Connect a calendar or shared inbox you’re allowed to read. Extract dates from notices before proposing a shared-calendar change. An adult reviews changed times, conflicts and who can do the pickup.",
+        "verify": "S2 supersedes S1. The 24 November conflict appears once. C2 remains unassigned and should not become a presumed commitment.",
+        "boundary": "Ask before updating a shared calendar or forwarding private material. Treat a notice and a confirmed calendar event as separate records.",
+        "analysis": "A school-message digest and a shared calendar both reduce repeated checking. The digest collects what changed. The week view reconciles that against existing commitments.",
+        "variants": [
+          "Summarize the notices once a day so someone can pick out the items that need action.",
+          "Use a weekly view with time, destination and pickup owner to catch overlaps."
+        ]
+      },
+      "zh": {
+        "title": "家庭日程 · 这周谁要去哪",
+        "outcome": "一份全家能核对的周安排，列清改期、冲突和待确认的接送。",
+        "result": [
+          "**11 月 24 日 15:00 · 音乐课**。S2 取代 S1。",
+          "**接送待协调**。原定接送的人同一时间有会 [C1]。"
+        ],
+        "trial": "帮我看 11 月 23 日这一周的家庭日程。列出已确认的最新安排、冲突和还没人负责的接送，每项带来源。组织方明确改期时标记旧记录失效。先给预览。\nS1 | 音乐课 | 2026-11-23 15:00 | 原通知\nS2 | 音乐课改到 2026-11-24 15:00 | 组织方已确认\nC1 | 2026-11-24 14:30-16:00 | 原定接送的人已约会议\nC2 | 音乐课接送 | 暂无其他人认领",
+        "connected": "从可以读取的共享日历或指定收件箱起步。先把通知里的日期和变动提出来，再给你看拟改动。改期、冲突和接送由家庭成员确认。",
+        "verify": "S2 取代 S1。24 日的冲突只出现一次。C2 仍是待安排，别替别人承诺。",
+        "boundary": "写共享日历或转发家庭消息前先确认。收到一条通知、日历里已经排好，是两个状态。",
+        "analysis": "学校群摘要和共享日历都让家人少翻几遍消息。摘要先找出变化，周安排再拿变化和已经答应的事对一下。",
+        "variants": [
+          "每天把通知收成小摘要，由家人决定哪几条要办。",
+          "用一张周视图看时间、地点和谁负责接送，提前找到撞期。"
+        ]
+      }
+    },
+    {
+      "id": "inbox-triage",
+      "group": "work",
+      "reuse": 2,
+      "first_run": 2,
+      "patterns": [
+        "capture-inbox",
+        "scheduled-task"
+      ],
+      "sources": [
+        "hermes-inbox",
+        "oc-inbox",
+        "muse-email-drafts",
+        "muse-urgent-mail"
+      ],
+      "en": {
+        "title": "Email and messages · Which ones need my reply today?",
+        "outcome": "A short inbox list with urgent replies, items to review later and messages that need no action.",
+        "result": [
+          "**Reply before 15:00 · E1.** The supplier needs the proof approved today.",
+          "**Read later · E2.** Newsletter, no stated action.",
+          "**Check · E3.** Attachment not available."
+        ],
+        "trial": "Sort these messages into Reply today, Review later and Needs information. Use what the sender actually asks for. Preserve the deadline and input ID. For a reply, give a one-line draft and leave it unsent. Keep inaccessible attachments visible.\nE1 | supplier | Please confirm the proof by 15:00 today.\nE2 | newsletter | This week's reading list.\nE3 | colleague | See the attached request | attachment unavailable",
+        "connected": "Start with one mailbox or chat and a short time window. Read messages, return a private queue, then compare it with what you would answer yourself. Add urgent alerts only after defining when an interruption is justified.",
+        "verify": "E1 contains the stated 15:00 deadline. E2 stays outside the reply queue. E3 remains visible as incomplete. An unsent draft still needs you to act.",
+        "boundary": "Sending, archiving and unsubscribing are separate actions. Review the proposed action and recipient before using any write access.",
+        "analysis": "A newsletter digest and a multi-inbox assistant both decide what deserves attention. The latter can add a draft or an urgent alert without combining them with permission to send.",
+        "variants": [
+          "Use a quiet newsletter digest when you only need to catch up.",
+          "Use the same sorting rule for a busy project chat. Only requests addressed to you go into the reply queue."
+        ]
+      },
+      "zh": {
+        "title": "邮件与消息 · 今天哪几条真得回",
+        "outcome": "一份短收件清单，写明今天要回什么、哪些信息还不齐。",
+        "result": [
+          "**15:00 前回复 E1**。供应商今天等你确认校样。",
+          "**E2 稍后读**。新闻信，没有待办。",
+          "**E3 待核对**。读不到附件。"
+        ],
+        "trial": "按「今天要回」「稍后看」「待补材料」整理这些消息。根据发件人实际提出的事分类，保留截止时间和来源。需要回复的写一行草稿，先别发。读不到附件的照样列出来。\nE1 | 供应商 | 请今天 15:00 前确认校样\nE2 | 新闻信 | 本周阅读清单\nE3 | 同事 | 需求在附件里 | 附件不可读",
+        "connected": "先选一个邮箱或群和有限的日期范围，给自己一份待处理清单。拿它对照你实际会回的消息。要加重点提醒时，先定哪些事值得打断你。",
+        "verify": "E1 的截止确实是 15:00。E2 没进回复列表。E3 缺附件仍然可见。写好草稿不代表已经发出。",
+        "boundary": "回复、归档和退订各自独立。开通写入前，先核对要做的动作和接收人。",
+        "analysis": "新闻信摘要和多邮箱分拣都在判断什么值得看。复杂一点的版本能多给回复草稿或紧急提醒，发送权仍由你单独决定。",
+        "variants": [
+          "只想跟上新闻信时，汇成一份安静的摘要即可。",
+          "消息源也能换成项目群，只把明确要你回应的内容托出来。"
+        ]
+      }
+    },
+    {
+      "id": "meeting-prep",
+      "group": "work",
+      "reuse": 2,
+      "first_run": 2,
+      "patterns": [
+        "personal-crm",
+        "scheduled-task",
+        "repeatable-workflow"
+      ],
+      "sources": [
+        "muse-meeting",
+        "town-routines",
+        "oc-crm"
+      ],
+      "en": {
+        "title": "Before a meeting · Walk in with the context",
+        "outcome": "A one-page brief with the last decision, what is unresolved and the question to ask next.",
+        "result": [
+          "**Confirmed · M1.** The first demo uses a single page.",
+          "**Open · M2.** No decision on who supplies the images.",
+          "**Ask in B1.** Who owns the images and by when?"
+        ],
+        "trial": "Prepare a one-page brief for B1. Include confirmed decisions, unresolved points and one question to ask. Cite the source ID for each. Keep proposals separate from commitments. Use only the material below.\nB1 | 2026-11-24 14:00 | Website demo review\nM1 | latest meeting notes | Agreed to use a single page for the first demo.\nM2 | project message | I could perhaps make the images. Need to verify who owns them.",
+        "connected": "Use one event as the starting point. Read only the relevant project notes and messages, and add the contact card if it helps. Try generating the brief once before setting a delivery time.",
+        "verify": "M1 remains confirmed. M2 does not get an assigned owner. The brief links back to the project event.",
+        "boundary": "Use a private brief by default. Review any follow-up draft and recipients separately.",
+        "analysis": "The project demo groups material by decisions and responsibilities. The CRM approach adds context about the person. Both feed an event-specific brief while the underlying facts stay in their own records.",
+        "variants": [
+          "A project review can focus on what changed and what needs a decision.",
+          "A one-to-one can focus on a shared commitment, the last conversation and one open question."
+        ]
+      },
+      "zh": {
+        "title": "会前准备 · 进会议室前看一页",
+        "outcome": "一页会前卡，找回上次确认过的事和这次要问的问题。",
+        "result": [
+          "**已确定 · M1**。首轮演示只做一页。",
+          "**还没定 · M2**。谁来提供图片未确认。",
+          "**这次可以问**。图片谁负责、什么时候能给？"
+        ],
+        "trial": "为 B1 整理一页会前卡。列已确认的决定、未决事项，以及一个这次要问的问题。每段带来源编号，把提议和承诺分开。只用以下材料。\nB1 | 2026-11-24 14:00 | 网站演示评审\nM1 | 最近一次纪要 | 大家同意首轮演示只做一页\nM2 | 项目消息 | 图片我也许能做，得确认谁负责",
+        "connected": "从一个日历事件出发，只查有关的项目纪要和消息，需要时再读联系人卡。先自己看一次会前卡，再决定是不是要定时送来。",
+        "verify": "M1 仍是已经确认的决定。M2 不应变成某个人答应做图片。每个结论都能回到相应原文。",
+        "boundary": "会前卡先给自己。需要对外发后续邮件时，另看草稿和收件人。",
+        "analysis": "备会的项目演示侧重已做的决定和分工。联系人库补上人物与过去的联系。两者都能帮这一次会议准备材料，原始事实留在各自的记录里。",
+        "variants": [
+          "项目评审可以聚焦变更、未决问题和会上的决定。",
+          "一对一见面可以只带上次聊过的事、一个承诺和一个问题。"
+        ]
+      }
+    },
+    {
+      "id": "meeting-followups",
+      "group": "work",
+      "reuse": 2,
+      "first_run": 2,
+      "patterns": [
+        "repeatable-workflow",
+        "capture-inbox"
+      ],
+      "sources": [
+        "oc-meeting-notes",
+        "oc-project-state"
+      ],
+      "en": {
+        "title": "After a meeting · Who agreed to do what?",
+        "outcome": "A reviewable list of decisions, confirmed work and questions still missing an owner.",
+        "result": [
+          "**Decision D1.** Keep the originals in the handoff folder.",
+          "**Action D2 · Ari · by 24 November.** Write the checklist draft.",
+          "**Pending D3.** Access needs checking. Owner and date are open."
+        ],
+        "trial": "Make a follow-up draft with Decisions, Agreed actions and Open questions. Cite each input ID. Keep the exact owner and date for agreements. For unassigned work say they are open. Do not create tasks or send it yet.\nD1 | Team agreed to keep the original files in the handoff folder.\nD2 | Ari: I will draft the checklist by 2026-11-24.\nD3 | Someone should check the shared folder access.",
+        "connected": "Use an approved transcript or notes and give the meeting a stable ID. Review ownership and due dates before creating tasks. If the notes change, compare the draft with the previous version and update the existing task only when the change is confirmed.",
+        "verify": "D2 alone has both an owner and a deadline. D3 stays open. Running the same notes twice should not create duplicate follow-ups.",
+        "boundary": "Drafting the list, sending it and creating destination tasks are separate states. Track a write as complete after its receipt is visible.",
+        "analysis": "The meeting recipe shows how to extract a proposed action. The project-state recipe explains where a confirmed action or blocker can live across later meetings.",
+        "variants": [
+          "Use the same draft format for a call transcript, a chat decision or handwritten meeting notes.",
+          "Keep action IDs when pushing an approved list to a board, so the meeting can be rerun."
+        ]
+      },
+      "zh": {
+        "title": "会后跟进 · 谁答应了什么",
+        "outcome": "一份能核对的会后清单，已确认行动和待分工的事分开看。",
+        "result": [
+          "**决定 D1**。交接文件夹保留原件。",
+          "**行动 D2 · Ari · 11 月 24 日前**。写交接清单草稿。",
+          "**待定 D3**。访问权限要核对，谁来做和截止日都没定。"
+        ],
+        "trial": "把下面的记录整理成会后草稿。分成决定、已确认行动、未决事项，每项写来源编号。按原话保留负责人和截止日，没定的写待确认。先在这里给草稿，不发信也不建任务。\nD1 | 大家决定在交接文件夹保留原件。\nD2 | Ari：我会在 2026-11-24 前写交接清单草稿。\nD3 | 共享文件夹权限得找个人核对。",
+        "connected": "用已获准使用的逐字稿或纪要，给会议一个固定编号。核对分工和期限后再建任务。纪要修订时先比对两版草稿，再确认既有任务要不要改。",
+        "verify": "只有 D2 同时有负责人和日期，D3 保持待定。同一纪要处理两次，既有行动只保留一份。",
+        "boundary": "列草稿、发给别人、写入任务系统各有自己的状态。看到目标里的写入记录后，才将对应行动标记为完成录入。",
+        "analysis": "会议做法说明怎样从逐字稿提出行动项。项目状态做法补上了确认过的事项放在哪里、以后怎么追。",
+        "variants": [
+          "通话转写、项目群里的决定和手写纪要都能用这个草稿格式。",
+          "确认后同步到看板时留下行动编号，同一场会议重跑有地方核对。"
+        ]
+      }
+    },
+    {
+      "id": "file-filing",
+      "group": "work",
+      "reuse": 2,
+      "first_run": 2,
+      "patterns": [
+        "capture-inbox",
+        "repeatable-workflow"
+      ],
+      "sources": [
+        "atlas-invoices",
+        "muse-receipts",
+        "moontower-search"
+      ],
+      "en": {
+        "title": "Documents and records · Find that invoice months later",
+        "outcome": "A searchable file index with source, suggested folder and duplicates to review.",
+        "result": [
+          "**F1 · Software**. Keep its source message and amount CNY 90.",
+          "**F2 · Possible duplicate of F1.** Same invoice number. Compare the files.",
+          "**F3 · Review.** The scan is hard to read."
+        ],
+        "trial": "Draft an index for these receipts. Include filename, vendor, date, total, source ID and suggested folder. Show possible duplicates and uncertain fields. Keep each original. Open no external links and make no file changes.\nF1 | april.pdf | Paper Cloud | no. PC-41 | 2026-04-12 | CNY 90 | invoice email\nF2 | forwarded.pdf | Paper Cloud | no. PC-41 | 2026-04-12 | CNY 90 | forwarded copy\nF3 | scan.pdf | vendor and amount unreadable | uploaded photo",
+        "connected": "Search within one approved folder or mailbox and first preview a source-to-destination list. Move copies only after checking destinations and retaining a way back to the original source.",
+        "verify": "F1 and F2 are flagged for comparison and not silently merged. F3 is visible for review. Verify one file by finding it from the index without looking in the original inbox.",
+        "boundary": "File access, relocation and deletion have different effects. Approve moves in advance and leave originals available.",
+        "analysis": "The invoice cases show filing across inboxes or around a single business topic. The email-retrieval account adds an earlier step: pull likely candidates first, then inspect the text before filing.",
+        "variants": [
+          "Switch to warranties, purchase confirmations or other documents you may need later.",
+          "For a folder already full of files, create the index first and reorganize only if retrieval improves."
+        ]
+      },
+      "zh": {
+        "title": "文档与资料 · 三个月后找得到那张发票",
+        "outcome": "一份好查的文件索引，带原件位置、建议去处和疑似重复。",
+        "result": [
+          "**F1 · 软件费用**。保留原邮件出处和 90 元金额。",
+          "**F2 · 可能跟 F1 重复**。票号相同，先对文件。",
+          "**F3 · 待核对**。扫描件看不清。"
+        ],
+        "trial": "先给我一份这些收据的归档预览。每项列文件名、商户、日期、金额、来源编号和建议目录。疑似重复和模糊字段单列。保留原件，不打开外链，也不改文件。\nF1 | april.pdf | 纸鹤云盘 | 票号 PC-41 | 2026-04-12 | CNY 90 | 原邮件\nF2 | forwarded.pdf | 纸鹤云盘 | 票号 PC-41 | 2026-04-12 | CNY 90 | 转发邮件\nF3 | scan.pdf | 商户和金额不可辨认 | 上传照片",
+        "connected": "先限定一个允许读取的文件夹或邮箱，预览每个原件要去哪。核对目标位置和返回原件的方式以后，再按你确认的清单归档副本。",
+        "verify": "F1 和 F2 先标疑似重复，原件继续保留。F3 仍可见。试着只用清单找回来一张发票，检验下次能不能用。",
+        "boundary": "读取、移动、删除各有自己的权限。先确认移动，保留原件和路径。",
+        "analysis": "发票案例里，有从多邮箱归档的，也有只找一项小生意的。邮件检索的原文补上了分类前的一步，先找可能相关的邮件，再读正文核对。",
+        "variants": [
+          "保修单、购买确认单或其他以后会查的文件都可以按同样方式归档。",
+          "文件夹已经堆满时先给索引，找到原件更容易了再整理目录。"
+        ]
+      }
+    },
+    {
+      "id": "daily-plan",
+      "group": "work",
+      "reuse": 2,
+      "first_run": 2,
+      "patterns": [
+        "scheduled-task",
+        "repeatable-workflow"
+      ],
+      "sources": [
+        "oc-brief",
+        "muse-morning",
+        "muse-email-drafts",
+        "oc-dashboard"
+      ],
+      "en": {
+        "title": "Start the workday · What actually needs me today?",
+        "outcome": "A morning action list with time constraints, the next move and anything blocked.",
+        "result": [
+          "**10:00 · Review call** [C1].",
+          "**By 15:00 · Confirm the page title** [T1].",
+          "**Waiting · T2.** The supplier has not provided the files."
+        ],
+        "trial": "Build a workday action list for 2026-11-20 in Asia/Singapore. Give at most three items. Keep hard times and deadlines, and put externally blocked items in Waiting. Explain any missing source. Use only these records.\nC1 | calendar | 2026-11-20 10:00 | website review call\nT1 | due 2026-11-20 15:00 | confirm page title\nT2 | supplier is responsible for sending files | no delivery yet\nN1 | no date | reorganize bookmarks sometime",
+        "connected": "Connect one calendar and one task list you can verify. Try a manual brief with the same sources before setting delivery. If either source fails to load, mark it in the next brief.",
+        "verify": "C1 and T1 retain their times. T2 is waiting on someone else. N1 stays out. A day with no commitments and a missing calendar should look different.",
+        "boundary": "The brief is a derived view. Changes to the calendar or task owner go through the underlying record.",
+        "analysis": "Morning briefings prioritize what the person can act on. A refreshing dashboard can hold the wider context. Give the daily output a clear cutoff and keep the source visible.",
+        "variants": [
+          "Run it before opening email or as a short end-of-day review.",
+          "Use the same outline for a weekly plan with a different window, then see how many items actually need attention."
+        ]
+      },
+      "zh": {
+        "title": "今日工作 · 开工前看真要办的几件事",
+        "outcome": "一份有开始时间、下一步和阻塞项的晨间行动单。",
+        "result": [
+          "**10:00 · 网站评审会** [C1]。",
+          "**15:00 前 · 确认页面标题** [T1]。",
+          "**等对方 · T2**。资料还在供应商那边。"
+        ],
+        "trial": "按新加坡时间给我 2026-11-20 的行动单，最多三项。保留有硬时间的安排和到期事项，等别人才能办的放到等待区。如果材料读不到，写明缺什么。只用下面四条。\nC1 | 日历 | 2026-11-20 10:00 | 网站评审会\nT1 | 2026-11-20 15:00 到期 | 确认页面标题\nT2 | 供应商负责发资料 | 尚未收到\nN1 | 无日期 | 改天整理书签",
+        "connected": "先选一个能核对的日历和一份待办。用这两处资料手动跑一遍，再设置送达时间。某个来源读取失败时，在简报中标出来。",
+        "verify": "C1、T1 保留原时间。T2 放到等待项，N1 不占今天的位置。没有安排与日历打不开，应看到不同的反馈。",
+        "boundary": "行动单是从原数据生成的视图。修改日程、负责人，还是要回对应记录确认。",
+        "analysis": "晨报把今天能做的事先排出来。持续看板可以装更完整的背景。把时间窗口和来源写清楚，就能得到一份每天可比较的行动单。",
+        "variants": [
+          "开邮箱前看一份，也可以晚间拿同一套结构回顾。",
+          "把窗口换成一周，重新看哪些才是真要决定的事。"
+        ]
+      }
+    },
+    {
+      "id": "reading-digest",
+      "group": "learning",
+      "reuse": 2,
+      "first_run": 2,
+      "patterns": [
+        "scheduled-task",
+        "capture-inbox"
+      ],
+      "sources": [
+        "universal-feeds",
+        "oc-reddit",
+        "oc-youtube",
+        "oc-tech",
+        "sebastian"
+      ],
+      "en": {
+        "title": "News and reading · Only show me what matters to this topic",
+        "outcome": "A small reading list with original sources, why each item belongs and what failed to load.",
+        "result": [
+          "**Read R1.** It is within the window and describes the exact feature under review.",
+          "**R2 is a duplicate.** Keep the original R1 rather than repeat its summary.",
+          "**R3 could not be read.** Relevance remains unconfirmed."
+        ],
+        "trial": "Make a reading brief on project handoff notes for the 24h ending 2026-11-20 09:00 SGT. Include up to three unique items. Give source ID, date and why it helps. Group duplicate original URLs. List unavailable sources separately and do not infer their content.\nR1 | 2026-11-20 08:00 SGT | original=handoff-guide | text: a project handoff template adds a last verified result field\nR2 | 2026-11-20 08:30 SGT | original=handoff-guide | repost of R1\nR3 | source could not be opened | title: Working with project agents\nR4 | 2026-11-20 07:00 SGT | text: updates to a photo editor filter",
+        "connected": "Start with sources you actually follow. Restrict the topic and time window first, then choose a delivery cadence. Flag a source with no new entries differently from a failed read.",
+        "verify": "Only R1 enters the shortlist. R2 is represented once and R3 appears in the source status. If no item qualifies, there is no filler.",
+        "boundary": "The digest is for reading. Keep posting and subscribing as deliberate actions.",
+        "analysis": "Reddit, YouTube and multi-source tech digests share a process for selecting sources, discarding duplicates and delivering a shortlist. A published digest adds a testable extra detail: the reader can see when a source yielded nothing.",
+        "variants": [
+          "Switch the reader’s question to a project or course topic without changing the shortlist format.",
+          "Prefer the original release or paper over copies when several feeds repeat it."
+        ]
+      },
+      "zh": {
+        "title": "资讯与阅读 · 只看和这件事有关的更新",
+        "outcome": "一份短阅读清单，每条有原文和入选理由，读不到的来源也看得见。",
+        "result": [
+          "**读 R1**。时间在范围内，内容正好讲当前专题。",
+          "**R2 重复**。两条指向同一原文，只留 R1。",
+          "**R3 未能读取**。是否相关仍待查。"
+        ],
+        "trial": "给我一份「项目交接记录」简报，窗口是新加坡时间截至 2026-11-20 09:00 的 24 小时。最多三条。每条带来源编号、日期和入选理由。指向同一原文的合并，打不开的单列，别猜正文。\nR1 | 2026-11-20 08:00 新加坡 | 原文 handoff-guide | 正文：项目交接模板增加「上次已核结果」一项\nR2 | 2026-11-20 08:30 新加坡 | 原文 handoff-guide | 转发 R1\nR3 | 页面打不开 | 标题「跟项目 Agent 一起工作」\nR4 | 2026-11-20 07:00 新加坡 | 正文：图片编辑器新增滤镜",
+        "connected": "先挑几个平时真看的来源，限定专题和时间范围，手动跑准了再设投递。来源没发新内容和读不到来源应有不同的状态。",
+        "verify": "短清单只有 R1。R2 合并到原文。R3 在来源状态里。如果都不符合，留空也可以。",
+        "boundary": "简报只是阅读入口。订阅新渠道或发帖由你决定。",
+        "analysis": "几种日报都先圈出要读的范围。同一条内容留一次，再把短清单送出来。公开的简报输出还示范了一件能验收的事，来源没有产出时，读者依然看得见。",
+        "variants": [
+          "换成手头项目或一门课，同一格式还能用。",
+          "几份材料讲同一件事时，优先留最初的发布或论文。"
+        ]
+      }
+    },
+    {
+      "id": "research-compare",
+      "group": "learning",
+      "reuse": 2,
+      "first_run": 1,
+      "patterns": [
+        "repeatable-workflow",
+        "capture-inbox"
+      ],
+      "sources": [
+        "oc-arxiv",
+        "oc-hf"
+      ],
+      "en": {
+        "title": "Research · Compare what the original sources actually say",
+        "outcome": "A comparison note with the passage, scope and open question behind each claim.",
+        "result": [
+          "**A · 18 minutes on 12 tasks** [P1, Results].",
+          "**B · 14 minutes on 6 familiar tasks** [P2, Results].",
+          "**Needs more evidence.** The tasks and trial groups differ, so these times cannot rank the methods."
+        ],
+        "trial": "Prepare a comparison note. For each claim give the measured result, task group, sample size and section ID. Flag any missing information. Separate evidence from your interpretation. Explain what a fair comparison would need.\nP1 | Method A | Results 3.1 | median 18 minutes | 12 varied tasks\nP2 | Method B | Results 4 | median 14 minutes | 6 familiar tasks\nP3 | Announcement | Method C feels much faster | no measurements included",
+        "connected": "Start from a question and open each original paper or project report. Record section identifiers and scope before comparing. Label material that you have only seen in an abstract or search result.",
+        "verify": "Both the sample size and the task definition appear for P1 and P2. P3 remains a lead. The note supplies no ranking unsupported by the source passages.",
+        "boundary": "Review original passages before sharing or citing the comparison. Keep a question open where the underlying material is unavailable.",
+        "analysis": "Paper discovery can find promising leads. The section reader can establish a scoped observation. A useful research note keeps the two stages visible and lets someone else repeat the comparison.",
+        "variants": [
+          "Use the same note to compare two tool guides against their documented versions.",
+          "Extract one verified statement per source before writing any synthesis."
+        ]
+      },
+      "zh": {
+        "title": "问题调研 · 把结论追到原文",
+        "outcome": "一张对照表，保留出处段落、适用范围和仍待确认的问题。",
+        "result": [
+          "**A · 12 个不同任务的中位数为 18 分钟** [P1 结果节]。",
+          "**B · 6 个熟悉任务的中位数为 14 分钟** [P2 结果节]。",
+          "**暂时不能排优劣**。任务和样本不同。"
+        ],
+        "trial": "做一张证据对照表。每项写测到了什么、任务类型、样本量和原文编号。没说的标出来。把材料里的事实和你的解释分开。最后写一句还需要什么才好比较。\nP1 | 方法 A | 结果 3.1 节 | 中位 18 分钟 | 12 个不同任务\nP2 | 方法 B | 结果 4 节 | 中位 14 分钟 | 6 个熟悉任务\nP3 | 发布说明 | 方法 C 感觉更快 | 无测量数据",
+        "connected": "先问一个具体问题，打开论文或项目报告再查对应段落。先记章节和适用范围，再写比较。只读到摘要或搜索片段的，也注明。",
+        "verify": "P1 和 P2 都保留样本量和任务类型。P3 仍只是线索。对照表还不能给材料不支持的优劣排名。",
+        "boundary": "引用和转发以前打开原文复查。缺原始材料的问题先留着。",
+        "analysis": "检索论文能找到线索，章节阅读能看到一件事在什么条件下成立。把这两步分清，过一段时间还能重新核对比较。",
+        "variants": [
+          "也可以拿来比较两个工具的官方文档，注明各自版本和权限范围。",
+          "先为每条来源留一句经过核对的话，再综合。"
+        ]
+      }
+    },
+    {
+      "id": "reading-library",
+      "group": "learning",
+      "reuse": 2,
+      "first_run": 2,
+      "patterns": [
+        "capture-inbox",
+        "repeatable-workflow"
+      ],
+      "sources": [
+        "oc-kb",
+        "oc-second"
+      ],
+      "en": {
+        "title": "Reading library · Find the thing I saved",
+        "outcome": "A saved link and its context, easy to recover later with a natural-language question.",
+        "result": [
+          "**L1 · A project diary template.** It mentions a last verified result field.",
+          "**L2 points to the same source.** Add the new note to L1 instead of storing a second article."
+        ],
+        "trial": "Organize these reading records by the original ID. Preserve my notes and the source, recording a duplicate pointer when useful. Then answer \"Which saved item has a template for recording a verified result?\" Cite the saved record. Mark unread items.\nL1 | source U01 | project diary template | my note: it asks for the last verified result\nL2 | source U01 | saved again from chat | my note: useful for handing off projects\nL3 | source U02 | title only | reading status unread",
+        "connected": "Use one capture path, such as a chat or a notes folder. Keep the link or document ID and your own reason for saving it. Confirm you can retrieve the original in another session.",
+        "verify": "The answer cites L1 and preserves your notes from L2. L3 remains unread, rather than supplying details inferred from its title.",
+        "boundary": "Search only the sources you choose. Keep original material visible and let a person decide what to retain.",
+        "analysis": "The searchable knowledge-base recipe starts with URLs. The second-brain recipe starts with a short message. The core is the same retrieval loop: save a source with context, then find it again.",
+        "variants": [
+          "Store article links, a transcript excerpt or a study note under the same small format.",
+          "Reuse saved evidence in a later research note without copying the full source again."
+        ]
+      },
+      "zh": {
+        "title": "阅读资料库 · 找回曾经收藏的那一篇",
+        "outcome": "一条可找回的资料记录，保留原文和你当时为什么收藏。",
+        "result": [
+          "**L1 · 项目日记模板**。你的笔记写了怎么记录上次已核结果。",
+          "**L2 指向同一来源**。把这条笔记补进 L1。"
+        ],
+        "trial": "按原始来源整理这些收藏。同一来源的笔记保留，避免同一篇存两份。再回答「我收藏的哪篇讲怎么记已核结果」。带上资料编号，未读的标出来。\nL1 | 来源 U01 | 项目日记模板 | 我的笔记：有上次已核结果栏\nL2 | 来源 U01 | 群里又存了一次 | 我的笔记：交接项目时有用\nL3 | 来源 U02 | 只看到标题 | 未读",
+        "connected": "先选一个收材料的入口，比如对话或笔记文件夹。除了链接或文档编号，再留一句为什么存。换个会话试试还能不能从记录找到原文。",
+        "verify": "答案回到 L1，L2 的笔记还在。L3 仍是未读，别从标题猜正文。",
+        "boundary": "只读你指定的资料。原件保留，你可以自己决定哪些内容要留。",
+        "analysis": "知识库做法从链接起步，第二大脑做法从一条消息起步。两种入口最后都要能带着当时的上下文找回来源。",
+        "variants": [
+          "收藏链接、转写片段、上课笔记可以共用一个小格式。",
+          "写调研笔记时能直接引用以前存的证据，避免重新抄一遍。"
+        ]
+      }
+    },
+    {
+      "id": "study-review",
+      "group": "learning",
+      "reuse": 2,
+      "first_run": 2,
+      "patterns": [
+        "scheduled-task",
+        "repeatable-workflow"
+      ],
+      "sources": [
+        "sajal-study",
+        "muse-spaces"
+      ],
+      "en": {
+        "title": "Study review · Quiz me from the things I already read",
+        "outcome": "A question from your own notes, with the exact source to revisit if you miss it.",
+        "result": [
+          "**Question.** What is the difference between a scheduled check and a change alert?",
+          "**After my answer.** Check against N1. Mark any gap and which line to reread."
+        ],
+        "trial": "Quiz me on these notes. Ask one short question now and wait for my response. After I answer, tell me what matches the note, what is missing, and which source to reread. Keep the question anchored to the note and do not reveal the answer yet.\nN1 | page 2 | A schedule sets when to check. A change alert is sent only if the observed state meets the rule.\nN2 | page 4 | The original report should remain attached to a fact so it can be verified.",
+        "connected": "Use a small set of reading or course notes. Keep reviews private. After the first question is useful, set a rhythm and carry forward which sources you want to revisit.",
+        "verify": "The first turn asks a question and waits. After an answer, the correction cites N1 or N2. A gap becomes something to revisit, rather than a fabricated mark.",
+        "boundary": "You decide what counts as understood and when to revisit it. Keep the reading source and your answers separable.",
+        "analysis": "The study account schedules review of a personal reading log. The learning-space demo varies topic depth. Start with what you already read, then adjust frequency or difficulty based on your answers.",
+        "variants": [
+          "Ask from the week’s highlights or the last chapter of a course.",
+          "Reuse a missed question after one week and compare the explanation."
+        ]
+      },
+      "zh": {
+        "title": "学习复习 · 用我读过的材料问我一道题",
+        "outcome": "一道来自自己材料的问题，答完能直接回到需要重看的一页。",
+        "result": [
+          "**题目**。定时检查和变化提醒有什么区别？",
+          "**答题之后**。对照 N1，指出还缺的一点和要重看哪句。"
+        ],
+        "trial": "用下面的笔记考我。现在只出一道短题，等我回答。答完说哪些对上原文、漏了哪一点，该回到哪个来源。问题来自下面两条，先别给答案。\nN1 | 第 2 页 | 定时决定什么时候检查。变化提醒只在观察到的状态符合规则时发出。\nN2 | 第 4 页 | 事实要带原始记录，后续才能核对。",
+        "connected": "选一组读书或课程笔记，先确认一道题对你真有用，再定复习节奏。把没答全的主题留下，方便下次接着问。",
+        "verify": "第一轮只问，等你回答。批注能回到 N1 或 N2。答漏的地方能复习，而不凭空给分。",
+        "boundary": "理解到什么程度由你判断。最好能分清原资料和你自己的答题记录。",
+        "analysis": "一个做法是定期用读书清单提问，另一个是给同一主题变换学习深度。先问已经读过的东西，往后再按答题情况调难度。",
+        "variants": [
+          "从本周收藏或刚上完的一章出题。",
+          "隔一周把没答全的那题再问一遍，看看能不能说出理由。"
+        ]
+      }
+    },
+    {
+      "id": "draft-from-notes",
+      "group": "making",
+      "reuse": 2,
+      "first_run": 2,
+      "patterns": [
+        "capture-inbox",
+        "repeatable-workflow"
+      ],
+      "sources": [
+        "oc-podcast",
+        "oc-content",
+        "muse-video"
+      ],
+      "en": {
+        "title": "Writing and scripting · Turn rough material into a first draft",
+        "outcome": "An editable draft with its source notes and a short list of gaps to fill.",
+        "result": [
+          "**Lead.** A small change made the desk easier to reset [N1].",
+          "**Check with the editor.** N2 mentions less setup time but gives no measurement.",
+          "**Quote pending.** N3 needs permission for direct quotation."
+        ],
+        "trial": "Draft a short piece for readers setting up a shared workspace. Open with one concrete detail. Keep the voice plain. Tie each factual claim to a note ID. Add an editor-only checklist for missing support or approvals. No invented numbers or attributed quotes.\nN1 | field note | Labeling the shelf made it easier to return shared tools.\nN2 | participant comment | Setup seemed quicker, no time recorded.\nN3 | interview excerpt | Personal story can guide structure, quote permission pending.",
+        "connected": "Choose the material and a past piece that represents your voice. Keep the source-linked draft editable. For audio or video, make an outline or shot list first, then review before recording or rendering.",
+        "verify": "The draft uses N1 as the example, treats N2 as an observation, and leaves N3 as a permission check. A draft with blanks is valid.",
+        "boundary": "Review facts, attribution and the audience before sharing. Save the editor notes outside any public copy.",
+        "analysis": "The podcast and video examples both turn a rough idea into a work product an editor can revise. A script, outline or shot list is its own deliverable. It can be checked before final production.",
+        "variants": [
+          "Use interview notes for an article, or one idea plus constraints for a scene plan.",
+          "Keep one approved source draft to feed later edits or adaptations."
+        ]
+      },
+      "zh": {
+        "title": "稿件与脚本 · 把零散笔记做成能改的初稿",
+        "outcome": "一份可编辑初稿，事实能回到笔记，待补的内容留给你。",
+        "result": [
+          "**开头**。给架子贴标签，共用工具更容易归位 [N1]。",
+          "**待核对**。N2 只提到准备更快，没有计时。",
+          "**引用待确认**。N3 还没同意直接引用。"
+        ],
+        "trial": "为要整理共用工作区的人写一份短稿。用一个具体细节开头，语气平实。每个事实都能回到一个笔记编号。另列一份只给编辑看的待核对清单，包含缺证据和待授权。别补数字或发言。\nN1 | 观察 | 给架子贴标签之后，共用工具更容易放回去。\nN2 | 参与者反馈 | 感觉准备得更快，没有计时。\nN3 | 采访材料 | 个人经历可做结构参考，直接引用未获确认。",
+        "connected": "指定允许用的素材，也可以给一篇能代表自己口吻的旧稿。草稿留在你能改的地方。做音视频时先检查大纲或分镜，再录音或生成。",
+        "verify": "N1 是具体例子，N2 仍是感受，N3 留待授权。留空能让你知道下一步补什么。",
+        "boundary": "发出前由你核对事实、引用和受众。编辑备注另存，不跟着正文公开。",
+        "analysis": "播客和视频案例都把粗略想法先变成可以改的稿件。脚本、大纲或分镜有各自的完成标志，进入制作前就能先核对。",
+        "variants": [
+          "采访可以变成文章，想法加约束可以变成分镜。",
+          "经你确认的原稿可以继续拿去改写或准备发布。"
+        ]
+      }
+    },
+    {
+      "id": "publish-package",
+      "group": "making",
+      "reuse": 2,
+      "first_run": 1,
+      "patterns": [
+        "repeatable-workflow",
+        "capture-inbox"
+      ],
+      "sources": [
+        "oc-content",
+        "oc-podcast",
+        "oc-youtube-flow",
+        "muse-trip-share"
+      ],
+      "en": {
+        "title": "Publishing · Prepare the versions I can send out",
+        "outcome": "A review pack for each audience with its own copy, assets and outstanding checks.",
+        "result": [
+          "**Newsletter · ready for review.** Includes the full example and approved source [A1].",
+          "**Community update · ready for review.** Short text and a single takeaway.",
+          "**Image · hold.** No publication permission yet [A2]."
+        ],
+        "trial": "Prepare a review package for a newsletter and a community update. Use the same approved facts but write for each audience. For each version, include headline, text, assets, link and pending checks. Keep any unapproved asset out. Return drafts, no publishing.\nA1 | approved text | Shelf labels made it easier to return shared tools.\nA2 | internal photo | permission pending\nA3 | intended link | https://example.com/shared-workspace",
+        "connected": "Start from an approved source draft and a list of channels. Save each version and its asset checklist together. Check platform-specific length and format in the destination. After any approved publication, record the public link or receipt.",
+        "verify": "Both versions use A1 and A3. The shorter one has a clear point for its readers. A2 is held in both, and sending status stays at draft.",
+        "boundary": "Publishing needs your approval of the exact copy, destination and asset rights. Keep the confirmed public URL with the version that was sent.",
+        "analysis": "Content pipelines prepare different assets around the same topic. The itinerary-share example shows the same audience decision outside publishing: give each recipient the information they need. This scenario starts once the core content has been approved.",
+        "variants": [
+          "Prepare show notes, description and a short announcement from an approved episode.",
+          "Create a short project update and a fuller changelog from the same confirmed release notes."
+        ]
+      },
+      "zh": {
+        "title": "发布准备 · 一份稿备好几个渠道的版本",
+        "outcome": "一套逐渠道能审的文案、素材清单和待确认项。",
+        "result": [
+          "**邮件简报 · 待审**。完整例子来自已确认的 A1。",
+          "**社区更新 · 待审**。一条短文和一个要点。",
+          "**配图暂缓**。A2 还没有发布授权。"
+        ],
+        "trial": "用已确认的事实，为邮件简报和社区更新各备一版。按受众分别写标题、正文、要用的素材和链接，另列待确认。没有使用许可的素材先留在清单里。只交草稿，不发布。\nA1 | 已确认原文 | 给架子贴标签，共用工具更容易放回去。\nA2 | 内部照片 | 待授权\nA3 | 计划使用链接 | https://example.com/shared-workspace",
+        "connected": "先选一份已经确认的原稿和渠道。把各版文案和对应素材放在一起，去目标渠道核对字数和格式。得到批准且实际发布后，把发布链接或回执记下来。",
+        "verify": "两版都依据 A1 和 A3。短版说清一个要点。两版都把 A2 留在待确认，发布状态仍是草稿。",
+        "boundary": "发布前在目标渠道核对最终文案和素材授权，再确认发到哪里。保留发出的版本和公开链接。",
+        "analysis": "内容流程会为同一主题准备不同素材。旅行分享的案例也有同一个问题，给不同的人看时，保留他们需要的信息。这一页从已有确认稿开始。",
+        "variants": [
+          "把已确认的一期播客做成节目笔记、简介和短公告。",
+          "从同一份已确认改动说明，准备给用户的更新和给协作者的详细记录。"
+        ]
+      }
+    },
+    {
+      "id": "project-board",
+      "group": "making",
+      "reuse": 2,
+      "first_run": 2,
+      "patterns": [
+        "repeatable-workflow",
+        "scheduled-task"
+      ],
+      "sources": [
+        "oc-project-state",
+        "oc-dashboard",
+        "muse-spaces"
+      ],
+      "en": {
+        "title": "Project board · Which one is stuck and why?",
+        "outcome": "A persistent view of project status, blocker, next step and the event that changed it.",
+        "result": [
+          "**P1 · Waiting on images** [E2]. Next, confirm when the supplier can send them.",
+          "**P2 · Ready for review** [E3]. The draft is saved. It has not been published."
+        ],
+        "trial": "Update a preview of these project cards. Give each project its status, blocker, one next step and the evidence. Keep a locally ready item separate from a released item. Preserve the old state in history and ask about unclear ownership.\nP1 | project Docs | status In progress\nP2 | project Brief | status In progress\nE2 | P1 | supplier images missing, no delivery date\nE3 | P2 | draft available for review in shared folder, release not requested",
+        "connected": "Use one table, page or set of files as the main record. Give projects stable IDs. Confirm a proposed change before saving it. Share a derived view with only the fields other people need.",
+        "verify": "P1 changes to Waiting. P2 changes to Ready for review. Replay E2 and confirm the history contains one event. Reopening the board should show the reason without rereading the chat.",
+        "boundary": "The board summarizes evidence. A status such as Shipped needs a release receipt or a confirmation from the owner.",
+        "analysis": "The state-management recipe emphasizes an event history, and dashboards emphasize a current view. Keep both close enough that you can see what changed without rereading every message.",
+        "variants": [
+          "Track a few personal projects with a small next-step column.",
+          "Use a Muse Space or a plain table and make a brief from the same state at the start of the week."
+        ]
+      },
+      "zh": {
+        "title": "项目看板 · 哪件事卡住了，卡在哪",
+        "outcome": "一个能一直回看的项目面板，状态和原因都能追到出处。",
+        "result": [
+          "**P1 · 等图片** [E2]。下一步是问供应商预计哪天发。",
+          "**P2 · 待审** [E3]。草稿已经保存，发布还没安排。"
+        ],
+        "trial": "给这些项目卡做一份更新预览，每项写状态、阻塞、一个下一步和来源。草稿准备好和已经发布分开记。保留之前的状态，负责人不明就问我。\nP1 | 文档项目 | 进行中\nP2 | 简报项目 | 进行中\nE2 | P1 | 供应商图片没到，交付日未定\nE3 | P2 | 共享文件夹有可审草稿，未安排发布",
+        "connected": "用一张表、一个页面或一组文件作为主记录。项目有固定编号，确认后再保存更新。共享出去的视图只给对方需要看的字段。",
+        "verify": "P1 更新为等待，P2 更新为待审。重贴 E2，历史里仍只记一次。下次打开面板，还能直接看到卡住的原因。",
+        "boundary": "面板状态来自可以核对的材料。标成已上线、已交付前，回到发布回执或负责人确认。",
+        "analysis": "按事件管理状态的做法侧重变动历史，仪表盘侧重现在看见什么。把历史和面板接起来，既知道今天去哪处理，也知道上次为什么变。",
+        "variants": [
+          "给自己的几个项目只留一栏下一步，先在一周里试着更新。",
+          "用 Muse Space 或普通表格，周一从同一份状态生成一页简报。"
+        ]
+      }
+    },
+    {
+      "id": "agent-handoff",
+      "group": "making",
+      "reuse": 2,
+      "first_run": 1,
+      "patterns": [
+        "repeatable-workflow",
+        "capture-inbox"
+      ],
+      "sources": [
+        "oc-team",
+        "muse-handoff",
+        "muse-workflow-port"
+      ],
+      "en": {
+        "title": "Agent handoff · Pick up the project in a different session",
+        "outcome": "A portable handoff with the current artifact, checked result, limits and next action.",
+        "result": [
+          "**Artifact.** draft-v2.md [H1].",
+          "**Checked.** Preview opened and all three links worked locally [H2].",
+          "**Next.** Ask for a release review. No release receipt [H3]."
+        ],
+        "trial": "Write a handoff for the next session or tool. Include goal, artifact path, verified result and its limits, unresolved work, next step and permissions. Cite record IDs. Keep the next action reviewable and require fresh approval for outside writes.\nH1 | goal: publish a library page | latest artifact draft-v2.md\nH2 | local preview opened | 3 internal links checked\nH3 | review pending | no remote publication receipt",
+        "connected": "Put the handoff beside the output in a folder you can access later. Start a fresh session using only this note and the referenced files. Check what the next tool can read and which actions need a fresh grant.",
+        "verify": "The next session can find draft-v2.md and knows exactly what ran. It can explain what still needs review. The original result is preserved if it has to stop.",
+        "boundary": "Only pass material needed for the next job. A saved prompt or an earlier approval does not grant the next tool access automatically.",
+        "analysis": "One agent can produce a report and another can file it. You can also move the same routine to a different tool. Both depend on a visible handoff artifact and on stating what the next step may do.",
+        "variants": [
+          "Carry a brief and source list from research into drafting.",
+          "Transfer a project between tool sessions by sharing only the small set of documents and checked results."
+        ]
+      },
+      "zh": {
+        "title": "Agent 交接 · 换个会话，项目还能接着做",
+        "outcome": "一份能带走的交接记录，写清现在的产物、已核结果和下一步。",
+        "result": [
+          "**当前产物**。draft-v2.md [H1]。",
+          "**已核**。本地预览能打开，三个内部链接可点 [H2]。",
+          "**下一步**。请求审稿，暂无发布回执 [H3]。"
+        ],
+        "trial": "写一份下一次能用的交接。留下目标、产物位置、已核结果和范围、未完成事项、下一步以及权限，每项带记录编号。下一步要能复核，对外写入需要重新确认。\nH1 | 目标：发布资料页 | 当前产物 draft-v2.md\nH2 | 已打开本地预览 | 核对 3 个内部链接\nH3 | 等审稿 | 无线上发布回执",
+        "connected": "把交接存到产物旁边。换个会话，只拿这个说明和里面指向的文件开工。检查新工具能读哪里，哪些后续动作还需要授权。",
+        "verify": "下一次能找到 draft-v2.md，说清上回实际检查了什么和还有什么待审。中途停下来也能保住上次的结果。",
+        "boundary": "只交给下一步用得上的资料。迁移了提示词和说明后，仍要单独确认新工具的访问权限。",
+        "analysis": "一个 Agent 出简报，另一个负责归档。有时也会把整套流程迁到别的工具。都需要一份双方能看见的交接材料，以及说清后续能做什么。",
+        "variants": [
+          "把调研问题和来源清单交给写稿步骤。",
+          "跨会话接一个项目，只拿必要文件和已经核过的结果开工。"
+        ]
+      }
+    }
+  ]
+}

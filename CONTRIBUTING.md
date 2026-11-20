@@ -1,15 +1,19 @@
-# Add a use case / 提交玩法
+# Contribute / 贡献
 
-1. Look for a page that already covers the workflow. Add a source or a tested implementation there if it already fits.
-2. For a distinct workflow, add a page under `usecases/` and its Chinese counterpart under `zh-CN/usecases/`. Link the two pages and add one entry to each homepage.
-3. Show the output, include sample input and a copyable first run, then explain how to keep using it. Include a check for an empty result, a duplicate, or an uncertain input when it matters.
-4. Link the original source. For a reproduced setup, include the product/version, the input type, and what you saw. Label example data and untested setup options.
-5. Use fictional or redacted examples. For suggestions that change records or act on the user's behalf, show what the user reviews and how the result is confirmed.
+## English
+
+1. Start with a situation in the [index](README.md). Check whether the material leads to the same result and decision as an existing scene.
+2. Add or update a source and its scenario mapping in [data/catalog.json](data/catalog.json). Use one record for the same post and its mirrors. State what you read and whether the record is an author account, published output, recipe or collection summary.
+3. To add a scene, write both language entries with a fictional input, sample result, verification step and decision boundary. Reuse a [building block](BUILDER.md) where it fits.
+4. Run `python3 scripts/catalog.py` and `python3 scripts/catalog.py --check`. Review generated changes in both languages. If removing a scene, update its links and remove its generated pages in both languages.
+
+For a reproduced setup, include product and version, observed result and the receipt or output. Show what still requires the user to confirm.
 
 ## 中文
 
-1. 找找有没有同一套玩法。换了输入渠道或工具，通常可以在原页补来源或实测方法。
-2. 确实有一套新的用法时，在 `usecases/` 和 `zh-CN/usecases/` 各写一页。两页互链，并分别加到中英文首页。
-3. 先给结果，再给能直接试的输入和提示词。交代以后怎么用，挑一个容易出错的输入给读者核对。
-4. 链回原始材料，说明是样例、作者分享，还是自己跑过。实测请写清产品版本、输入和观察到的结果。
-5. 示例用虚构或脱敏素材。涉及改记录、对外发送或支付时，写清由谁确认，以及在哪里核对结果。
+1. 从[目录](README.zh-CN.md)里找原来的场景。新材料是不是还在回答同一个问题，最终交付和确认点是否一样？
+2. 在 [data/catalog.json](data/catalog.json) 里录入来源和对应场景。原帖和镜像只计一条。说明读到了什么，标清作者自述、公开产物、做法或合集摘要。
+3. 新增场景时补齐中英文，给虚构输入、样例结果、验收和确认边界。能复用的步骤链接到[搭建方法](zh-CN/BUILDER.md)。
+4. 执行 `python3 scripts/catalog.py` 更新页面，再用 `python3 scripts/catalog.py --check` 检查。两个语言版本一起核对。删除场景时也清理对应页与链接。
+
+提交实测时写清产品与版本、看见的结果和对应回执。让读者知道还有哪一步等本人确认。
