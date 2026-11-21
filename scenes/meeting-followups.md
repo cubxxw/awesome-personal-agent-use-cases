@@ -1,50 +1,47 @@
-# After a meeting · Who agreed to do what?
+# Follow-up list · Who agreed to do what?
 
 [Home](../README.md) · [简体中文](../zh-CN/scenes/meeting-followups.md)
 
-A reviewable list of decisions, confirmed work and questions still missing an owner.
+**A follow-up list Muse extracts from meeting notes: what the meeting decided, who promised what, by when, and which items still have no owner. It enters your task system only after you approve it — and then it is tracked to the end.**
 
-## Sample result
+## What you get
 
-- **Decision D1.** Keep the originals in the handoff folder.
-- **Action D2 · Ari · by 24 November.** Write the checklist draft.
-- **Pending D3.** Access needs checking. Owner and date are open.
+- **One list, three sections** — Decisions (settled in the meeting), Confirmed actions (who, what, by when — each with the verbatim source), and Open items (no owner or date yet, kept visible, never filled in on someone's behalf).
+- **No duplicate tasks** — re-run the same meeting from a revised transcript and the existing actions stay the same ones; only the differences are flagged for you.
+- **Honest states** — Draft, Approved, Filed in the task system, and Done are four different states. An action counts as filed only when the task system's own record shows it.
 
-## Try it with material you have
+## Give this to Muse
 
-Paste the full block below. The input is fictional.
+Paste the whole block into your Muse. It builds the follow-up flow, then runs it with you.
 
 ```text
-Make a follow-up draft with Decisions, Agreed actions and Open questions. Cite each input ID. Keep the exact owner and date for agreements. For unassigned work say they are open. Do not create tasks or send it yet.
-D1 | Team agreed to keep the original files in the handoff folder.
-D2 | Ari: I will draft the checklist by 2026-11-24.
-D3 | Someone should check the shared folder access.
+Turn my meeting notes into a follow-up list.
+
+Material: the transcript or notes I give you (the version I am authorized to use). Give each meeting a fixed ID so we can reconcile against it later.
+
+The list has three sections:
+1. Decisions — what the meeting actually settled.
+2. Confirmed actions — things someone explicitly agreed to: owner, task, due date, and the verbatim quote it came from. Owner and date exactly as said; if they were not said, leave them blank.
+3. Open items — raised but given no owner or date, with where they stalled.
+
+Rules:
+1. Draft first. Send nothing to anyone and create no tasks until I approve the list.
+2. On a re-run of the same meeting, compare against the existing list first: flag what is new or changed; never create a confirmed action twice.
+3. When notes are revised, diff the two versions and ask me before changing any existing task — never overwrite silently.
+
+Start now: ask me what form my notes take (transcript, written notes, or my dictation), then run the first list from my most recent meeting.
 ```
 
-## With a connected tool
+## How it runs
 
-Use an approved transcript or notes and give the meeting a stable ID. Review ownership and due dates before creating tasks. If the notes change, compare the draft with the previous version and update the existing task only when the change is confirmed.
-
-## How to check it
-
-D2 alone has both an owner and a deadline. D3 stays open. Running the same notes twice should not create duplicate follow-ups.
-
-## Decision boundary
-
-Drafting the list, sending it and creating destination tasks are separate states. Track a write as complete after its receipt is visible.
-
-## How the cases fit together
-
-The meeting recipe shows how to extract a proposed action. The project-state recipe explains where a confirmed action or blocker can live across later meetings.
-
-- Use the same draft format for a call transcript, a chat decision or handwritten meeting notes.
-- Keep action IDs when pushing an approved list to a board, so the meeting can be rerun.
+- **The list is the gate between talk and tasks** — what was said in the room lands here in writing first; only what survives your approval becomes a task, so spoken promises become checkable.
+- **Tracking returns to the same list** — before the next meeting, this list is the progress sheet: what landed, what slipped, visible at a glance.
 
 ## Sources
 
-- **Community recipe.** The recipe uses a transcript to identify decisions, owners and dates before handing work into a tracker. [Meeting notes and action items](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/meeting-notes-action-items.md)
-- **Community recipe.** The recipe records the state, reasoning, blockers and next actions with history. [Event-driven project state](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/project-state-management.md)
+- **Community recipe.** Meeting transcripts distilled into decisions, owners and due dates, then handed to a task system. [Extract action items from meeting notes](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/meeting-notes-action-items.md)
+- **Community recipe.** Project state updated by sourced events, with blockers and next steps traceable. [Update project state from events](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/project-state-management.md)
 
 ## Building blocks
 
-[Repeatable workflow](../usecases/repeatable-workflow.md) · [Capture inbox](../usecases/capture-inbox.md) · [Platform routes](../BUILDER.md)
+[Repeatable workflow](../usecases/repeatable-workflow.md) · [Capture inbox](../usecases/capture-inbox.md) · [Choosing a platform](../BUILDER.md)

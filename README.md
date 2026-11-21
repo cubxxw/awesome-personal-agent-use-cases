@@ -21,11 +21,11 @@ Start with something you need to do. Each scenario shows a result, gives you a s
 
 | Scenario | What you get |
 | --- | --- |
-| [Email and messages · Which ones need my reply today?](scenes/inbox-triage.md) | A short inbox list with urgent replies, items to review later and messages that need no action. |
-| [Documents and records · Find that invoice months later](scenes/file-filing.md) | A searchable file index with source, suggested folder and duplicates to review. |
-| [Before a meeting · Walk in with the context](scenes/meeting-prep.md) | A one-page brief with the last decision, what is unresolved and the question to ask next. |
-| [After a meeting · Who agreed to do what?](scenes/meeting-followups.md) | A reviewable list of decisions, confirmed work and questions still missing an owner. |
-| [Start the workday · What actually needs me today?](scenes/daily-plan.md) | A morning action list with time constraints, the next move and anything blocked. |
+| [Inbox triage · Which ones need my reply today?](scenes/inbox-triage.md) | A morning triage list Muse makes from your inbox: mail and messages sorted into reply today, read later, and waiting on material — each with its deadline, who is waiting on you, and what is missing. Replies are drafted first and sent only after you approve. |
+| [File cabinet · Find that invoice months later](scenes/file-filing.md) | A file cabinet Muse keeps for invoices, receipts, warranties and contracts: originals stay untouched while it builds a searchable index — which merchant, which date, how much, and where the original lives. Possible duplicates are flagged, never merged. |
+| [Pre-meeting card · Walk in with the context](scenes/meeting-prep.md) | A one-page card Muse prepares before each meeting: what was decided last time, what is still open, and the questions to ask this time — every line sourced, and proposals never dressed up as promises. |
+| [Follow-up list · Who agreed to do what?](scenes/meeting-followups.md) | A follow-up list Muse extracts from meeting notes: what was decided, who promised what, by when, and which items still have no owner. It enters your task system only after you approve it, then it is tracked to the end. |
+| [Morning action list · What actually needs me today?](scenes/daily-plan.md) | A morning action list Muse lays out daily: one main thread, at most three items, each with a start time, a next step and what it is blocked on. Waiting-on-others items sit in their own area, and the same list closes out at night — done, carried over, or dropped. |
 
 ## Learning
 

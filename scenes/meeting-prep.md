@@ -1,51 +1,48 @@
-# Before a meeting · Walk in with the context
+# Pre-meeting card · Walk in with the context
 
 [Home](../README.md) · [简体中文](../zh-CN/scenes/meeting-prep.md)
 
-A one-page brief with the last decision, what is unresolved and the question to ask next.
+**A one-page card Muse prepares before each meeting: starting from the calendar event, it pulls together what was decided last time, what is still open, and the questions to ask this time. Three minutes before you walk in — no digging through chat history.**
 
-## Sample result
+## What you get
 
-- **Confirmed · M1.** The first demo uses a single page.
-- **Open · M2.** No decision on who supplies the images.
-- **Ask in B1.** Who owns the images and by when?
+- **One page, three sections** — Decided (confirmed at the last meeting), Open (not yet settled, nobody owning it), and Ask this time (the key questions drawn from the open items). Every line carries its source, one tap back to the original.
+- **Proposals never dressed up as promises** — "I could maybe do it" is recorded as a proposal, never as a commitment. Every claim on the card is labeled for what it actually was.
+- **Project meetings and one-on-ones alike** — project meetings draw on notes and project messages; meeting a person draws on their contact dossier (see Personal CRM). Same card either way.
 
-## Try it with material you have
+## Give this to Muse
 
-Paste the full block below. The input is fictional.
+Paste the whole block into your Muse. It builds the card flow, then runs it with you.
 
 ```text
-Prepare a one-page brief for B1. Include confirmed decisions, unresolved points and one question to ask. Cite the source ID for each. Keep proposals separate from commitments. Use only the material below.
-B1 | 2026-11-24 14:00 | Website demo review
-M1 | latest meeting notes | Agreed to use a single page for the first demo.
-M2 | project message | I could perhaps make the images. Need to verify who owns them.
+Prepare a pre-meeting card for my calendar meetings automatically.
+
+Trigger: for the meetings I name (or all of them), generate one card at the lead time I set before each meeting.
+
+The card holds:
+1. Decided — decisions confirmed in recent notes and messages, each with source and date.
+2. Open — things raised but never settled or never given an owner, stated plainly with where they stalled.
+3. Ask this time — the most important open items, written as questions I can ask out loud.
+
+Rules:
+1. Use only material I authorize you to read: this project's notes and messages, plus contact dossiers when needed. If it is not in the material, it does not go on the card.
+2. Label proposals, intentions and commitments separately. "Maybe I can do it" is a proposal — never write it as a promise.
+3. The card is for me. Anything going out to others (an agenda, pre-reads) is a separate draft for my approval.
+
+Start now: ask me which meetings get cards and how far ahead, then generate the first one for my next meeting.
 ```
 
-## With a connected tool
+## How it runs
 
-Use one event as the starting point. Read only the relevant project notes and messages, and add the contact card if it helps. Try generating the brief once before setting a delivery time.
-
-## How to check it
-
-M1 remains confirmed. M2 does not get an assigned owner. The brief links back to the project event.
-
-## Decision boundary
-
-Use a private brief by default. Review any follow-up draft and recipients separately.
-
-## How the cases fit together
-
-The project demo groups material by decisions and responsibilities. The CRM approach adds context about the person. Both feed an event-specific brief while the underlying facts stay in their own records.
-
-- A project review can focus on what changed and what needs a decision.
-- A one-to-one can focus on a shared commitment, the last conversation and one open question.
+- **The card follows the calendar** — a meeting moves, the card moves with it; a cancelled meeting produces no card.
+- **Better material, shorter cards** — the notes and contact dossiers underneath are the fuel; the fuller they are, the shorter and sharper this card gets.
 
 ## Sources
 
-- **Collection summary.** A project-test demonstration framed the brief around completed work, decisions and responsibilities. A mail draft was held for review. [Muse #313 - Prepare a project meeting from calendar and email](https://github.com/jaxxchen003/muse-use-cases/blob/7390b4db83fa2687aa8cefb9ec1420ca9a65eb4a/README.md#L1823-L1828) · [Original post](https://www.instagram.com/reel/DfbnVYAzxfd/)
-- **Product guide.** Town's guide describes time-and-context-based preparation. The guide documents a setup path. [Town's meeting prep and routines](https://www.town.com/docs/features/routines)
-- **Community recipe.** The recipe combines contacts, interaction history and meeting preparation. [OpenClaw Personal CRM](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/personal-crm.md)
+- **Collection summary.** Three sections of pre-meeting material from calendar and mail, with mail left for the author to approve. [Muse #313 - Pre-meeting material from calendar and email](https://github.com/jaxxchen003/muse-use-cases/blob/7390b4db83fa2687aa8cefb9ec1420ca9a65eb4a/README.md#L1823-L1828) · [Original post](https://www.instagram.com/reel/DfbnVYAzxfd/)
+- **Product practice.** An official routine for preparing meeting material from time and context. [Town's meeting prep and routines](https://www.town.com/docs/features/routines)
+- **Community recipe.** People, interaction history and pre-meeting lookup in one contacts library. [OpenClaw personal CRM](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/personal-crm.md)
 
 ## Building blocks
 
-[Durable contact record](../usecases/personal-crm.md) · [Scheduled delivery](../usecases/scheduled-task.md) · [Repeatable workflow](../usecases/repeatable-workflow.md) · [Platform routes](../BUILDER.md)
+[Personal CRM](../usecases/personal-crm.md) · [Scheduled task](../usecases/scheduled-task.md) · [Repeatable workflow](../usecases/repeatable-workflow.md) · [Choosing a platform](../BUILDER.md)

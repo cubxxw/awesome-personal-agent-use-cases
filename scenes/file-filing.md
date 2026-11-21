@@ -1,51 +1,45 @@
-# Documents and records · Find that invoice months later
+# File cabinet · Find that invoice months later
 
 [Home](../README.md) · [简体中文](../zh-CN/scenes/file-filing.md)
 
-A searchable file index with source, suggested folder and duplicates to review.
+**A file cabinet Muse keeps for the documents you will need again — invoices, receipts, warranties, contracts. Originals stay untouched; it builds a searchable index: which merchant, which date, how much, and where the original lives. Months later, one question brings it back.**
 
-## Sample result
+## What you get
 
-- **F1 · Software**. Keep its source message and amount CNY 90.
-- **F2 · Possible duplicate of F1.** Same invoice number. Compare the files.
-- **F3 · Review.** The scan is hard to read.
+- **A searchable index** — one row per file: name, merchant, date, amount, category, and where the original is. Ask by merchant, amount or month.
+- **Preview before filing** — first a destination list: which file should go to which folder. Only after you approve does it copy anything; originals are always kept.
+- **Duplicate alerts** — the same invoice arriving from two inboxes (same number, same amount) is flagged "possible duplicate" for you to compare. Nothing is merged or deleted automatically.
 
-## Try it with material you have
+## Give this to Muse
 
-Paste the full block below. The input is fictional.
+Paste the whole block into your Muse. It builds the cabinet, then runs it with you.
 
 ```text
-Draft an index for these receipts. Include filename, vendor, date, total, source ID and suggested folder. Show possible duplicates and uncertain fields. Keep each original. Open no external links and make no file changes.
-F1 | april.pdf | Paper Cloud | no. PC-41 | 2026-04-12 | CNY 90 | invoice email
-F2 | forwarded.pdf | Paper Cloud | no. PC-41 | 2026-04-12 | CNY 90 | forwarded copy
-F3 | scan.pdf | vendor and amount unreadable | uploaded photo
+Build me a file cabinet. Index first — do not move any originals.
+
+Scope: the inbox or folders I name, read-only. Look for the files I will need again: invoices, receipts, warranties, contracts.
+
+Each index row records: file name, merchant, date, amount, category, source (which message, which folder), and where the original lives. A field you cannot read is marked "to check" — never guess it.
+
+Rules:
+1. Possible duplicates — same invoice number, or same merchant + date + amount — are flagged for me to compare. Never merge them, never delete either copy.
+2. Filing starts with a preview: a suggested folder for every file. Only after I approve the whole list do you copy files over. Originals stay where they are; the index records the new location.
+3. Moving and deleting are separate permissions. Approving a filing is not permission to delete an original.
+
+Start now: ask me which inbox or folder to start with, then show me an index preview.
 ```
 
-## With a connected tool
+## How it runs
 
-Search within one approved folder or mailbox and first preview a source-to-destination list. Move copies only after checking destinations and retaining a way back to the original source.
-
-## How to check it
-
-F1 and F2 are flagged for comparison and not silently merged. F3 is visible for review. Verify one file by finding it from the index without looking in the original inbox.
-
-## Decision boundary
-
-File access, relocation and deletion have different effects. Approve moves in advance and leave originals available.
-
-## How the cases fit together
-
-The invoice cases show filing across inboxes or around a single business topic. The email-retrieval account adds an earlier step: pull likely candidates first, then inspect the text before filing.
-
-- Switch to warranties, purchase confirmations or other documents you may need later.
-- For a folder already full of files, create the index first and reorganize only if retrieval improves.
+- **Index first, tidying second** — however messy the folders are, the index already makes things findable; reorganizing the folders never blocks using it.
+- **New files file themselves** — a new receipt or warranty gets an index row as it arrives, so the cabinet never goes stale.
 
 ## Sources
 
-- **Author account.** The author reports reading invoices from multiple mailboxes and classifying PDFs into a local filing scheme. [An author reports filing PDF invoices](https://www.reddit.com/r/openclaw/comments/1s5z1xp/i_gave_my_mac_mini_a_brain_a_security_system_and/)
-- **Collection summary.** The collection describes email search and filing for one business context. It does not supply the actual folder or files. [Muse #356 - File receipts for a small stall](https://github.com/jaxxchen003/muse-use-cases/blob/7390b4db83fa2687aa8cefb9ec1420ca9a65eb4a/README.md#L1942-L1946)
-- **Author account.** The author retrieved candidates by query and classified the message bodies separately. [Retrieving email candidates before classification](https://moontowermeta.com/unlocking-my-email-with-ai/amp/)
+- **Author account.** PDF invoices pulled from several inboxes and filed under the author's own categories. [Filing PDF invoices from email](https://www.reddit.com/r/openclaw/comments/1s5z1xp/i_gave_my_mac_mini_a_brain_a_security_system_and/)
+- **Collection summary.** Receipts for one small business extracted from mail and filed. [Muse #356 - File a small business's receipts from email](https://github.com/jaxxchen003/muse-use-cases/blob/7390b4db83fa2687aa8cefb9ec1420ca9a65eb4a/README.md#L1942-L1946)
+- **Author account.** Keyword search first for candidates, then full-text reading to classify. [Find candidates in email first, then judge what they are](https://moontowermeta.com/unlocking-my-email-with-ai/amp/)
 
 ## Building blocks
 
-[Capture inbox](../usecases/capture-inbox.md) · [Repeatable workflow](../usecases/repeatable-workflow.md) · [Platform routes](../BUILDER.md)
+[Capture inbox](../usecases/capture-inbox.md) · [Repeatable workflow](../usecases/repeatable-workflow.md) · [Choosing a platform](../BUILDER.md)
