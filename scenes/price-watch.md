@@ -1,49 +1,44 @@
-# Shopping and tickets · Tell me when it fits my budget
+# Price watch · Tell me when it fits my budget
 
 [Home](../README.md) · [简体中文](../zh-CN/scenes/price-watch.md)
 
-A timestamped alert for a comparable offer, with the full price and a link to inspect.
+**A price watch Muse runs for you: you fix the conditions — what it is, which spec, and the all-in price ceiling — and it checks on schedule. It calls you only when an offer truly qualifies, and stays silent otherwise. Buying is always your move.**
 
-## Sample result
+## What you get
 
-- **Q2 matches.** Four seats together in section L, CNY 480 including fees.
-- **Q3 needs a check.** The seller shows a base price but no total fee.
+- **One alert when it qualifies** — price, spec, check time and the original page link, so you can verify and decide on the spot.
+- **Only real matches count** — wrong seat count, wrong section, fees not yet counted: none of that is a hit. Offers with missing fields land in a "to check" list instead of being dressed up as deals.
+- **A check log** — every check and its result is recorded, failed checks included, so you can see the watch is actually awake.
 
-## Try it with material you have
+## Give this to Muse
 
-Paste the full block below. The input is fictional.
+Paste the whole block into your Muse. It builds the watch, then runs it with you.
 
 ```text
-Check one batch of offers. I need four adjacent seats in section L, at no more than CNY 500 including all fees. Keep the offer ID and latest observed time. Return a match only when the criteria are visible. Put incomplete offers separately. Do not reserve or buy.
-Q1 | 10:00 | 3 adjacent section L | CNY 420 incl. fees
-Q2 | 10:05 | 4 adjacent section L | 4 x CNY 110 + CNY 40 total fees
-Q3 | 10:06 | 4 adjacent section L | CNY 440 before fees | fees unknown
+Build me a price watch.
+
+First, fix the conditions with me: what we are watching (tickets, a flight, a product), the spec conditions (section, seat count, model, route and stop rules), the all-in price ceiling including every fee, and the last day to keep watching. If the conditions are not fully fixed, do not start checking.
+
+Rules:
+1. Check at the frequency we agree on, and log the time and result of every check. A failed check is logged too — never pretend you checked.
+2. Only when every condition holds — right spec, all-in total at or under the ceiling — mark it a "hit" and alert me once, with the original page link.
+3. Offers with missing fields (a headline price with unknown fees, say) go to "to check", never to hits.
+4. One alert per hit. A new qualifying option earns a new alert.
+5. You watch and report only — never book, never order. Before paying I will open the page myself and verify stock, price and terms.
+
+Start now: ask me what to watch, fix the conditions one by one, then run the first check.
 ```
 
-## With a connected tool
+## How it runs
 
-Pick a source that exposes all comparison fields and an end date for the watch. Try one read. Recheck a matching offer on its own page before acting. If you schedule checks, notify once per materially changed match.
-
-## How to check it
-
-Q2 is the only hit. Q1 is the wrong quantity, and Q3 remains incomplete. An inaccessible listing should be visible as a failed check.
-
-## Decision boundary
-
-An alert is a lead. Check inventory and terms yourself before paying.
-
-## How the cases fit together
-
-Tickets and flights can share one watch rule once comparable terms are defined. One air-travel example also records a hit that never secured a seat, so the card needs a separate purchase state.
-
-- For flights, include route, stops, traveler count and required baggage in the comparable price.
-- For a saved product, match the exact model before looking at shipping and price.
+- **A hard threshold and silence otherwise** — on days nothing qualifies you hear nothing; when it speaks, there is a qualifying option.
+- **Alerts and purchases stay separate** — the watch reports a lead. Whether it can actually be bought, and on what terms, is settled on the page you open before paying.
 
 ## Sources
 
-- **Collection summary.** The watch combined a seat count, section and budget. A match and a completed purchase are separate steps. [Muse #162 - Watch four seats within a budget](https://github.com/jaxxchen003/muse-use-cases/blob/7390b4db83fa2687aa8cefb9ec1420ca9a65eb4a/README.md#L1057-L1062) · [Original post](https://x.com/BradyHannaKC/status/2112961536168005898)
-- **Collection summary.** The collection describes an alert and an unsuccessful standby attempt. A hit can be useful without securing inventory. [Muse #377 - A direct flight alert that did not secure a seat](https://github.com/jaxxchen003/muse-use-cases/blob/7390b4db83fa2687aa8cefb9ec1420ca9a65eb4a/README.md#L896-L901) · [Original post](https://www.facebook.com/yourbossbaesteph/posts/pfbid037xRCh2jX5qXJjYEJ6Y3kGBYhqemmHzoUSWpozcxxGxSLotH8F1j84htxwkCkrYWRl)
+- **Collection summary.** Watch conditions pinning seat count, section and all-in total at once. [Muse #162 - Watch four seats together in one section](https://github.com/jaxxchen003/muse-use-cases/blob/7390b4db83fa2687aa8cefb9ec1420ca9a65eb4a/README.md#L1057-L1062) · [Original post](https://x.com/BradyHannaKC/status/2112961536168005898)
+- **Collection summary.** A nonstop alert arrived but the standby seat was not won — an alert and a purchase are different things. [Muse #377 - Nonstop alert, standby missed](https://github.com/jaxxchen003/muse-use-cases/blob/7390b4db83fa2687aa8cefb9ec1420ca9a65eb4a/README.md#L896-L901) · [Original post](https://www.facebook.com/yourbossbaesteph/posts/pfbid037xRCh2jX5qXJjYEJ6Y3kGBYhqemmHzoUSWpozcxxGxSLotH8F1j84htxwkCkrYWRl)
 
 ## Building blocks
 
-[Change watch](../usecases/change-watch.md) · [Scheduled delivery](../usecases/scheduled-task.md) · [Platform routes](../BUILDER.md)
+[Change watch](../usecases/change-watch.md) · [Scheduled task](../usecases/scheduled-task.md) · [Choosing a platform](../BUILDER.md)

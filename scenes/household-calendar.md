@@ -1,44 +1,39 @@
-# Family and routines · Who needs to be where this week?
+# Family schedule board · Who needs to be where this week?
 
 [Home](../README.md) · [简体中文](../zh-CN/scenes/household-calendar.md)
 
-A shared week view with confirmed events, clashes and pickups still to arrange.
+**A household schedule board Muse maintains for the whole family: school notices, group messages and shared calendars merged into one week view covering everyone's plans, changes, clashes and who is doing each pickup. Changes come to you for confirmation before anything is written to the calendar.**
 
-## Sample result
+## What you get
 
-- **24 November at 15:00 · Music practice** [S2, replacing S1].
-- **Pick-up needs a decision.** The only assigned adult is already booked [C1].
+- **One week view for the whole family** — everyone's plans on one page: time, place, and who handles each pickup, readable at a glance.
+- **Changes and clashes surfaced first** — when an organizer moves a time, the old plan is marked superseded and the new one takes its place; two things at the same time, and pickups nobody has claimed, are listed separately for you.
+- **A daily notice digest** — new notices from school groups and inboxes collected into a few lines, split into "needs action" and "just so you know".
 
-## Try it with material you have
+## Give this to Muse
 
-Paste the full block below. The input is fictional.
+Paste the whole block into your Muse. It builds the board, then runs it with you.
 
 ```text
-Make a household list for the week of 23 November. Show the latest confirmed schedule, conflicts, and unassigned pickups. Keep a source ID on each item. If an organizer explicitly changes a date, mark the old entry superseded. Produce a preview only.
-S1 | music practice | 2026-11-23 15:00 | original notice
-S2 | music practice moved to 2026-11-24 15:00 | confirmed by organizer
-C1 | 2026-11-24 14:30-16:00 | assigned adult has a call
-C2 | music practice | pick-up needed | no alternate owner
+Build me a family schedule board called "Family schedule".
+
+Sources: the shared calendars I authorize you to read, and the inbox or group messages I name. When a notice brings a new plan or a change, propose it to me first — never edit the calendar directly.
+
+Rules:
+1. One week view: list the week by person — date and time, event, place, who handles the pickup. Tag each item with its source (which notice, which calendar).
+2. Changes follow the organizer's latest confirmation: the new plan takes effect, the old record is marked "superseded", never deleted, so it stays checkable.
+3. Clashes get their own list: one person with two things at the same time, a pickup that collides with another commitment, a pickup nobody has claimed. Never commit anyone on their behalf.
+4. "A notice arrived" and "it is confirmed on the calendar" are two different states — record them separately. Before writing to a shared calendar or forwarding anything to the family, show me first; act only after I confirm.
+5. Every day, collect new notices into a short digest: changes first, announcements after.
+
+Start now: set up the board, then ask me which calendar and which inbox to connect first.
 ```
 
-## With a connected tool
+## How it runs
 
-Connect a calendar or shared inbox you’re allowed to read. Extract dates from notices before proposing a shared-calendar change. An adult reviews changed times, conflicts and who can do the pickup.
-
-## How to check it
-
-S2 supersedes S1. The 24 November conflict appears once. C2 remains unassigned and should not become a presumed commitment.
-
-## Decision boundary
-
-Ask before updating a shared calendar or forwarding private material. Treat a notice and a confirmed calendar event as separate records.
-
-## How the cases fit together
-
-A school-message digest and a shared calendar both reduce repeated checking. The digest collects what changed. The week view reconciles that against existing commitments.
-
-- Summarize the notices once a day so someone can pick out the items that need action.
-- Use a weekly view with time, destination and pickup owner to catch overlaps.
+- **Intake comes from connections, not from you forwarding things** — once calendars and inboxes are connected, new notices flow in; you only handle the changes and clashes it surfaces.
+- **The week view is the family's single version** — changes, clashes and pickups all reconcile on this one page instead of everyone re-reading their own chats.
+- **People keep the final say** — Muse finds and proposes; family members decide what goes on the calendar, who takes a pickup, and what gets forwarded.
 
 ## Sources
 

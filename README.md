@@ -10,12 +10,12 @@ Start with something you need to do. Each scenario shows a result, gives you a s
 
 | Scenario | What you get |
 | --- | --- |
-| [Family and routines · Who needs to be where this week?](scenes/household-calendar.md) | A shared week view with confirmed events, clashes and pickups still to arrange. |
-| [Bills and subscriptions · Tell me before I’m charged again](scenes/renewal-ledger.md) | A renewal shortlist with the next date, billing channel and notice for each decision. |
+| [Family schedule board · Who needs to be where this week?](scenes/household-calendar.md) | A schedule board Muse maintains for the whole family: school notices, group messages and shared calendars merged into one week view covering everyone's plans, changes, clashes and pickups — changes reach you for confirmation before anything hits the calendar. |
+| [Subscription ledger · Tell me before I'm charged again](scenes/renewal-ledger.md) | A subscription ledger Muse keeps for you: what you subscribe to, which channel charges you, how much, when the next charge lands, and whether you're paying twice — it calls you before the money leaves, and keep-or-cancel is your call. |
 | [Personal CRM · Friends and contacts](scenes/personal-crm.md) | A contacts library Muse maintains for you: one page per person covering channels, relationships and status, birthdays and greetings, and what you promised — plus a pre-meeting card before you meet. |
-| [Home and repairs · Find who fixed it last time](scenes/home-repair.md) | The right work order, a contact lead to verify and any missing details for a new quote. |
-| [Travel · Put all the bookings on one page](scenes/trip-brief.md) | A trip sheet with local times, confirmation sources and the gaps to check before leaving. |
-| [Shopping and tickets · Tell me when it fits my budget](scenes/price-watch.md) | A timestamped alert for a comparable offer, with the full price and a link to inspect. |
+| [Repair records · Find who fixed it last time](scenes/home-repair.md) | Repair records Muse keeps for your home: each appliance's model, who fixed it last time, what it cost, and when the warranty ends — when something breaks, the last technician and work order are in front of you. |
+| [Trip sheet · Every booking on one page](scenes/trip-brief.md) | A trip sheet Muse assembles for you: flight, hotel and transfer confirmations merged into one page sorted by local time, covering every leg's time, place and anything still unconfirmed — plus a dates-and-places-only copy for sharing. |
+| [Price watch · Tell me when it fits my budget](scenes/price-watch.md) | A price watch Muse runs for you: you fix the conditions — what it is, which spec, the all-in price ceiling — and it checks on schedule, calling you only when an offer truly qualifies and staying silent otherwise. Buying is always your move. |
 
 ## Work
 

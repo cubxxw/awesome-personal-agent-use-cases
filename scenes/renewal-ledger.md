@@ -1,54 +1,47 @@
-# Bills and subscriptions · Tell me before I’m charged again
+# Subscription ledger · Tell me before I'm charged again
 
 [Home](../README.md) · [简体中文](../zh-CN/scenes/renewal-ledger.md)
 
-A renewal shortlist with the next date, billing channel and notice for each decision.
+**A subscription ledger Muse keeps for you: what you subscribe to, which channel charges you, how much, when the next charge lands, and whether you are paying twice. It calls you before the money leaves — keep or cancel is your call.**
 
-## Sample result
+## What you get
 
-- **24 November · Paper Cloud · CNY 48**. Decide whether to renew. A two-day lead time puts the reminder on 22 November [A2].
-- **Video Pass · check for overlap.** Two channels appear in B1 and B2. Confirm the accounts.
-- **Studio trial · date unknown.** Ask for the next charge date. Evidence T1.
+- **One table of everything you pay for** — one row per service: paying account, the actual billing channel, amount and currency, next charge date, and where the original notice is. Past charges and future charges recorded separately.
+- **A warning before each charge** — two days ahead by default (adjustable), with what it costs, through which channel, and whether you have actually been using it.
+- **Duplicate-subscription alerts** — the same service billed through two channels (an app store copy and a website copy, say) gets flagged on its own so you can check the accounts. This is how double payments hide.
 
-## Try it with material you have
+## Give this to Muse
 
-Paste the full block below. The input is fictional.
+Paste the whole block into your Muse. It builds the ledger, then runs it with you.
 
 ```text
-Use these notices to build a subscription ledger as of 2026-11-20.
-Show the confirmed charges due by 2026-11-27 and preview reminders two days ahead. Put missing dates and possible overlaps in a review section. Record the actual billing channel and cite an input ID for every row. Keep evidence of past charges separate from future dates. Propose next steps here only.
-A1 | Paper Cloud | website | charge on 2026-10-24 | CNY 48
-A2 | Paper Cloud | website | next renewal 2026-11-24 | CNY 48
-B1 | Video Pass | app store | active | next charge 2026-12-02
-B2 | Video Pass | video bundle | active | next charge 2026-12-09
-T1 | Studio trial | welcome message | charge date unknown
+Build me a subscription ledger called "Subscriptions and bills".
+
+Scan the receipt inbox I name, read-only. Start with the last two billing cycles of receipts to find what is still renewing, then use renewal notices to pin down each service's next charge date.
+
+Each row records: service name, paying account, the actual billing channel, amount and currency, next charge date, and the source notice. A date you cannot find stays "to confirm" — never guess one.
+
+Rules:
+1. If one service shows two billing channels, flag it "possible duplicate" and remind me to check the accounts. Never merge them on your own.
+2. Remind me two days before each charge (I can change the lead time), with the amount, the channel, and recent actual usage if you know it.
+3. When I decide to cancel, record "decided to cancel". Only when the provider confirms does it become "cancelled". A refund counts only when the payment record shows it arrived; until then it stays on the ledger.
+4. The same notice arriving twice still produces one row.
+
+Start now: set up the ledger, then ask me which inbox to scan and how far back.
 ```
 
-## With a connected tool
+## How it runs
 
-Search one approved mailbox for receipts and renewal notices in an agreed date range. Save the service, account, billing channel, currency, next date and source in a table you control. Send one test reminder for a confirmed date before enabling a recurring check.
-
-## How to check it
-
-A2 alone goes in the coming week, with a reminder preview for 22 November. B1 and B2 are two records with a possible overlap. T1 has no invented date. Import A2 twice and check that the same notice is recorded once.
-
-## Decision boundary
-
-You decide what to keep or cancel. Record a cancellation only after the billing provider confirms it. Record a refund after the payment record shows it.
-
-## How the cases fit together
-
-The receipt search, duplicate-charge report and cancellation flow all need the same subscription record. They describe different states of that record. A receipt proves a past charge. A renewal notice supports a future date. A cancellation confirmation can change the status.
-
-- Use two past receipts to find a possible recurring charge. Follow up for the actual renewal date.
-- Use the same table for membership expiry or a return deadline. Swap the decision and keep the date and its source.
+- **Receipts and notices feed it** — a new receipt arrives and the ledger grows itself; you never have to remember to log a subscription.
+- **The reminder is its only noise** — no charge coming up, no message. When it speaks, money is about to leave.
+- **Decision and execution stay separate** — you said cancel, the provider confirmed, the refund landed: three different facts, and the ledger keeps them apart.
 
 ## Sources
 
-- **Collection summary.** The collection attributes one forgotten renewal to a six-month receipt review. Entries 17 and 213 describe the same account. [Muse #213 - Find a recurring charge in the receipts](https://github.com/jaxxchen003/muse-use-cases/blob/7390b4db83fa2687aa8cefb9ec1420ca9a65eb4a/README.md#L386-L391) · [Original post](https://x.com/idobn/status/2097570513107272175)
-- **Collection summary.** The reported duplicate used two billing channels. The account and billing channel belong in the ledger even when the service name matches. [Muse #334 - One service paid through two channels](https://github.com/jaxxchen003/muse-use-cases/blob/7390b4db83fa2687aa8cefb9ec1420ca9a65eb4a/README.md#L519-L524) · [Original post](https://www.threads.com/@jamiancpolk/post/Dfk4Qj0kQht)
-- **Collection summary.** The collection describes a read-only audit followed by selected cancellations and a dashboard update. It leaves the refund outcome open. [Muse #317 - Subscription list followed by cancellation review](https://github.com/jaxxchen003/muse-use-cases/blob/7390b4db83fa2687aa8cefb9ec1420ca9a65eb4a/README.md#L505-L510) · [Original post](https://www.facebook.com/reel/1471540751575508/)
+- **Collection summary.** Six months of receipts mined for forgotten subscriptions. [Muse #213 - Find renewing subscriptions in past receipts](https://github.com/jaxxchen003/muse-use-cases/blob/7390b4db83fa2687aa8cefb9ec1420ca9a65eb4a/README.md#L386-L391) · [Original post](https://x.com/idobn/status/2097570513107272175)
+- **Collection summary.** One service billed through two channels — a real case. [Muse #334 - One service, two billing channels](https://github.com/jaxxchen003/muse-use-cases/blob/7390b4db83fa2687aa8cefb9ec1420ca9a65eb4a/README.md#L519-L524) · [Original post](https://www.threads.com/@jamiancpolk/post/Dfk4Qj0kQht)
+- **Collection summary.** List every subscription first, then confirm cancellations one by one. [Muse #317 - List subscriptions, then confirm each cancellation](https://github.com/jaxxchen003/muse-use-cases/blob/7390b4db83fa2687aa8cefb9ec1420ca9a65eb4a/README.md#L505-L510) · [Original post](https://www.facebook.com/reel/1471540751575508/)
 
 ## Building blocks
 
-[Date ledger](../usecases/renewal-ledger.md) · [Scheduled delivery](../usecases/scheduled-task.md) · [Capture inbox](../usecases/capture-inbox.md) · [Platform routes](../BUILDER.md)
+[Date ledger](../usecases/renewal-ledger.md) · [Scheduled task](../usecases/scheduled-task.md) · [Capture inbox](../usecases/capture-inbox.md) · [Choosing a platform](../BUILDER.md)

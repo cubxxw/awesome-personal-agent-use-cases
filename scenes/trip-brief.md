@@ -1,50 +1,43 @@
-# Travel · Put all the bookings on one page
+# Trip sheet · Every booking on one page
 
 [Home](../README.md) · [简体中文](../zh-CN/scenes/trip-brief.md)
 
-A trip sheet with local times, confirmation sources and the gaps to check before leaving.
+**A trip sheet Muse assembles for you: flight, hotel and transfer confirmations scattered across email and apps, merged into one page sorted by local time — every leg's time, place, and anything still unconfirmed. On the road, this is the only page you open.**
 
-## Sample result
+## What you get
 
-- **11 December, 06:20 JST · Arrival** [F1].
-- **Hotel date to check.** Booking H1 begins on 10 December, before local arrival.
-- **Transfer pending.** T1 gives a pickup day and no confirmed time.
+- **One complete trip sheet** — every leg in local date-and-time order, time zones explicit: flights, stays, pickups, rentals, each with its booking source.
+- **Problems surfaced before you leave** — a hotel check-in dated before you arrive, a pickup with a day but no time, a connection that is too tight: listed for you up front, not discovered at the airport.
+- **A shareable copy** — for a host, family or a driver, the same sheet generates a short version: dates and places only, no booking references, prices or travel companions.
 
-## Try it with material you have
+## Give this to Muse
 
-Paste the full block below. The input is fictional.
+Paste the whole block into your Muse. It builds the sheet, then runs it with you.
 
 ```text
-Make a trip sheet from these confirmations. Sort by local date and time, preserve time zones and source IDs, and flag any dates that might conflict. Add a guest-facing version with dates and places only. Do not modify a booking.
-F1 | depart 2026-12-10 22:40 SGT | arrive 2026-12-11 06:20 JST | flight confirmed
-H1 | check-in 2026-12-10 15:00 JST | Central Hotel | confirmed
-T1 | 2026-12-11 JST | station pickup | time pending
+Assemble this trip's bookings into one trip sheet for me.
+
+Find the material in the trip inbox or folder I name: flight, hotel and transfer confirmations and screenshots — only the ones belonging to this trip.
+
+Rules:
+1. Sort every leg by its local date and time, tag each with its time zone and source. Booking references and prices go only in the full version.
+2. Anything that does not line up gets its own "to confirm" list: conflicting dates, a date with no time, a connection that is clearly too tight. Surface them; never paper over them with an assumption.
+3. The full version is for me. When I need to send it to someone, generate the shareable version from it: dates, places, and only what that person needs.
+4. Ask me before changing any booking. The sheet assembles and warns; it never touches an order.
+
+Start now: ask me where I am going and when, then tell me which bookings you found in the inbox.
 ```
 
-## With a connected tool
+## How it runs
 
-Read the trip’s confirmation emails or files and link only the entries that belong to that trip. Make the personal trip sheet first. Review a shorter copy separately when sharing it.
-
-## How to check it
-
-The flight arrives on 11 December at destination time. The hotel date is a check, not an invented booking change. T1 stays pending.
-
-## Decision boundary
-
-You approve any itinerary change or sharing. Keep booking numbers, costs and details about other travelers out of the guest-facing copy unless needed.
-
-## How the cases fit together
-
-A master itinerary preserves every booking reference. A host-facing copy selectively uses that same itinerary. Keeping one primary sheet allows a change to flow into both views.
-
-- With only confirmations, assemble the itinerary in chat and verify each link before traveling.
-- If a host needs to know when you arrive, derive a small copy from the same confirmed records.
+- **New confirmations merge themselves in** — book one more leg and its confirmation lands on the same sheet, with the conflict check re-run.
+- **Both versions share one draft** — change a date and the full sheet updates, so the shareable copy regenerates from the same truth instead of drifting apart.
 
 ## Sources
 
-- **Collection summary.** The itinerary brought confirmation numbers and the source messages together. [Muse #153 - Gather confirmations into one itinerary](https://github.com/jaxxchen003/muse-use-cases/blob/7390b4db83fa2687aa8cefb9ec1420ca9a65eb4a/README.md#L718-L723) · [Original post](https://x.com/matthew_verni/status/2112120235016716442)
-- **Collection summary.** The same travel information was reduced to dates, cities and lodging for the recipient. [Muse #245 - A version of the itinerary for the host](https://github.com/jaxxchen003/muse-use-cases/blob/7390b4db83fa2687aa8cefb9ec1420ca9a65eb4a/README.md#L775-L780) · [Original post](https://www.facebook.com/groups/1412054144392596/permalink/1448423130755697/)
+- **Collection summary.** Booking references and original emails joined into one itinerary. [Muse #153 - Turn booking emails into one itinerary](https://github.com/jaxxchen003/muse-use-cases/blob/7390b4db83fa2687aa8cefb9ec1420ca9a65eb4a/README.md#L718-L723) · [Original post](https://x.com/matthew_verni/status/2112120235016716442)
+- **Collection summary.** The same itinerary re-cut per recipient. [Muse #245 - A short itinerary for the host family](https://github.com/jaxxchen003/muse-use-cases/blob/7390b4db83fa2687aa8cefb9ec1420ca9a65eb4a/README.md#L775-L780) · [Original post](https://www.facebook.com/groups/1412054144392596/permalink/1448423130755697/)
 
 ## Building blocks
 
-[Capture inbox](../usecases/capture-inbox.md) · [Repeatable workflow](../usecases/repeatable-workflow.md) · [Platform routes](../BUILDER.md)
+[Capture inbox](../usecases/capture-inbox.md) · [Repeatable workflow](../usecases/repeatable-workflow.md) · [Choosing a platform](../BUILDER.md)
