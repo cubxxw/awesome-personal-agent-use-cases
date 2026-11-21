@@ -1,53 +1,45 @@
-# 资讯与阅读 · 只看和这件事有关的更新
+# 专题简报 · 只看和这件事有关的更新
 
 [首页](../../README.zh-CN.md) · [English](../../scenes/reading-digest.md)
 
-一份短阅读清单，每条有原文和入选理由，读不到的来源也看得见。
+**一份 Muse 按专题替你筛的短简报：你定一个专题和几个来源，它每天只把真正有关的新内容挑出来——最多三条，每条带原文链接和入选理由。重复的合并，读不到的如实说，没有新内容就报一句「今天没有」，不拿旧闻凑数。**
 
-## 先看结果
+## 你能得到什么
 
-- **读 R1**。时间在范围内，内容正好讲当前专题。
-- **R2 重复**。两条指向同一原文，只留 R1。
-- **R3 未能读取**。是否相关仍待查。
+- **一份短清单**——默认最多三条，只收窗口期内、和专题真正有关的内容，每条写清：讲了什么、为什么值得你看、原文在哪。
+- **一行来源状态**——哪个来源今天没更新、哪个读不到，简报顶部一眼可见；「没发」和「读不到」是两回事，分开写。
+- **自动去重**——同一篇原文被转发十次，简报里只出现一次，留最早的出处。
 
-## 手头有材料就能试
+## 把这段交给 Muse
 
-复制下面整段。里面的材料都是虚构样例。
+整段复制给你的 Muse，它照着把简报建出来，然后陪你跑起来。
 
 ```text
-给我一份「项目交接记录」简报，窗口是新加坡时间截至 2026-11-20 09:00 的 24 小时。最多三条。每条带来源编号、日期和入选理由。指向同一原文的合并，打不开的单列，别猜正文。
-R1 | 2026-11-20 08:00 新加坡 | 原文 handoff-guide | 正文：项目交接模板增加「上次已核结果」一项
-R2 | 2026-11-20 08:30 新加坡 | 原文 handoff-guide | 转发 R1
-R3 | 页面打不开 | 标题「跟项目 Agent 一起工作」
-R4 | 2026-11-20 07:00 新加坡 | 正文：图片编辑器新增滤镜
+帮我建一份专题简报。
+
+先和我定三件事：专题是什么（写成一句话，越具体越好）、看哪几个来源、多久一期（每天或每周）和窗口多长。
+
+每期规则：
+1. 只收窗口期内发布、且和专题真正有关的内容，最多三条。每条给：标题、一句内容、入选理由、原文链接和发布时间。
+2. 指向同一原文的合并成一条，留最早的出处。
+3. 简报顶部写来源状态：每个来源是「有更新」「没更新」还是「读不到」。读不到的不要猜正文，标题党也不要替它编内容。
+4. 一条达标的都没有，就发一句「本期没有」，不要放宽标准凑条数。
+
+现在就开始：先和我把专题和来源定下来，手动跑第一期给我看，我确认口径后再设定时。
 ```
 
-## 已经接了工具
+## 它怎么运转
 
-先挑几个平时真看的来源，限定专题和时间范围，手动跑准了再设投递。来源没发新内容和读不到来源应有不同的状态。
-
-## 怎么验收
-
-短清单只有 R1。R2 合并到原文。R3 在来源状态里。如果都不符合，留空也可以。
-
-## 做到哪一步
-
-简报只是阅读入口。订阅新渠道或发帖由你决定。
-
-## 这些案例怎么合在一起
-
-几种日报都先圈出要读的范围。同一条内容留一次，再把短清单送出来。公开的简报输出还示范了一件能验收的事，来源没有产出时，读者依然看得见。
-
-- 换成手头项目或一门课，同一格式还能用。
-- 几份材料讲同一件事时，优先留最初的发布或论文。
+- **标准定死，宁缺毋滥**——简报的价值在「没漏重要的、也没塞没用的」；条数少不是失败，凑数才是。
+- **专题可以换，格式不变**——手头项目、正在学的课、盯着的一个领域，换个专题就是一份新简报。
 
 ## 来源
 
-- **作者公开产物**。项目公开一次输出。来源无内容仍显示在简报顶部，读者能核对哪些材料进来了。 [带来源状态的公开简报样本](https://github.com/ripplek/universal-feeds#see-it-in-action)
-- **社区做法**。按指定社区与主题给候选链接，阅读和发帖是两回事。 [Reddit 日报](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/daily-reddit-digest.md)
-- **社区做法**。把候选来源换成选定频道，由新视频生成简报。 [YouTube 日报](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/daily-youtube-digest.md)
-- **社区做法**。把不同来源的更新去重，再按相关性等标准选入简报。 [多源技术简报](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/multi-source-tech-news-digest.md)
-- **作者自述**。作者记录了家庭共用对话、日常用途和需要回查来源的新闻摘要。 [家庭助理 Sebastian 的记录](https://ataary.com/meet-sebastian-how-i-built-a-self-learning-ai-assistant-on-openclaw/)
+- **作者公开产物。** 带来源状态的公开简报样本，没内容时读者也看得见。[带来源状态的公开简报样本](https://github.com/ripplek/universal-feeds#see-it-in-action)
+- **社区做法。** 按指定社区与主题给候选链接，阅读和发帖分开。[Reddit 日报](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/daily-reddit-digest.md)
+- **社区做法。** 选定频道的新视频生成简报。[YouTube 日报](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/daily-youtube-digest.md)
+- **社区做法。** 多来源更新先去重，再按相关性选入简报。[多源技术简报](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/multi-source-tech-news-digest.md)
+- **作者自述。** 家庭共用对话里的新闻摘要，来源可回查。[家庭助理 Sebastian 的记录](https://ataary.com/meet-sebastian-how-i-built-a-self-learning-ai-assistant-on-openclaw/)
 
 ## 搭建方法
 

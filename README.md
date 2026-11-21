@@ -31,10 +31,10 @@ Start with something you need to do. Each scenario shows a result, gives you a s
 
 | Scenario | What you get |
 | --- | --- |
-| [News and reading · Only show me what matters to this topic](scenes/reading-digest.md) | A small reading list with original sources, why each item belongs and what failed to load. |
-| [Study review · Quiz me from the things I already read](scenes/study-review.md) | A question from your own notes, with the exact source to revisit if you miss it. |
-| [Reading library · Find the thing I saved](scenes/reading-library.md) | A saved link and its context, easy to recover later with a natural-language question. |
-| [Research · Compare what the original sources actually say](scenes/research-compare.md) | A comparison note with the passage, scope and open question behind each claim. |
+| [Topic digest · Only what matters to this topic](scenes/reading-digest.md) | A short digest Muse filters by topic: you name the topic and the sources, and each issue carries only genuinely relevant new items — three at most, each with its original link and why it earned its place. Nothing new means one honest line, never padded old news. |
+| [Study review · Quiz me from my own notes](scenes/study-review.md) | A review coach Muse runs from your own notes: it quizzes you only on material you have read, one question at a time with no answer up front, then marks you against the original — what matched, what you missed, which page to revisit. Half-missed questions come back later. |
+| [Saved library · Find the thing I saved](scenes/reading-library.md) | A library Muse keeps of everything you save — articles, videos, posts — each stored with why you saved it and deduped by original source. Later you just ask in plain words, and it brings back the original together with your note. |
+| [Evidence table · Trace every claim to its source](scenes/research-compare.md) | An evidence table Muse builds for one question: one row per claim — what was measured, under what conditions, and which passage says it. What the material never says is marked "not stated", and claims from different conditions are never forced into a ranking. |
 
 ## Create and build
 

@@ -1,49 +1,43 @@
-# Reading library · Find the thing I saved
+# Saved library · Find the thing I saved
 
 [Home](../README.md) · [简体中文](../zh-CN/scenes/reading-library.md)
 
-A saved link and its context, easy to recover later with a natural-language question.
+**A library Muse keeps of everything you save — articles, videos, posts — each stored with the one line that matters: why you saved it. Deduped by original source. Later you just ask in plain words, "I saved something about X", and it brings back the original together with your note. Saving is easy; being able to find it again is the point.**
 
-## Sample result
+## What you get
 
-- **L1 · A project diary template.** It mentions a last verified result field.
-- **L2 points to the same source.** Add the new note to L1 instead of storing a second article.
+- **A record with a reason** — original link, your one line (why you saved it, what it is for), when you saved it, and whether you have read it. A save without a reason is a save you will never find again.
+- **Retrieval by asking** — no titles to remember, no folders to dig through: describe the content or the use and it searches your notes and the originals together, returning the best matches.
+- **One record per source** — the same article saved from a group chat and again from email merges into a single record, with every note you wrote kept.
 
-## Try it with material you have
+## Give this to Muse
 
-Paste the full block below. The input is fictional.
+Paste the whole block into your Muse. It builds the library, then runs it with you.
 
 ```text
-Organize these reading records by the original ID. Preserve my notes and the source, recording a duplicate pointer when useful. Then answer "Which saved item has a template for recording a verified result?" Cite the saved record. Mark unread items.
-L1 | source U01 | project diary template | my note: it asks for the last verified result
-L2 | source U01 | saved again from chat | my note: useful for handing off projects
-L3 | source U02 | title only | reading status unread
+Build me a saved library for the articles, videos and posts I keep.
+
+When I hand you a link or an item, register it like this: the original source, the title, why I saved it (if I did not say, ask me in one line — never invent a reason), when I saved it, and whether I have read it.
+
+Rules:
+1. Dedupe by original source: saving the same source again adds my new note to the existing record — never create a second one.
+2. Something I have only seen the title of is marked "unread". Never write a summary of content you only know from a headline.
+3. When I ask "I saved something about X", search my notes and the original content together, and return the best matches — each with the line I wrote when I saved it and the original link.
+4. Originals stay where they live; the library holds records and links. Delete a record only when I say so.
+
+Start now: set up the library, then ask me which batch to import first — browser bookmarks, one app's saved folder, or a few links I send you now.
 ```
 
-## With a connected tool
+## How it runs
 
-Use one capture path, such as a chat or a notes folder. Keep the link or document ID and your own reason for saving it. Confirm you can retrieve the original in another session.
-
-## How to check it
-
-The answer cites L1 and preserves your notes from L2. L3 remains unread, rather than supplying details inferred from its title.
-
-## Decision boundary
-
-Search only the sources you choose. Keep original material visible and let a person decide what to retain.
-
-## How the cases fit together
-
-The searchable knowledge-base recipe starts with URLs. The second-brain recipe starts with a short message. The core is the same retrieval loop: save a source with context, then find it again.
-
-- Store article links, a transcript excerpt or a study note under the same small format.
-- Reuse saved evidence in a later research note without copying the full source again.
+- **Intake must be effortless** — a link dropped in chat, a title on a screenshot: if saving takes effort, the library never grows.
+- **Your note is the retrieval key** — the "why I saved it" line is the signpost your future self will search by, which is why it always asks you for that one line.
 
 ## Sources
 
-- **Community recipe.** The recipe collects links and searches across saved material with references. [Search your saved sources](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/knowledge-base-rag.md)
-- **Community recipe.** The system trades upfront organization for fast capture and later search. [Capture to retrieve later](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/second-brain.md)
+- **Community recipe.** Links gathered into your own store, retrieved by question with sources returned. [Find sources inside your own saves](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/knowledge-base-rag.md)
+- **Community recipe.** Chat as the low-friction intake, retrieval taking over later. [Save casually, find it later](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/second-brain.md)
 
 ## Building blocks
 
-[Capture inbox](../usecases/capture-inbox.md) · [Repeatable workflow](../usecases/repeatable-workflow.md) · [Platform routes](../BUILDER.md)
+[Capture inbox](../usecases/capture-inbox.md) · [Repeatable workflow](../usecases/repeatable-workflow.md) · [Choosing a platform](../BUILDER.md)

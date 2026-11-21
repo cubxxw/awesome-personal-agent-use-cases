@@ -1,50 +1,48 @@
-# Research · Compare what the original sources actually say
+# Evidence table · Trace every claim to its source
 
 [Home](../README.md) · [简体中文](../zh-CN/scenes/research-compare.md)
 
-A comparison note with the passage, scope and open question behind each claim.
+**An evidence table Muse builds for one concrete question: one row per claim — what was measured, under what conditions (task type, sample size, version), and which passage of which source says it. What the material never says is marked "not stated"; claims measured under different conditions are never forced into a ranking. It ends with what is still missing before a real conclusion is possible.**
 
-## Sample result
+## What you get
 
-- **A · 18 minutes on 12 tasks** [P1, Results].
-- **B · 14 minutes on 6 familiar tasks** [P2, Results].
-- **Needs more evidence.** The tasks and trial groups differ, so these times cannot rank the methods.
+- **A table you can re-check** — not a summary that evaporates: every number carries its conditions and its source, so months later you can audit it line by line.
+- **Fact and interpretation in separate columns** — what the source says in one column, what you infer in another. At a glance you can tell a quote from a conclusion.
+- **An honest bottom line** — if the claims can be compared, it compares them; if they cannot, it says why not and what material is missing, instead of a ranking the evidence cannot carry.
 
-## Try it with material you have
+## Give this to Muse
 
-Paste the full block below. The input is fictional.
+Paste the whole block into your Muse. It builds the table, then runs it with you.
 
 ```text
-Prepare a comparison note. For each claim give the measured result, task group, sample size and section ID. Flag any missing information. Separate evidence from your interpretation. Explain what a fair comparison would need.
-P1 | Method A | Results 3.1 | median 18 minutes | 12 varied tasks
-P2 | Method B | Results 4 | median 14 minutes | 6 familiar tasks
-P3 | Announcement | Method C feels much faster | no measurements included
+Build me an evidence table for one question.
+
+First, fix the question with me in one sentence. When gathering material, prefer primary sources: papers, official docs, project reports. If you only reached an abstract or a search snippet, mark which layer you actually read.
+
+Each claim gets one row stating:
+1. What was measured (the number or conclusion, quoting the key sentence as-is).
+2. Under what conditions: task type, sample size, version, scope.
+3. The source: which document, which section.
+
+Rules:
+1. What the material does not say is written as "not stated" — never fill it in from general knowledge.
+2. Fact and interpretation stay in separate columns: the source's words under fact, your inference under interpretation, labeled as inference.
+3. Claims measured under different conditions get no ranking. End with one sentence: what material is still missing before a real comparison is possible.
+4. Before quoting or forwarding anything, reopen the original and re-check the key sentence.
+
+Start now: ask me the question, then tell me which primary sources you plan to read.
 ```
 
-## With a connected tool
+## How it runs
 
-Start from a question and open each original paper or project report. Record section identifiers and scope before comparing. Label material that you have only seen in an abstract or search result.
-
-## How to check it
-
-Both the sample size and the task definition appear for P1 and P2. P3 remains a lead. The note supplies no ranking unsupported by the source passages.
-
-## Decision boundary
-
-Review original passages before sharing or citing the comparison. Keep a question open where the underlying material is unavailable.
-
-## How the cases fit together
-
-Paper discovery can find promising leads. The section reader can establish a scoped observation. A useful research note keeps the two stages visible and lets someone else repeat the comparison.
-
-- Use the same note to compare two tool guides against their documented versions.
-- Extract one verified statement per source before writing any synthesis.
+- **The table stays alive** — new material adds a row and re-computes the bottom line; when an old conclusion stops holding, the table changes, not your memory of it.
+- **Verify first, synthesize second** — each source first earns one checked sentence; only then does synthesis start. Reverse the order and claims drift a little further with every retelling.
 
 ## Sources
 
-- **Community recipe.** The reader can inspect sections and compare selected passages across papers. [Read paper sections](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/arxiv-paper-reader.md)
-- **Community recipe.** The setup separates paper discovery and metadata from reading the full source. [Discover and deep-read papers](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/hf-papers-research-discovery.md)
+- **Community recipe.** Locate the section first, then read the material, comparing passages across papers. [Read a specified section of a paper](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/arxiv-paper-reader.md)
+- **Community recipe.** Finding papers, reading metadata and reading full text as three separate steps. [Find leads first, then read the paper](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/hf-papers-research-discovery.md)
 
 ## Building blocks
 
-[Repeatable workflow](../usecases/repeatable-workflow.md) · [Capture inbox](../usecases/capture-inbox.md) · [Platform routes](../BUILDER.md)
+[Repeatable workflow](../usecases/repeatable-workflow.md) · [Capture inbox](../usecases/capture-inbox.md) · [Choosing a platform](../BUILDER.md)
