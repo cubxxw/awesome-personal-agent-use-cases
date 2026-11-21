@@ -2,47 +2,63 @@
 
 [Home](../README.md) · [简体中文](../zh-CN/scenes/personal-crm.md)
 
-One contact card with the latest confirmed details, last conversation and open follow-ups.
+**One page per person. Everything you know about them, where you left off, and what you promised — kept current by your Muse, checked by you in seconds.**
 
-## Sample result
+## What you get
 
-- **P01 · Lin Lan**. Review the city change from Nanjing to Suzhou [M02].
-- **Leave M03 unlinked.** The sender with the same name has not been identified.
+**A dossier per person** — one page that holds:
+- Who they are: confirmed details only, each with its source
+- Your history: every interaction on a dated timeline — who said what, to whom, when
+- Open loops: follow-ups with dates, promises in stages (intended → agreed → scheduled → done)
+- Two separate notes: *their* stated boundaries, and *your* goals for the relationship
 
-## Try it with material you have
+**A pre-meeting card** — before you meet someone, Muse generates a one-screen brief from the dossier: their boundaries first, confirmed facts, what you already promised, your goals, and the unknowns listed as questions. The card is read-only and dated; gaps are shown, never filled in by guessing.
 
-Paste the full block below. The input is fictional.
+**A review queue** — anything Muse can't confidently attach to a person (an unidentified sender, a shared nickname) waits here for your call instead of being filed under a guess.
+
+## Give this to Muse
+
+Copy the whole block into Muse. It builds the Space, then runs it with you.
 
 ```text
-Suggest contact-card updates from the material below. Show the person ID, old and new values, and source. Leave the card unchanged pending approval. Remember only confirmed details and commitments. If the sender is not identified, keep the note in review.
-P01 | Lin Lan | current city Nanjing | last conversation April
-P02 | Lin Lan | colleague from another project
-M02 | confirmed sender P01 | I moved to Suzhou this week.
-M03 | sender shown as Lin Lan, identity unclear | Let's catch up sometime.
+Build me a contacts Space called "Friends and contacts".
+
+Structure — one dossier per person, stored as plain text I can read and edit:
+- Top of each dossier: current confirmed facts, each fact followed by its source in brackets.
+- Below: an append-only timeline of interactions, newest last. Each entry: date, who said it, who it was said to, who was only mentioned, and a short verbatim excerpt.
+- A follow-ups section: item, due date, and stage — intended, agreed, scheduled, done, or cancelled.
+- Two separate fields: "Their boundaries" (only what they have expressed) and "My goals" (what I want from the relationship). Never mix them.
+
+Rules:
+1. One person, one dossier. People who share a name or nickname stay in separate dossiers until I confirm they are the same person.
+2. Every fact is labelled: confirmed (with source), unknown (your inference — say so), or withdrawn. When I withdraw a fact, remove it from the dossier's confirmed section and from every brief or card built on it.
+3. If you cannot tell who a message is from or who it belongs to, put it in a "To review" list and ask me. Never file it under a guess.
+4. "I approved sending" and "it was actually sent" are different facts. Record both, separately.
+5. Before I meet someone, generate a pre-meeting card from their dossier: their boundaries, confirmed facts with sources, my open promises with their stage, my goals, and a list of unknowns as questions for me. Show the card's date. If the dossier is thin, say so on the card instead of padding it.
+
+Start now: create the Space, then ask me for the first three people to add.
+From then on: when I tell you something about a person in chat, propose the dossier update and show me the exact change before saving it.
 ```
 
-## With a connected tool
+## Your part (two minutes, whenever)
 
-Start with a sheet or a contact Space you review yourself. Keep an ID for the contact, a source for each fact, and a queue for unclear changes. After reviewing a saved update, open the card in a new conversation and ask for a one-line pre-meeting brief.
+- Confirm or reject proposed updates — nothing enters a dossier unconfirmed.
+- Clear the "To review" queue when Muse asks: one tap per item, person A, person B, or discard.
+- Glance at the pre-meeting card before the meeting; that glance is the quality check.
 
 ## How to check it
 
-Only P01’s city is proposed for change. M03 stays unlinked. Submit M02 again after confirming it and check the existing card instead of creating a second contact.
+- Ask Muse: "What do I know about [person]?" Every fact in the answer must trace to a source you recognise. One fact you can't trace = the dossier needs a cleanup pass.
+- Mention a shared nickname. Muse must ask which person you mean, not pick one.
+- Withdraw a fact, then ask for the pre-meeting card again. The fact must be gone from the card too.
 
 ## Decision boundary
 
-You confirm identity and any outbound message. Keep a suggestion to meet separate from an agreed date. Store details only as needed for the relationship.
-
-## How the cases fit together
-
-The CRM recipe makes the person and interaction record durable. The birthday example shows a way to use a confirmed date from that record. The same contact can feed a meeting brief later.
-
-- Build a contact and review panel in Muse Space or a sheet. Start with the same two fictional messages.
-- Use the card for a birthday reminder or to remember an open promise before meeting someone.
+Muse proposes, you confirm: identity merges, dossier changes, and anything sent to another person always wait for your yes.
 
 ## Sources
 
-- **Community recipe.** The recipe combines contacts, interaction history and meeting preparation. [OpenClaw Personal CRM](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/personal-crm.md)
+- **Community recipe.** A different build of the same idea — automatic email/calendar scanning into a database table, briefings over chat. [OpenClaw Personal CRM](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/personal-crm.md)
 - **Collection summary.** This assistant role included birthday and gift reminders as part of a deliberately narrow brief. [Muse #261 - Use confirmed birthdays to surface reminders](https://github.com/jaxxchen003/muse-use-cases/blob/7390b4db83fa2687aa8cefb9ec1420ca9a65eb4a/README.md#L1606-L1611) · [Original post](https://www.instagram.com/reel/DfFqwbsA9kx/)
 
 ## Building blocks
