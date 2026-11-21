@@ -12,7 +12,7 @@ Start with something you need to do. Each scenario shows a result, gives you a s
 | --- | --- |
 | [Family and routines · Who needs to be where this week?](scenes/household-calendar.md) | A shared week view with confirmed events, clashes and pickups still to arrange. |
 | [Bills and subscriptions · Tell me before I’m charged again](scenes/renewal-ledger.md) | A renewal shortlist with the next date, billing channel and notice for each decision. |
-| [Friends and contacts · Remember where we left off](scenes/personal-crm.md) | One contact card with the latest confirmed details, last conversation and open follow-ups. |
+| [Personal CRM · Friends and contacts](scenes/personal-crm.md) | A contacts library Muse maintains for you: one page per person covering channels, relationships and status, birthdays and greetings, and what you promised — plus a pre-meeting card before you meet. |
 | [Home and repairs · Find who fixed it last time](scenes/home-repair.md) | The right work order, a contact lead to verify and any missing details for a new quote. |
 | [Travel · Put all the bookings on one page](scenes/trip-brief.md) | A trip sheet with local times, confirmation sources and the gaps to check before leaving. |
 | [Shopping and tickets · Tell me when it fits my budget](scenes/price-watch.md) | A timestamped alert for a comparable offer, with the full price and a link to inspect. |

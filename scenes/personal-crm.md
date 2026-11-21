@@ -1,13 +1,14 @@
-# Friends and contacts · Remember where we left off
+# Personal CRM · Friends and contacts
 
 [Home](../README.md) · [简体中文](../zh-CN/scenes/personal-crm.md)
 
-**One page per person: what you know, where you left off, what you promised. Muse maintains it; you check it in seconds.**
+**A contacts library Muse maintains for you. One page per person: channels, relationships and status, birthdays and greetings, and what you promised — checkable in seconds, with a pre-meeting card before you meet.**
 
 ## What you get
 
 - **A dossier per person** — confirmed facts with sources, an interaction timeline, open follow-ups, and two separate fields: *their* stated boundaries and *your* goals.
 - **A pre-meeting card** — one screen generated from the dossier before you meet: boundaries first, then confirmed facts, your open promises, your goals, and the unknowns as questions. Dated, read-only, and it says so when the dossier is too thin.
+- **Birthday reminders and greetings** — birthdays live on the dossier (with source); Muse reminds you ahead of time and drafts a greeting from your relationship and recent conversations. It sends only after you approve.
 - **A review queue** — anything Muse cannot attribute (unknown sender, shared nickname) waits here for your call. It never guesses its way into a dossier.
 
 ## Give this to Muse
@@ -29,6 +30,7 @@ Rules:
 3. Anything you cannot attribute goes to a "To review" list and you ask me. Never guess it into a dossier.
 4. "I approved sending" and "the system confirmed it was sent" are two different facts. Record both, separately.
 5. Before I meet someone, generate a pre-meeting card from their dossier: their boundaries, confirmed facts with sources, my open promises with stages, my goals, and the unknowns as questions. Date the card. If the dossier is thin, say it is thin — never pad it.
+6. Birthdays live at the top of the dossier (with source). When a filed person's birthday is coming up, remind me ahead of time and draft a greeting from our relationship and recent conversations — show me first; send only after I approve.
 
 Growing the base:
 - From my accounts: watch the mail, calendar, and chat accounts I have connected. Someone who is not filed yet becomes a proposed dossier. Attach anything to an existing dossier only on a phone or email match — a name alone is never enough; the rest goes to To review.

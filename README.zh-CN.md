@@ -12,7 +12,7 @@
 | --- | --- |
 | [家庭日程 · 这周谁要去哪](zh-CN/scenes/household-calendar.md) | 一份全家能核对的周安排，列清改期、冲突和待确认的接送。 |
 | [账单与订阅 · 下次扣款前叫我](zh-CN/scenes/renewal-ledger.md) | 一张带扣款日期、收费渠道和来源的续费清单。 |
-| [朋友与联系人 · 见面前想起上次聊过什么](zh-CN/scenes/personal-crm.md) | 一张保留出处、能在下次见面前重新打开的联系人卡。 |
+| [Personal CRM · 朋友与联系人](zh-CN/scenes/personal-crm.md) | 一个 Muse 替你维护的联系人库：一人一页，管联系方式、彼此的关系和状态、生日祝福、你答应过的事；见人之前，自动给你一页会前卡。 |
 | [家庭与维修 · 坏了先找上次修过的人](zh-CN/scenes/home-repair.md) | 找回对应设备的旧工单、服务商和需要重新核对的信息。 |
 | [旅行与出行 · 把预订拼到一张行程单](zh-CN/scenes/trip-brief.md) | 一张列清当地时间、预订出处和待确认事项的行程单。 |
 | [购物与比价 · 降到预算再叫我](zh-CN/scenes/price-watch.md) | 收到一条带价格、检查时间和出处的提醒，方便打开原页面核对。 |
