@@ -2,65 +2,61 @@
 
 [Home](../README.md) · [简体中文](../zh-CN/scenes/personal-crm.md)
 
-**One page per person. Everything you know about them, where you left off, and what you promised — kept current by your Muse, checked by you in seconds.**
+**One page per person: what you know, where you left off, what you promised. Muse maintains it; you check it in seconds.**
 
 ## What you get
 
-**A dossier per person** — one page that holds:
-- Who they are: confirmed details only, each with its source
-- Your history: every interaction on a dated timeline — who said what, to whom, when
-- Open loops: follow-ups with dates, promises in stages (intended → agreed → scheduled → done)
-- Two separate notes: *their* stated boundaries, and *your* goals for the relationship
-
-**A pre-meeting card** — before you meet someone, Muse generates a one-screen brief from the dossier: their boundaries first, confirmed facts, what you already promised, your goals, and the unknowns listed as questions. The card is read-only and dated; gaps are shown, never filled in by guessing.
-
-**A review queue** — anything Muse can't confidently attach to a person (an unidentified sender, a shared nickname) waits here for your call instead of being filed under a guess.
+- **A dossier per person** — confirmed facts with sources, an interaction timeline, open follow-ups, and two separate fields: *their* stated boundaries and *your* goals.
+- **A pre-meeting card** — one screen generated from the dossier before you meet: boundaries first, then confirmed facts, your open promises, your goals, and the unknowns as questions. Dated, read-only, and it says so when the dossier is too thin.
+- **A review queue** — anything Muse cannot attribute (unknown sender, shared nickname) waits here for your call. It never guesses its way into a dossier.
 
 ## Give this to Muse
 
-Copy the whole block into Muse. It builds the Space, then runs it with you.
+Paste the whole block into your Muse. It builds the Space, then runs it with you.
 
 ```text
 Build me a contacts Space called "Friends and contacts".
 
-Structure — one dossier per person, stored as plain text I can read and edit:
-- Top of each dossier: current confirmed facts, each fact followed by its source in brackets.
-- Below: an append-only timeline of interactions, newest last. Each entry: date, who said it, who it was said to, who was only mentioned, and a short verbatim excerpt.
-- A follow-ups section: item, due date, and stage — intended, agreed, scheduled, done, or cancelled.
-- Two separate fields: "Their boundaries" (only what they have expressed) and "My goals" (what I want from the relationship). Never mix them.
+One plain-text dossier per person, readable and editable by me:
+- Top: the currently confirmed facts, each with its source in parentheses. Include the person's contact channels — email, phone, WhatsApp, LinkedIn, any platform — as facts on the same dossier: one identity, many channels, never a separate entry per platform.
+- Below: an append-only timeline of interactions, newest last, from every channel. Each entry: date, channel, who said it, who it was said to, who was only mentioned, and a short verbatim excerpt.
+- Follow-ups: item, due date, stage — intent, agreed, scheduled, done, or dropped.
+- Two separate fields: "Their boundaries" (only what they expressed themselves) and "My goals" (what I want). Never merge them.
 
 Rules:
-1. One person, one dossier. People who share a name or nickname stay in separate dossiers until I confirm they are the same person.
-2. Every fact is labelled: confirmed (with source), unknown (your inference — say so), or withdrawn. When I withdraw a fact, remove it from the dossier's confirmed section and from every brief or card built on it.
-3. If you cannot tell who a message is from or who it belongs to, put it in a "To review" list and ask me. Never file it under a guess.
-4. "I approved sending" and "it was actually sent" are different facts. Record both, separately.
-5. Before I meet someone, generate a pre-meeting card from their dossier: their boundaries, confirmed facts with sources, my open promises with their stage, my goals, and a list of unknowns as questions for me. Show the card's date. If the dossier is thin, say so on the card instead of padding it.
+1. One person, one dossier. Same name or nickname stays separate until I confirm it is the same person.
+2. Every fact carries a state: confirmed (with source), unknown (your inference — label it), or withdrawn. When I withdraw a fact, remove it from the confirmed section and from every brief or card built on it.
+3. Anything you cannot attribute goes to a "To review" list and you ask me. Never guess it into a dossier.
+4. "I approved sending" and "the system confirmed it was sent" are two different facts. Record both, separately.
+5. Before I meet someone, generate a pre-meeting card from their dossier: their boundaries, confirmed facts with sources, my open promises with stages, my goals, and the unknowns as questions. Date the card. If the dossier is thin, say it is thin — never pad it.
 
-Start now: create the Space, then ask me for the first three people to add.
-From then on: when I tell you something about a person in chat, propose the dossier update and show me the exact change before saving it.
+Growing the base:
+- From my accounts: watch the mail, calendar, and chat accounts I have connected. Someone who is not filed yet becomes a proposed dossier. Attach anything to an existing dossier only on a phone or email match — a name alone is never enough; the rest goes to To review.
+- From my address book: when I import contacts, fill in channels and birthdays on existing dossiers by phone/email match. Unmatched entries go to To review, not into new dossiers.
+- From my screen: when I show you something — a chat window, a business card, a profile page — extract the people in it and propose a new dossier or an update. Propose only; I confirm before anything is filed. Never scrape or file silently in the background.
+- From chat history: when I give you an exported conversation, backfill the timeline with dated excerpts, and keep the full export as a local file the excerpts point to. Never paste whole transcripts into a dossier.
+- By asking me: when a name keeps appearing unattributed, or a dossier is too thin before a meeting, ask me the one missing question instead of guessing.
+- Across platforms: when I give you a new channel for someone who already has a dossier, attach it to that dossier and ask if it changes anything else.
+
+Start now: set up the Space, then ask me for the first three people.
+From then on: when I mention something about a person in chat, show me the proposed dossier update verbatim and save it only after I confirm.
 ```
 
-## Your part (two minutes, whenever)
+## How it grows
 
-- Confirm or reject proposed updates — nothing enters a dossier unconfirmed.
-- Clear the "To review" queue when Muse asks: one tap per item, person A, person B, or discard.
-- Glance at the pre-meeting card before the meeting; that glance is the quality check.
+A dossier system is only as good as its intake. Every channel below feeds the same propose-and-confirm gate, and merges happen on strong keys only — phone and email, never a name alone:
 
-## How to check it
-
-- Ask Muse: "What do I know about [person]?" Every fact in the answer must trace to a source you recognise. One fact you can't trace = the dossier needs a cleanup pass.
-- Mention a shared nickname. Muse must ask which person you mean, not pick one.
-- Withdraw a fact, then ask for the pre-meeting card again. The fact must be gone from the card too.
-
-## Decision boundary
-
-Muse proposes, you confirm: identity merges, dossier changes, and anything sent to another person always wait for your yes.
+- **From your connected accounts** — a new sender in your mail, a new attendee on your calendar, a new chat contact: each becomes a proposed dossier, matched to an existing one by phone or email.
+- **From your address book** — one import fills in channels and birthdays for people already filed; whatever matches nothing waits in the review queue.
+- **From your screen** — show Muse a chat, a card, a profile page; it drafts the dossier or update (computer use as an input, never silent scraping).
+- **From chat history** — export a conversation (WeChat, WhatsApp, Telegram) and the timeline backfills with dated excerpts; the full text stays in a local file the excerpts point to, never inside the dossier.
+- **By asking you** — an unattributed name that keeps recurring, a gap before a meeting: Muse asks the one question that unblocks it, instead of guessing.
+- **Across platforms** — email, WhatsApp, LinkedIn, phone are channels on one dossier, so a conversation that moves platforms stays one history.
 
 ## Sources
 
-- **Community recipe.** A different build of the same idea — automatic email/calendar scanning into a database table, briefings over chat. [OpenClaw Personal CRM](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/personal-crm.md)
-- **Collection summary.** This assistant role included birthday and gift reminders as part of a deliberately narrow brief. [Muse #261 - Use confirmed birthdays to surface reminders](https://github.com/jaxxchen003/muse-use-cases/blob/7390b4db83fa2687aa8cefb9ec1420ca9a65eb4a/README.md#L1606-L1611) · [Original post](https://www.instagram.com/reel/DfFqwbsA9kx/)
+- **Community practice.** The same idea built the other way — auto-scan mail and calendar into a database table, briefings by chat query. [OpenClaw personal CRM](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/personal-crm.md)
 
 ## Building blocks
 
-[Durable contact record](../usecases/personal-crm.md) · [Capture inbox](../usecases/capture-inbox.md) · [Scheduled delivery](../usecases/scheduled-task.md) · [Platform routes](../BUILDER.md)
+[Personal CRM](../usecases/personal-crm.md) · [Capture inbox](../usecases/capture-inbox.md) · [Scheduled task](../usecases/scheduled-task.md) · [Choosing a platform](../BUILDER.md)
