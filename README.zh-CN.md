@@ -40,9 +40,9 @@
 
 | 场景 | 你会拿到什么 |
 | --- | --- |
-| [稿件与脚本 · 把零散笔记做成能改的初稿](zh-CN/scenes/draft-from-notes.md) | 一份可编辑初稿，事实能回到笔记，待补的内容留给你。 |
-| [项目看板 · 哪件事卡住了，卡在哪](zh-CN/scenes/project-board.md) | 一个能一直回看的项目面板，状态和原因都能追到出处。 |
-| [发布准备 · 一份稿备好几个渠道的版本](zh-CN/scenes/publish-package.md) | 一套逐渠道能审的文案、素材清单和待确认项。 |
-| [Agent 交接 · 换个会话，项目还能接着做](zh-CN/scenes/agent-handoff.md) | 一份能带走的交接记录，写清现在的产物、已核结果和下一步。 |
+| [初稿工坊 · 把零散笔记做成能改的初稿](zh-CN/scenes/draft-from-notes.md) | 一个 Muse 把你的零散笔记做成初稿的工坊：只用你给的素材，每个事实都能回到某条笔记；没说的数字、没授权的引用不替你编，单独列成待补清单给你。 |
+| [项目看板 · 哪件事卡住了，卡在哪](zh-CN/scenes/project-board.md) | 一个 Muse 替你维护的项目看板：一个项目一张卡，管它现在什么状态、卡在什么地方、下一步是谁的什么动作；状态只跟着能核对的事件变，说上线必须有回执。 |
+| [发布包 · 一份稿备好几个渠道的版本](zh-CN/scenes/publish-package.md) | 一个 Muse 把一份已确认的稿子备成多渠道发布包的流程：每个渠道一版，按受众和格式改；没授权的素材留在清单里不进包，全部草稿先行，你逐版批了才发。 |
+| [交接单 · 换个会话，项目还能接着做](zh-CN/scenes/agent-handoff.md) | 一份 Muse 在收工时留下的交接单：管项目跨会话、跨 Agent 的连续性——目标、当前产物在哪、哪些结果已经核过、还差什么、下一步是什么、哪些动作要重新授权。 |
 
 查产品、开源项目和研究，见 [Awesome Personal Agent Practices](https://github.com/cubxxw/awesome-personal-agent-practices/blob/main/README.zh-CN.md)。

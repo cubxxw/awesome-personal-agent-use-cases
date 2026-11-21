@@ -1,51 +1,44 @@
-# Project board · Which one is stuck and why?
+# Project board · Which one is stuck, and where?
 
 [Home](../README.md) · [简体中文](../zh-CN/scenes/project-board.md)
 
-A persistent view of project status, blocker, next step and the event that changed it.
+**A project board Muse maintains for you: one card per project covering its current state, what it is blocked on, and whose next action unblocks it. State changes only on checkable events — a finished draft is not a publication, and "live" requires a release receipt.**
 
-## Sample result
+## What you get
 
-- **P1 · Waiting on images** [E2]. Next, confirm when the supplier can send them.
-- **P2 · Ready for review** [E3]. The draft is saved. It has not been published.
+- **A board you can read at a glance** — every card states four things: status, blocker (stuck on what, waiting on whom), one concrete next step, and the source behind the status. Open it and you know which project to push today.
+- **A status history** — every change leaves one line: the date and what caused it. Months later you can still tell the story of how a project got here.
+- **Preview before saving** — updates arrive as a preview and are written only after you confirm; the same event delivered twice is still recorded once.
 
-## Try it with material you have
+## Give this to Muse
 
-Paste the full block below. The input is fictional.
+Paste the whole block into your Muse. It builds the board, then runs it with you.
 
 ```text
-Update a preview of these project cards. Give each project its status, blocker, one next step and the evidence. Keep a locally ready item separate from a released item. Preserve the old state in history and ask about unclear ownership.
-P1 | project Docs | status In progress
-P2 | project Brief | status In progress
-E2 | P1 | supplier images missing, no delivery date
-E3 | P2 | draft available for review in shared folder, release not requested
+Build me a project board, one card per project.
+
+Each card records: project name and ID, current status, blocker (stuck on what, waiting on whom), next step (one action with a named owner), and the status source (which message, which receipt).
+
+Rules:
+1. Status changes only on checkable events: a receipt arrived, a person confirmed, a file appeared. Your guess or my second-hand report is not enough — mark it "to confirm".
+2. "Draft ready", "submitted", "published" and "delivered" are different states, recorded separately. Before marking anything published or delivered, require a release receipt or the owner's confirmation.
+3. Updates come as a preview first; save only after I confirm. The same event arriving twice is recorded once.
+4. When the owner of a next step is unclear, write "owner to assign" — never assign someone on my behalf.
+
+Start now: set up the board, then ask me which projects go on it first and which material each status should be checked against.
 ```
 
-## With a connected tool
+## How it runs
 
-Use one table, page or set of files as the main record. Give projects stable IDs. Confirm a proposed change before saving it. Share a derived view with only the fields other people need.
-
-## How to check it
-
-P1 changes to Waiting. P2 changes to Ready for review. Replay E2 and confirm the history contains one event. Reopening the board should show the reason without rereading the chat.
-
-## Decision boundary
-
-The board summarizes evidence. A status such as Shipped needs a release receipt or a confirmation from the owner.
-
-## How the cases fit together
-
-The state-management recipe emphasizes an event history, and dashboards emphasize a current view. Keep both close enough that you can see what changed without rereading every message.
-
-- Track a few personal projects with a small next-step column.
-- Use a Muse Space or a plain table and make a brief from the same state at the start of the week.
+- **The board is the single source of project state** — the morning action list and weekly reviews read status from here instead of each keeping their own version.
+- **Shared views carry only the needed fields** — when collaborators need a look, generate a view with just their fields; internal notes never leak into it.
 
 ## Sources
 
-- **Community recipe.** The recipe records the state, reasoning, blockers and next actions with history. [Event-driven project state](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/project-state-management.md)
-- **Community recipe.** The recipe refreshes several sources into one dashboard and attaches a separate alert condition. [Dynamic dashboard](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/dynamic-dashboard.md)
-- **Collection summary.** The collection describes separate spaces for daily learning, planning and meals. The learning topics varied by depth. [Muse #329 - Build small recurring-use Spaces](https://github.com/jaxxchen003/muse-use-cases/blob/7390b4db83fa2687aa8cefb9ec1420ca9a65eb4a/README.md#L1872-L1877) · [Original post](https://www.threads.com/@muse/post/DfkXlR9Gt7e)
+- **Community recipe.** Project state updated by sourced events, with blockers and next steps traceable. [Update project state from events](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/project-state-management.md)
+- **Community recipe.** Several sources refreshed into one place, with threshold changes alerted separately. [Multi-source dashboard](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/dynamic-dashboard.md)
+- **Collection summary.** Small long-lived panels in Spaces that stay reviewable. [Muse #329 - Small long-lived panels in Spaces](https://github.com/jaxxchen003/muse-use-cases/blob/7390b4db83fa2687aa8cefb9ec1420ca9a65eb4a/README.md#L1872-L1877) · [Original post](https://www.threads.com/@muse/post/DfkXlR9Gt7e)
 
 ## Building blocks
 
-[Repeatable workflow](../usecases/repeatable-workflow.md) · [Scheduled delivery](../usecases/scheduled-task.md) · [Platform routes](../BUILDER.md)
+[Repeatable workflow](../usecases/repeatable-workflow.md) · [Scheduled task](../usecases/scheduled-task.md) · [Choosing a platform](../BUILDER.md)

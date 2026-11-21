@@ -40,9 +40,9 @@ Start with something you need to do. Each scenario shows a result, gives you a s
 
 | Scenario | What you get |
 | --- | --- |
-| [Writing and scripting · Turn rough material into a first draft](scenes/draft-from-notes.md) | An editable draft with its source notes and a short list of gaps to fill. |
-| [Project board · Which one is stuck and why?](scenes/project-board.md) | A persistent view of project status, blocker, next step and the event that changed it. |
-| [Publishing · Prepare the versions I can send out](scenes/publish-package.md) | A review pack for each audience with its own copy, assets and outstanding checks. |
-| [Agent handoff · Pick up the project in a different session](scenes/agent-handoff.md) | A portable handoff with the current artifact, checked result, limits and next action. |
+| [Draft workshop · Turn scattered notes into a draft you can edit](scenes/draft-from-notes.md) | A workshop where Muse turns your scattered notes into a first draft using only your material — every fact traces back to a note, and numbers or quotes it cannot source are never invented, just listed for you to fill. |
+| [Project board · Which one is stuck, and where?](scenes/project-board.md) | A project board Muse maintains for you: one card per project covering its current state, what it is blocked on, and whose next action unblocks it. State changes only on checkable events — "live" requires a receipt. |
+| [Publish package · One draft, every channel's version](scenes/publish-package.md) | A package Muse prepares from one approved draft: a version per channel, re-cut for its audience and format. Assets without permission stay on the checklist, everything is a draft until you approve it version by version. |
+| [Handoff note · Pick up the project in a new session](scenes/agent-handoff.md) | A handoff note Muse leaves when work stops: it keeps a project continuous across sessions and agents — the goal, where the current artifact lives, what has actually been checked, what remains, the next step, and which actions need fresh approval. |
 
 For products, open-source projects, and research, see [Awesome Personal Agent Practices](https://github.com/cubxxw/awesome-personal-agent-practices).

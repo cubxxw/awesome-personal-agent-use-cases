@@ -1,51 +1,49 @@
-# Agent handoff · Pick up the project in a different session
+# Handoff note · Pick up the project in a new session
 
 [Home](../README.md) · [简体中文](../zh-CN/scenes/agent-handoff.md)
 
-A portable handoff with the current artifact, checked result, limits and next action.
+**A handoff note Muse leaves when work stops: it keeps a project continuous across sessions and across agents — the goal, where the current artifact lives, what has actually been checked (and to what extent), what remains, the next step, and which actions need fresh approval. A new session reads this one note and picks up the work, no guessing from scratch.**
 
-## Sample result
+## What you get
 
-- **Artifact.** draft-v2.md [H1].
-- **Checked.** Preview opened and all three links worked locally [H2].
-- **Next.** Ask for a release review. No release receipt [H3].
+- **A six-part note** — goal, current artifact, checked results with their scope, open items, next step, and permission limits. Every part carries its source, so whoever picks it up can verify each line.
+- **A next step that can be executed as written** — not "keep pushing", but which file to open, what to check, what to produce. The next session starts working, not orienting.
+- **Permission limits in writing** — what the last session was allowed to do does not automatically carry over: sending, writing and publishing are marked as needing fresh confirmation.
 
-## Try it with material you have
+## Give this to Muse
 
-Paste the full block below. The input is fictional.
+Paste the whole block into your Muse. It builds the handoff habit, then runs it with you.
 
 ```text
-Write a handoff for the next session or tool. Include goal, artifact path, verified result and its limits, unresolved work, next step and permissions. Cite record IDs. Keep the next action reviewable and require fresh approval for outside writes.
-H1 | goal: publish a library page | latest artifact draft-v2.md
-H2 | local preview opened | 3 internal links checked
-H3 | review pending | no remote publication receipt
+Before you stop work or a session ends, leave me a handoff note, stored next to the artifact.
+
+The note has six parts, each with its source:
+1. Goal — what this project is meant to become, in one sentence.
+2. Current artifact — where the latest version lives (file name or link), and which version is the real one.
+3. Checked results — what has actually been verified, and to what extent (for example "local preview opens, 3 internal links clicked"). Never write an unchecked thing as checked.
+4. Open items — what is still missing, and what each item is stuck on.
+5. Next step — one concrete action the next session can execute as written.
+6. Permission limits — which actions need my fresh confirmation after a handoff (sending, publishing, writing to shared places).
+
+Rules:
+1. The note holds only what the next session needs — no process diary.
+2. A session picking work up reads the note and the files it points to before touching anything. If the note and the files disagree, report it to me instead of guessing which is true.
+3. When the work moves to another tool or agent, access is confirmed separately: the note travels, permissions do not.
+
+Start now: ask me which project to hand off first, and write its first note for me to see.
 ```
 
-## With a connected tool
+## How it runs
 
-Put the handoff beside the output in a folder you can access later. Start a fresh session using only this note and the referenced files. Check what the next tool can read and which actions need a fresh grant.
-
-## How to check it
-
-The next session can find draft-v2.md and knows exactly what ran. It can explain what still needs review. The original result is preserved if it has to stop.
-
-## Decision boundary
-
-Only pass material needed for the next job. A saved prompt or an earlier approval does not grant the next tool access automatically.
-
-## How the cases fit together
-
-One agent can produce a report and another can file it. You can also move the same routine to a different tool. Both depend on a visible handoff artifact and on stating what the next step may do.
-
-- Carry a brief and source list from research into drafting.
-- Transfer a project between tool sessions by sharing only the small set of documents and checked results.
+- **The note is the project's memory** — sessions end and agents change; this note is why "where did we get to" always has a checkable answer, and why stopping mid-way loses nothing.
+- **It is the transfer format between agents** — one agent drafts the brief, another files it; research hands over to writing. The note is the only thing that passes between them.
 
 ## Sources
 
-- **Community recipe.** The recipe describes role separation and shared memory as the interface between roles. [Shared context for a specialized agent team](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/multi-agent-team.md)
-- **Collection summary.** The summary identifies a concrete handoff: a scheduled report sent by email and then placed in a dashboard. [Muse #386 - Send a report to another agent for archiving](https://github.com/jaxxchen003/muse-use-cases/blob/7390b4db83fa2687aa8cefb9ec1420ca9a65eb4a/README.md#L2023-L2028) · [Original post](https://www.threads.com/@sonia.elyss/post/DfvpdVUFOSv)
-- **Collection summary.** The collection reports moving an existing Claude prompt into Muse and scheduling the resulting routine. It does not publish operation receipts. [Muse #225 - Move an existing workflow between agents](https://github.com/jaxxchen003/muse-use-cases/blob/7390b4db83fa2687aa8cefb9ec1420ca9a65eb4a/README.md#L2515-L2520) · [Original post](https://x.com/NewtonJonesIV/status/2098022398721143207)
+- **Community recipe.** Roles divided, with shared context carrying what can be handed over. [Agents handing work over through shared context](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/multi-agent-team.md)
+- **Collection summary.** One agent produces the brief, another files it into a dashboard. [Muse #386 - One agent produces, another files](https://github.com/jaxxchen003/muse-use-cases/blob/7390b4db83fa2687aa8cefb9ec1420ca9a65eb4a/README.md#L2023-L2028) · [Original post](https://www.threads.com/@sonia.elyss/post/DfvpdVUFOSv)
+- **Collection summary.** An existing workflow moved onto another agent and run on a schedule. [Muse #225 - Move a workflow to another agent](https://github.com/jaxxchen003/muse-use-cases/blob/7390b4db83fa2687aa8cefb9ec1420ca9a65eb4a/README.md#L2515-L2520) · [Original post](https://x.com/NewtonJonesIV/status/2098022398721143207)
 
 ## Building blocks
 
-[Repeatable workflow](../usecases/repeatable-workflow.md) · [Capture inbox](../usecases/capture-inbox.md) · [Platform routes](../BUILDER.md)
+[Repeatable workflow](../usecases/repeatable-workflow.md) · [Capture inbox](../usecases/capture-inbox.md) · [Choosing a platform](../BUILDER.md)
