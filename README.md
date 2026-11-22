@@ -53,7 +53,7 @@ The scenarios above are ones the author runs. The cases below are reported by ot
 | Case | What people actually do |
 | --- | --- |
 | Phone negotiation duty | The agent calls or chats with carriers and insurers for you: works through phone menus to a human, negotiates bills down (one AT&T call ran 98 minutes; a Comcast plan went $84 → $60/month), cancels services and wins refunds — you only sign off at the end. |
-| Insurance swap | Upload your current auto policy; the agent finds equal coverage for less, buys the new one and cancels the old — the most-cited case online reports saving $3,500 a year. Check the next bill before counting it. |
+| Insurance swap | Upload your current auto policy; the agent finds equal coverage for less, buys the new one and cancels the old. Five independent reports put the saving at $603–$3,500 a year — the most replicated money job online. Check the next bill before counting it. |
 | Money-hunt routine | A weekly sweep for money owed to you: unclaimed property in every state you have lived in, class-action notices buried in email, unfiled insurance claims — then a standing check on claim status every few days. |
 | Savings patrol | Instead of waiting to be asked, the agent patrols in the background: duplicate charges, idle memberships, expiring points, invoices you forgot to send. One user's agent found about $2,000 in a month, none of it assigned. |
 | Subscription audit | Scan six months of email receipts and list every recurring charge — one user found a forgotten $100/month subscription ($1,200 a year). The working rule: list first, never cancel without asking. |
