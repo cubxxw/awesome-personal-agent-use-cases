@@ -46,4 +46,25 @@ Start with something you need to do. Each scenario shows a result, gives you a s
 | [Publish package · One draft, every channel's version](scenes/publish-package.md) | A package Muse prepares from one approved draft: a version per channel, re-cut for its audience and format. Assets without permission stay on the checklist, everything is a draft until you approve it version by version. |
 | [Handoff note · Pick up the project in a new session](scenes/agent-handoff.md) | A handoff note Muse leaves when work stops: it keeps a project continuous across sessions and agents — the goal, where the current artifact lives, what has actually been checked, what remains, the next step, and which actions need fresh approval. |
 
+## Community picks
+
+The scenarios above are ones the author runs. The cases below are reported by other Muse users — gathered from YouTube, Reddit, X, Threads, Instagram and blogs (November 2026), filtered for first-person use with concrete results, and not yet run by the author. Amounts are as reported by the posters.
+
+| Case | What people actually do |
+| --- | --- |
+| Phone negotiation duty | The agent calls or chats with carriers and insurers for you: works through phone menus to a human, negotiates bills down (one AT&T call ran 98 minutes; a Comcast plan went $84 → $60/month), cancels services and wins refunds — you only sign off at the end. |
+| Insurance swap | Upload your current auto policy; the agent finds equal coverage for less, buys the new one and cancels the old — the most-cited case online reports saving $3,500 a year. Check the next bill before counting it. |
+| Money-hunt routine | A weekly sweep for money owed to you: unclaimed property in every state you have lived in, class-action notices buried in email, unfiled insurance claims — then a standing check on claim status every few days. |
+| Savings patrol | Instead of waiting to be asked, the agent patrols in the background: duplicate charges, idle memberships, expiring points, invoices you forgot to send. One user's agent found about $2,000 in a month, none of it assigned. |
+| Subscription audit | Scan six months of email receipts and list every recurring charge — one user found a forgotten $100/month subscription ($1,200 a year). The working rule: list first, never cancel without asking. |
+| Saved-post mining | Your Instagram saves become assets: 228 saved reels distilled to 8 with reasons, turned into a five-day trip sheet; 6,000 saves turned into a local exploration map. |
+| Small-business back office | Invoices created and chased, payroll files organized, weekly books closed, follow-ups sent in your own voice — with a hard line where the agent stops, such as anything needing a government office. |
+| Cross-data digest | Data sources crossed for insight none gives alone: glucose against food-delivery orders, sleep against spending, lab-result screenshots filed against your own baseline with anomalies flagged. |
+
+Three habits separate the cases that stick from one-off prompts:
+
+- **Write a job, not a task.** The durable setups read like a job brief: responsibility, data sources, cadence, how results are delivered, and when to stop.
+- **Put the interrupt rules in the brief.** Check every 30 minutes but only disturb me for a real person, a direct question, a deadline inside 24 hours, or an urgent keyword — everything else files silently.
+- **Audit the memory.** Ask regularly "what do you remember about me?", correct it line by line, and import the old assistant's memory when you switch instead of starting over.
+
 For products, open-source projects, and research, see [Awesome Personal Agent Practices](https://github.com/cubxxw/awesome-personal-agent-practices).
