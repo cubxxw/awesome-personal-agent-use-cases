@@ -12,7 +12,7 @@
 
 **可选进阶**:
 - [手机文件分享](china-tools/phone-share.md) - 需要自建HTTPS endpoint
-- [Home Assistant](china-tools/home-assistant.md) - 设备控制
+- Home Assistant设备控制 - 待补充
 
 不改变现有19场景数量，作为国内替代实现。
 
