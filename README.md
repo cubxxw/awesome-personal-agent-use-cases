@@ -46,3 +46,11 @@ Start with something you need to do. Each scenario shows a result, gives you a s
 | [Handoff note · Pick up the project in a new session](scenes/agent-handoff.md) | A handoff note Muse leaves when work stops: it keeps a project continuous across sessions and agents — the goal, where the current artifact lives, what has actually been checked, what remains, the next step, and which actions need fresh approval. |
 
 For products, open-source projects, and research, see [Awesome Personal Agent Practices](https://github.com/cubxxw/awesome-personal-agent-practices).
+
+## 国内工具 / China Region Tools
+
+中国大陆用户参见 [国内工具接入指南](zh-CN/china-tools/README.md)。
+
+For users in mainland China, see the [China Tools Setup Guide](zh-CN/china-tools/README.md) (Chinese only).
+
+Available: Amap (高德地图), Jianguoyun WebDAV (坚果云), Bark, RSS, IMAP.
