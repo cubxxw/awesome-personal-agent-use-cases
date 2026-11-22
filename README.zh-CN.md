@@ -46,18 +46,3 @@
 | [交接单 · 换个会话，项目还能接着做](zh-CN/scenes/agent-handoff.md) | 一份 Muse 在收工时留下的交接单：管项目跨会话、跨 Agent 的连续性——目标、当前产物在哪、哪些结果已经核过、还差什么、下一步是什么、哪些动作要重新授权。 |
 
 查产品、开源项目和研究，见 [Awesome Personal Agent Practices](https://github.com/cubxxw/awesome-personal-agent-practices/blob/main/README.zh-CN.md)。
-
-## 国内工具接入
-
-如果你在中国大陆,可以使用高德地图、飞书、坚果云等国内服务。详见 [国内工具搭建入口](zh-CN/china-tools/README.md)。
-
-已核实可用的完整路径:
-- 高德地图 POI 查询与导航入口  
-- 手机主动分享给 Agent (iOS快捷指令 + Android Tasker)
-- 坚果云 WebDAV 原件持久存储
-- Bark 异步结果通知 (待补充文档)
-- 飞书个人项目资料写回 (待补充文档)
-- RSS 原生订阅与 RSSHub (待补充文档)
-
-这些工具可以作为上述场景的国内实现,不改变现有19个场景的数量。
-
