@@ -9,6 +9,7 @@
 - **One short list** — replies needed today come first, each saying who is waiting, what they are waiting for, and by when. Newsletters and notifications sink to "read later" on their own.
 - **Reply drafts** — every must-reply message arrives with a draft waiting for your approval. When you edit it before sending, Muse asks what it should learn from your edit — and drafts that way next time.
 - **Tiered interruption** — ordinary mail only enters the list; only the senders and topics you mark urgent earn an instant alert.
+- **Machine mail in its own pile** — deploy results, task reports and monitoring alerts sent by systems and agents go to the agent's own mailbox, never your personal inbox. Triage keeps them in their own section and surfaces only the ones that need your decision.
 
 ## Give this to Muse
 
@@ -29,6 +30,7 @@ Rules:
 2. When I edit your draft, ask me before sending: what should you learn from this edit? Record the answer and draft that way from then on.
 3. The urgency bar is mine to set (which people, which topics may interrupt me instantly). Anything not on it goes to the list only.
 4. Replying, archiving and unsubscribing are three separate actions. Never bundle them.
+5. Notices from machines and agents are triaged from the agent's own mailbox only — my personal inbox stops receiving that kind. They default to "read later"; only one that needs my decision moves up to "reply today".
 
 Start now: ask me which inbox to connect and from which date, then show me the first list.
 ```
@@ -37,6 +39,7 @@ Start now: ask me which inbox to connect and from which date, then show me the f
 
 - **The list is the only morning stop** — however full the inbox gets, you read one list; when it is done, the replies are out and the rest is accounted for.
 - **Drafts start sounding like you** — every edit teaches it once; after a few weeks most drafts need a glance, not a rewrite.
+- **People and machines enter separately** — people reach you through your personal inbox, machines reach the agent through its own mailbox. In the morning you read one triaged list; neither inbox needs digging through yourself.
 
 ## Sources
 

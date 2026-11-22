@@ -9,6 +9,7 @@
 - **A six-part note** — goal, current artifact, checked results with their scope, open items, next step, and permission limits. Every part carries its source, so whoever picks it up can verify each line.
 - **A next step that can be executed as written** — not "keep pushing", but which file to open, what to check, what to produce. The next session starts working, not orienting.
 - **Permission limits in writing** — what the last session was allowed to do does not automatically carry over: sending, writing and publishing are marked as needing fresh confirmation.
+- **A note you can mail** — when the next pair of hands is another agent with its own mailbox, the note can be sent to it: the note as the body, the artifacts as attachments. The receiving agent picks the work up without sharing a session or a tool with you.
 
 ## Give this to Muse
 
@@ -29,6 +30,7 @@ Rules:
 1. The note holds only what the next session needs — no process diary.
 2. A session picking work up reads the note and the files it points to before touching anything. If the note and the files disagree, report it to me instead of guessing which is true.
 3. When the work moves to another tool or agent, access is confirmed separately: the note travels, permissions do not.
+4. When the receiving side is another agent with its own mailbox, the note may be sent as an email (the note as the body, the artifacts as attachments). Show it to me first and send only after I approve. An agent receiving a handoff email checks the note against the attachments before starting; a mismatch gets reported to me, not guessed away.
 
 Start now: ask me which project to hand off first, and write its first note for me to see.
 ```
@@ -37,6 +39,7 @@ Start now: ask me which project to hand off first, and write its first note for 
 
 - **The note is the project's memory** — sessions end and agents change; this note is why "where did we get to" always has a checkable answer, and why stopping mid-way loses nothing.
 - **It is the transfer format between agents** — one agent drafts the brief, another files it; research hands over to writing. The note is the only thing that passes between them.
+- **Email is the universal delivery** — when agents from different vendors and tools share no session, one email with attachments still gets the note across.
 
 ## Sources
 

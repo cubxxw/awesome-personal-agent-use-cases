@@ -9,6 +9,7 @@
 - **One table of everything you pay for** — one row per service: paying account, the actual billing channel, amount and currency, next charge date, and where the original notice is. Past charges and future charges recorded separately.
 - **A warning before each charge** — two days ahead by default (adjustable), with what it costs, through which channel, and whether you have actually been using it.
 - **Duplicate-subscription alerts** — the same service billed through two channels (an app store copy and a website copy, say) gets flagged on its own so you can check the accounts. This is how double payments hide.
+- **A dedicated home for notices** — sign up for new services with the agent's own mailbox, and renewals, charges and verification codes land there. The ledger feeds straight from that mailbox instead of digging through your personal inbox.
 
 ## Give this to Muse
 
@@ -26,6 +27,7 @@ Rules:
 2. Remind me two days before each charge (I can change the lead time), with the amount, the channel, and recent actual usage if you know it.
 3. When I decide to cancel, record "decided to cancel". Only when the provider confirms does it become "cancelled". A refund counts only when the payment record shows it arrived; until then it stays on the ledger.
 4. The same notice arriving twice still produces one row.
+5. When I have an agent mailbox of my own, sign new subscriptions up with it and feed the ledger from its renewal and charge notices. A notice there only becomes a row once it matches a receipt in my personal inbox; anything that does not match gets flagged for me — never merge on your own.
 
 Start now: set up the ledger, then ask me which inbox to scan and how far back.
 ```
@@ -33,6 +35,7 @@ Start now: set up the ledger, then ask me which inbox to scan and how far back.
 ## How it runs
 
 - **Receipts and notices feed it** — a new receipt arrives and the ledger grows itself; you never have to remember to log a subscription.
+- **The intake moves upstream** — services signed up with the agent mailbox drop their notices there the moment they are issued, so the ledger no longer waits for you to remember forwarding a receipt.
 - **The reminder is its only noise** — no charge coming up, no message. When it speaks, money is about to leave.
 - **Decision and execution stay separate** — you said cancel, the provider confirmed, the refund landed: three different facts, and the ledger keeps them apart.
 
