@@ -45,6 +45,7 @@ Start with something you need to do. Each scenario shows a result, gives you a s
 | [Project board · Which one is stuck, and where?](scenes/project-board.md) | A project board Muse maintains for you: one card per project covering its current state, what it is blocked on, and whose next action unblocks it. State changes only on checkable events — "live" requires a receipt. |
 | [Publish package · One draft, every channel's version](scenes/publish-package.md) | A package Muse prepares from one approved draft: a version per channel, re-cut for its audience and format. Assets without permission stay on the checklist, everything is a draft until you approve it version by version. |
 | [Handoff note · Pick up the project in a new session](scenes/agent-handoff.md) | A handoff note Muse leaves when work stops: it keeps a project continuous across sessions and agents — the goal, where the current artifact lives, what has actually been checked, what remains, the next step, and which actions need fresh approval. |
+| [API key ledger · Every key, quota and expiry in one place](scenes/api-key-ledger.md) | An API key ledger Muse keeps for you: every platform's plan, how much quota each key has left, when it expires, and where the key lives — quotas re-checked on schedule with real numbers written back, dead keys flagged the week they die, and your keys stored masked on one board, one click to copy. |
 
 ## Community picks
 
